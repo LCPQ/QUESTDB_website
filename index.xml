@@ -32,7 +32,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>mveril@irsamc.ups-tlse.fr (M. Véril)</author>
       <guid>https://lcpq.github.io/QUESTDB_website/subsets/</guid>
-      <description>The QUEST database provides theoretical best estimates (TBEs) for more than 470 highly-accurate excitation energies of various natures (valence, Rydberg, \(n \rightarrow \pi^\star\)   , \(\pi \rightarrow \pi^\star\)   , singlet, doublet, triplet, and double excitations) for molecules ranging from diatomics to molecules as large as naphthalene. The molecules included in the QUEST dataset have been systematically optimized at the CC3/aug-cc-pVTZ level of theory, except for a very few cases.</description>
+      <description>The QUEST database provides theoretical best estimates (TBEs) for more than 500 highly-accurate excitation energies of various natures (valence, Rydberg, \(n \rightarrow \pi^\star\)   , \(\pi \rightarrow \pi^\star\)   , singlet, doublet, triplet, and double excitations) for molecules ranging from diatomics to molecules as large as naphthalene. This set is also chemically diverse, with organic and inorganic systems, open- and closed-shell compounds, acyclic and cyclic systems, pure hydrocarbons and various heteroatomic structures, etc.</description>
     </item>
     
     <item>
