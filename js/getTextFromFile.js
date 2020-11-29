@@ -10,7 +10,11 @@ var fileCache = function () {
 
 _cache = fileCache();
 function getTextFromFileUrl(url,header={}) {
-  return _cache[url];
+  if (url in _cache) {
+    return _cache[url];
+  } else {
+    return async () => {await getTextFromFileUrlAsync(url)};
+  }
 }
 
 
