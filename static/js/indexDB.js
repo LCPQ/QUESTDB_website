@@ -10,6 +10,7 @@ class indexDB {
     const myYaml = jsyaml.load(text);
     db.sets = ((myYaml.sets === undefined) ? new Map() : new Map(Object.entries(myYaml.sets)));
     db.others = ((myYaml.others === undefined) ? [] : Array.from(myYaml.others));
+    db.reviews = ((myYaml.reviews === undefined) ? [] : Array.from(myYaml.reviews));
     window.indexDB=db
     return db
   }
