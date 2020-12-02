@@ -691,6 +691,30 @@ draft: false
     }
     await reloadContent();
   }
+  async function exportGeoms() {
+    var mols = new Set($("#mol_select").val())
+    
+    if (mols.size!==0) {
+      const zip = JSZip();
+      const geomDic=new Map()
+      for (const geom of window.geoms) {
+        const molecule =geom.parseMetadata().molecule
+        if (mols.has(molecule)) {
+          if (!geomDic.has(molecule)) {
+            geomDic.set(molecule,[])
+          }
+          geomDic.get(molecule).push(geom.toXYZ())
+        }
+      }
+      for (const [molecule,geometries] of geomDic) {
+        const xyz=geometries.join("\n\n")
+        var blob=new Blob([xyz],{type: 'chemical/x-xyz'})
+        zip.file(`${mhchemCE.extract(molecule).toLowerCase().replace(" ","_")}.xyz`,blob)
+      }
+      const zipFile = await zip.generateAsync({type: 'blob'})
+      saveAs(zipFile, "molecules.zip")
+    }
+  }
 </script>
 {{< getDataFilesName >}}
 <noscript>
@@ -739,6 +763,7 @@ draft: false
         <label for="mol_select" class="required">Molecule</label>
         <button class="SelectAll" type="button" onclick="selectSelectAll_click(event)">Select all</button>
         <select multiple id="mol_select" required name="molecule" onchange="reloadNextSelect(event)"></select>
+        <button class="SelectAll" type="button" onclick="exportGeoms()">Export geometries</button>
       </div>
       <br />
       <div style="display: inline-block;">
