@@ -756,24 +756,24 @@ draft: false
       </p>
       <div style="display: inline-block;">
         <label for="DOI_select" class="required">Set</label>
-        <button class="SelectAll" type="button" onclick="selectSelectAll_click(event)">Select all</button>
+        <button class="selectButton" type="button" onclick="selectSelectAll_click(event)">Select all</button>
         <select multiple id="DOI_select" required name="sets" onchange="reloadNextSelect(event)"></select>
       </div>
       <div style="display:inline-block">
         <label for="mol_select" class="required">Molecule</label>
-        <button class="SelectAll" type="button" onclick="selectSelectAll_click(event)">Select all</button>
+        <button class="selectButton" type="button" onclick="selectSelectAll_click(event)">Select all</button>
         <select multiple id="mol_select" required name="molecule" onchange="reloadNextSelect(event)"></select>
-        <button class="SelectAll" type="button" onclick="exportGeoms()">Export geometries</button>
+        <button class="selectButton" type="button" onclick="exportGeoms()">Export geometries</button>
       </div>
       <br />
       <div style="display: inline-block;">
         <label for="method_select" class="required">Method</label>
-        <button class="SelectAll" type="button" onclick="selectSelectAll_click(event)">Select all</button>
+        <button class="selectButton" type="button" onclick="selectSelectAll_click(event)">Select all</button>
         <select multiple id="method_select" required name="method" onchange="reloadNextSelect(event)"></select>
       </div>
       <div style="display: inline-block;">
         <label for="basis_select" class="required">Basis set</label>
-        <button class="SelectAll" type="button" onclick="selectSelectAll_click(event)">Select all</button>
+        <button class="selectButton" type="button" onclick="selectSelectAll_click(event)">Select all</button>
         <select multiple id="basis_select" required name="basis" onchange="reloadNextSelect(event)"></select>
       </div>
     </fieldset>
