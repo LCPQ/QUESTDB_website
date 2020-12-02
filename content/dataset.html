@@ -204,6 +204,7 @@ draft: false
     processingIndicator.isActive = false
     reloadSizeSelector()
     reloadSelect("sets")
+    refreshExportGeoms()
   }
   async function clearSelect(BeforeName = null) {
     var selects = ((BeforeName == null) ? getAllSelect() : getAllSelectAfter(BeforeName, true))
@@ -691,6 +692,17 @@ draft: false
     }
     await reloadContent();
   }
+
+  function refreshExportGeoms() {
+    const vals=$("#mol_select").val()
+    const disable = vals === null || vals.length===0
+    $("#btn_export_geoms").prop("disabled",disable)
+  }
+  async function moleculeSelectionChanged(event) {
+    refreshExportGeoms()
+    await reloadNextSelect(event)
+  }
+
   async function exportGeoms() {
     var mols = new Set($("#mol_select").val())
     
@@ -762,8 +774,8 @@ draft: false
       <div style="display:inline-block">
         <label for="mol_select" class="required">Molecule</label>
         <button class="selectButton" type="button" onclick="selectSelectAll_click(event)">Select all</button>
-        <select multiple id="mol_select" required name="molecule" onchange="reloadNextSelect(event)"></select>
-        <button class="selectButton" type="button" onclick="exportGeoms()">Export geometries</button>
+        <select multiple id="mol_select" required name="molecule" onchange="moleculeSelectionChanged(event)"></select>
+        <button id="btn_export_geoms" class="selectButton" type="button" disabled onclick="exportGeoms()">Export geometries</button>
       </div>
       <br />
       <div style="display: inline-block;">
