@@ -12,7 +12,7 @@ class Geometry {
       var line =a.label.padEnd(4, ' ')
       line += a.x.toFixed(8).padStart(11,' ')
       line += a.y.toFixed(8).padStart(21,` `)
-      line += line+a.z.toFixed(8).padStart(21,` `)
+      line += a.z.toFixed(8).padStart(21,` `)
       lines.push(line)
     }
     return lines.join("\n")
