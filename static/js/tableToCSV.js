@@ -4,11 +4,12 @@ function tableToCSV(table) {
   if (caption) {
     csv.push([`# ${caption}`])
   }
+  const csvtextKey="csvtext"
   for (const row of Array.from(table[0].rows)) {
     const rowArray=[]
     for (const cell of Array.from(row.cells)) {
+      var copycell=$(cell).clone()
       if (MathJax) {
-        var copycell=$(cell).clone()
         for (const jax of MathJax.Hub.getAllJax(cell)) {
           const sourceId = jax.SourceElement().id
           const txt = jax.originalText
@@ -17,11 +18,12 @@ function tableToCSV(table) {
           const script = $(copycell).find(`#${sourceId}`)
           $(script).replaceWith($("<span/>").text(`$${txt}$`))
         }
-        var text = copycell.text() 
       }
-      else {
-        var text=$(cell).text()
+      for (const replace of Array.from(copycell.find(`[data-${csvtextKey}]`))) {
+        $(replace).replaceWith($("<span/>").text($(replace).data(csvtextKey))) 
       }
+      var text = copycell.text()
+      var text = copycell.text()
       if (text !== "" && !checkNumber(text)) {
         text = text.split('\u2011').join('-')
         text = `"${text}"`

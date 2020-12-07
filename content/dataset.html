@@ -651,7 +651,7 @@ draft: false
               if (kv !== undefined) {
                 const [val, unsafe] = kv[1]
                 if (unsafe) {
-                  td.append($("<span/>", { title: "unsafe value", role: "img", "aria-label": "Warning" }).addClass("emoji").text('⚠'))
+                  td.append($("<span/>", { title: "unsafe value", role: "img", "aria-label": "Warning", "data-csvtext":"(Unsafe)"}).addClass("emoji").text('⚠'))
                 }
                 if (unsafe && !filterParams.unsafe) {
                   td.append($("<s/>").append(val.toString()))
@@ -694,17 +694,16 @@ draft: false
     await reloadContent();
   }
   function exportTableToCSV(table,title = null,allowTitleOverride = false) {
-    var tableCaption = $(table).find('caption').text()
+    const tableCaption = $(table).find('caption').text()
     if (tableCaption !== "" && (title === null || allowTitleOverride)) {
       title = tableCaption
     }
     const csv = tableToCSV(table)
-    console.log(csv)
-    var blob = new Blob([csv],{type:"text/csv"})
+    const blob = new Blob([csv],{type:"text/csv"})
     saveAs(blob,`${title}.csv`)
   }
   function OnExportTable(event) {
-    var table=$(event.target).nextAll('table:first')
+    const table=$(event.target).nextAll('table:first')
     exportTableToCSV(table,"table")
   }
 </script>
