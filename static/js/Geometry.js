@@ -14,7 +14,9 @@ class Geometry {
         break
     }
     var xyz = this.loadXYZString(str);
-    xyz.sourceFile = new websiteFile(file)
+    for (var geom of xyz){
+      geom.sourceFile = new websiteFile(file)
+    }
     return xyz
   }
   static loadXYZString(text) {
