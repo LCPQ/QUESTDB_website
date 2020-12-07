@@ -3,6 +3,21 @@ class Geometry {
     this.molecule = molecule
     this.comment = comment
   }
+
+  toXYZ() {
+    var lines =[]
+    lines.push(this.molecule.atoms.length)
+    lines.push(this.comment)
+    for (const a of this.molecule.atoms) {
+      var line = a.label.padEnd(4, ' ')
+      line += a.x.toFixed(8).padStart(11,' ')
+      line += a.y.toFixed(8).padStart(22,` `)
+      line += a.z.toFixed(8).padStart(22,` `)
+      lines.push(line)
+    }
+    return lines.join("\n")
+   }
+  
   static async loadXYZAsync(file) {
     switch (trueTypeOf(file)) {
       case String.name:
