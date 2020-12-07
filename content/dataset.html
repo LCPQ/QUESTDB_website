@@ -30,6 +30,7 @@ draft: false
 <script src="/js/Geometry.js"></script>
 <script src="/js/GeometriesLoader.js"></script>
 <script src="/js/GeometryParseMetadataExtension.js"></script>
+<script src="/js/tableToCSV.js"></script>
 <script>
   function adjustSticky() {
     const height = $("nav").height()
@@ -580,6 +581,7 @@ draft: false
           $("<h2/>").append($("<a>",{href:publiDat.URL,target:"_blank"}).text(publiDat.title)).appendTo(div)
         }
         var table = $("<table/>").addClass("datatable").appendTo(div)
+        $(table).before($("#stat_table").prevAll("button:first").clone())
         var head = $("<tr/>")
         $("<thead/>").addClass("sticky").append(head).appendTo(table)
         var tbody = $("<tbody/>").appendTo(table)
@@ -690,6 +692,20 @@ draft: false
       window.onbeforeunload = () => { return ''; }
     }
     await reloadContent();
+  }
+  function exportTableToCSV(table,title = null,allowTitleOverride = false) {
+    var tableCaption = $(table).find('caption').text()
+    if (tableCaption !== "" && (title === null || allowTitleOverride)) {
+      title = tableCaption
+    }
+    const csv = tableToCSV(table)
+    console.log(csv)
+    var blob = new Blob([csv],{type:"text/csv"})
+    saveAs(blob,`${title}.csv`)
+  }
+  function OnExportTable(event) {
+    var table=$(event.target).nextAll('table:first')
+    exportTableToCSV(table,"table")
   }
 </script>
 {{< getDataFilesName >}}
@@ -834,6 +850,7 @@ draft: false
 <section id="data">
 </section>
 <section>
+  <button onclick="OnExportTable(event)">Export as CSV</button>
   <table id="stat_table" class="datatable">
     <thead class="sticky">
       <th scope="col">Method</th>
