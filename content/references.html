@@ -25,45 +25,64 @@ draft: false
     const setsSec = $('#publis_sets')
     var myDB = await indexDB.loadAsync()
     const sets = myDB.sets
-    for (const [setName,publis] of sets) {
-      const uopublis = await PubliData.loadManyAsync(publis)
-      if (uopublis.length !== 0) {
+    var odois=[]
+    for (const [setName,dois] of sets) {
+      if (dois.length !== 0) {
+        odois = odois.concat(dois.slice(1))
         const mySetSec = $('<section>').addClass('publiSet').attr("data-setName", setName).attr("id",setName).appendTo(setsSec)
         $("<h1>").text(setName).appendTo(mySetSec)
-        const spublis = uopublis.sort((puba, pubb) => pubUtils.getIssuedDate(puba) - pubUtils.getIssuedDate(pubb))
-        for (const publi of spublis) { 
+        const doi = dois[0] 
+        if (doi!==null) {
+          publi =  await PubliData.loadAsync(doi)
           const art = await createPubliUI(publi, true, true)
-          $(art).appendTo(mySetSec)
+          $(art).appendTo(mySetSec)          
+        }
+      }
+      }
+      odois = odois.concat(myDB.others)
+      var sodois = new Set(odois)
+      if (sodois.has(null)) {
+        sodois.delete(null)
+      }
+      odois=Array.from(sodois)
+      const uoopublis =  await PubliData.loadManyAsync(odois)
+      const opublis = uoopublis.sort((puba, pubb) => pubUtils.getIssuedDate(puba) - pubUtils.getIssuedDate(pubb))
+      for (const publi of opublis) {
+        const art = await createPubliUI(publi, true, false)
+        $(art).appendTo("#publis_other")
+      }
+      const rdois = myDB.reviews
+      const uorpublis =  await PubliData.loadManyAsync(rdois)
+      const rpublis = uorpublis.sort((puba, pubb) => pubUtils.getIssuedDate(puba) - pubUtils.getIssuedDate(pubb))
+      for (const publi of rpublis) {
+        art = await createPubliUI(publi, true, true)
+        $(art).appendTo("#publis_review")
+      }
+      processingIndicator.isActive = false
+      const hash=window.location.hash
+      if (hash.length>1 && hash.startsWith("#")) {
+        sec=document.getElementById(decodeURIComponent(hash.substring(1)))
+        if (sec) {
+          sec.scrollIntoView({
+      block: 'start',
+      behavior: 'smooth',
+      inline: 'nearest'
+    })
         }
       }
     }
-    const odois = myDB.others
-    const uoopublis =  await PubliData.loadManyAsync(odois)
-    const opublis = uoopublis.sort((puba, pubb) => pubUtils.getIssuedDate(puba) - pubUtils.getIssuedDate(pubb))
-    for (const publi of opublis) {
-      art = await createPubliUI(publi, true, true)
-      $(art).appendTo("#publis_others")
-    }
-    processingIndicator.isActive = false
-    const hash=window.location.hash
-    if (hash.length>1 && hash.startsWith("#")) {
-      sec=document.getElementById(decodeURIComponent(hash.substring(1)))
-      if (sec) {
-        sec.scrollIntoView({
-		block: 'start',
-		behavior: 'smooth',
-		inline: 'nearest'
-	})
-      }
-    }
-  }
 </script>
 <section class="publis-list" id="publis_sets">
   <header>
     <h1>The QUEST subsets</h2>
   </header>
 </section>
-<section class="publis" id="publis_others">
+<section class="publis-list" id="publis_other">
+  <header>
+    <h1>Other publications using QUEST</h2>
+  </header>
+</section>
+<section class="publis" id="publis_review">
   <header>
     <h1>Review articles about QUEST</h2>
   </header>
