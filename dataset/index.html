@@ -59,7 +59,7 @@
   "headline": "Dataset",
   "description" : "function adjustSticky() { const height = $(\u0022nav\u0022).height() $(\u0022thead.sticky  tr  th \u0022).css(\u0022top\u0022, height) } window.onload = async () = { window.browser = bowser.getParser(window.navigator.userAgent); $(\u0022input[type=\u0027checkbox\u0027]\u0022).trigger(\u0022change\u0022) $(\u0022input[type=\u0027number\u0027].range\u0022).trigger(\u0022change\u0022) adjustSticky(); $(window).resize(adjustSticky) var slist = $(\u0022#SelectList\u0022) getAllSelect().each(function () { $(\u0022\u0022).text($(\u0027label[for=\u0022\u0027 \u002b $(this).attr(\u0027id\u0027) \u002b \u0027\u0022]\u0027).text()).appendTo(slist) }) $(\u0027[data-needbrowser],[data-neednotbrowser]\u0027).each(function () { function test(key, value) { switch (key) { case \u0022",
   "inLanguage" : "en",
-  "wordCount":  2207 ,
+  "wordCount":  2218 ,
   "datePublished" : "0001-01-01T00:00:00",
   "dateModified" : "0001-01-01T00:00:00",
   "image" : "https:\/\/lcpq.github.io\/QUESTDB_website\/img\/TOC_JPCL.png",
@@ -675,7 +675,8 @@ MathJax.Hub.Config({
       Reflect.setPrototypeOf(key, method.prototype)
       th = $("<th/>", { scope: "column" })
       const meth = key
-      th.clone().text(meth.toString("\n").split('-').join('\u2011')).appendTo(row)
+      const span = $("<span/>",{"data-csvtext":meth.toString()}).text(meth.toString("\n").split('-').join('\u2011'))
+      th.clone().append(span).appendTo(row)
       const noNanVals = (vals.every((v) => Number.isNaN(v))) ? vals : (vals.filter((v) => !Number.isNaN(v)))
       const avals = noNanVals.map(v => Math.abs(v))
       th.clone().text(noNanVals.length).appendTo(row)
@@ -860,7 +861,10 @@ MathJax.Hub.Config({
         var tbody = $("<tbody/>").appendTo(table)
         var th = $("<th/>", { scope: "column" })
         head.append(["Molecule", "Transition"].map(x => th.clone().text(x)))
-        head.append(sortedMethods.map(x => th.clone().text(x.toString("\n").split('-').join('\u2011'))))
+        head.append(sortedMethods.map(x => {
+          const span = $("<span/>",{"data-csvtext":x.toString()}).text(x.toString("\n").split('-').join('\u2011'))
+          return th.clone().append(span)
+        }))
         adjustSticky();
         datadic = new Map()
         for (const dat of paperdata) {

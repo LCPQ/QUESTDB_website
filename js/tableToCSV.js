@@ -40,13 +40,13 @@ function tableToCSV(table) {
       const rowIndex = cell.parentNode.rowIndex
       if (columnspan>1) {
         for (let i = 1; i < rowspan; i++) {
-          csv[rowIndex].splice(colindex,0,"")
+          csv[rowIndex].splice(colindex,0,csv[rowIndex][colindex])
         }        
       }
       if (rowspan>1) {
         for (let i = 0; i < columnspan; i++) {
           for (let j = 1; j < rowspan; j++) {
-            csv[rowIndex+j].splice(colindex,0,"")
+            csv[rowIndex+j].splice(colindex,0,csv[rowIndex][colindex])
           }
         }
       }
