@@ -403,7 +403,8 @@ draft: false
       Reflect.setPrototypeOf(key, method.prototype)
       th = $("<th/>", { scope: "column" })
       const meth = key
-      th.clone().text(meth.toString("\n").split('-').join('\u2011')).appendTo(row)
+      const span = $("<span/>",{"data-csvtext":meth.toString()}).text(meth.toString("\n").split('-').join('\u2011'))
+      th.clone().append(span).appendTo(row)
       const noNanVals = (vals.every((v) => Number.isNaN(v))) ? vals : (vals.filter((v) => !Number.isNaN(v)))
       const avals = noNanVals.map(v => Math.abs(v))
       th.clone().text(noNanVals.length).appendTo(row)
@@ -588,7 +589,10 @@ draft: false
         var tbody = $("<tbody/>").appendTo(table)
         var th = $("<th/>", { scope: "column" })
         head.append(["Molecule", "Transition"].map(x => th.clone().text(x)))
-        head.append(sortedMethods.map(x => th.clone().text(x.toString("\n").split('-').join('\u2011'))))
+        head.append(sortedMethods.map(x => {
+          const span = $("<span/>",{"data-csvtext":x.toString()}).text(x.toString("\n").split('-').join('\u2011'))
+          return th.clone().append(span)
+        }))
         adjustSticky();
         datadic = new Map()
         for (const dat of paperdata) {
