@@ -616,7 +616,7 @@ draft: false
                 allowT1 = true
               }
             }
-            if (((window.filterParams.exType & ex.type) !== 0) && ((window.filterParams.exVertKind & ex.VertExcitationKind) !== 0) && allowT1) {
+            if (((window.filterParams.exType & ex.type.valueOf()) !== 0) && ((window.filterParams.exVertKind & ex.VertExcitationKind) !== 0) && allowT1) {
               const key2 = JSON.stringify([ex.initial, ex.final, ex.type, ex.VertExcitationKind])
               if (!datadic.get(key1).has(key2)) {
                 datadic.get(key1).set(key2, new Map())
