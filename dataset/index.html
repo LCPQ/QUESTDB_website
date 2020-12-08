@@ -59,7 +59,7 @@
   "headline": "Dataset",
   "description" : "function adjustSticky() { const height = $(\u0022nav\u0022).height() $(\u0022thead.sticky  tr  th \u0022).css(\u0022top\u0022, height) } window.onload = async () = { window.browser = bowser.getParser(window.navigator.userAgent); $(\u0022input[type=\u0027checkbox\u0027]\u0022).trigger(\u0022change\u0022) $(\u0022input[type=\u0027number\u0027].range\u0022).trigger(\u0022change\u0022) adjustSticky(); $(window).resize(adjustSticky) var slist = $(\u0022#SelectList\u0022) getAllSelect().each(function () { $(\u0022\u0022).text($(\u0027label[for=\u0022\u0027 \u002b $(this).attr(\u0027id\u0027) \u002b \u0027\u0022]\u0027).text()).appendTo(slist) }) $(\u0027[data-needbrowser],[data-neednotbrowser]\u0027).each(function () { function test(key, value) { switch (key) { case \u0022",
   "inLanguage" : "en",
-  "wordCount":  2218 ,
+  "wordCount":  2224 ,
   "datePublished" : "0001-01-01T00:00:00",
   "dateModified" : "0001-01-01T00:00:00",
   "image" : "https:\/\/lcpq.github.io\/QUESTDB_website\/img\/TOC_JPCL.png",
@@ -997,10 +997,11 @@ MathJax.Hub.Config({
   }
 
   async function exportGeoms() {
+    const folderName = "molecules"
     var mols = new Set($("#mol_select").val())
-    
     if (mols.size!==0) {
       const zip = JSZip();
+      const root=zip.folder(folderName)
       const geomDic=new Map()
       for (const geom of window.geoms) {
         const molecule =geom.parseMetadata().molecule
@@ -1014,10 +1015,10 @@ MathJax.Hub.Config({
       for (const [molecule,geometries] of geomDic) {
         const xyz=Array.from(geometries).join("\n\n")
         var blob=new Blob([xyz],{type: 'chemical/x-xyz'})
-        zip.file(`${mhchemCE.extract(molecule).toLowerCase().replace(" ","_")}.xyz`,blob)
+        root.file(`${mhchemCE.extract(molecule).toLowerCase().replace(" ","_")}.xyz`,blob)
       }
       const zipFile = await zip.generateAsync({type: 'blob'})
-      saveAs(zipFile, "molecules.zip")
+      saveAs(zipFile, `${folderName}.zip`)
     }
   }
 </script>
