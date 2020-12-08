@@ -721,10 +721,11 @@ draft: false
   }
 
   async function exportGeoms() {
+    const folderName = "molecules"
     var mols = new Set($("#mol_select").val())
-    
     if (mols.size!==0) {
       const zip = JSZip();
+      const root=zip.folder(folderName)
       const geomDic=new Map()
       for (const geom of window.geoms) {
         const molecule =geom.parseMetadata().molecule
@@ -738,10 +739,10 @@ draft: false
       for (const [molecule,geometries] of geomDic) {
         const xyz=Array.from(geometries).join("\n\n")
         var blob=new Blob([xyz],{type: 'chemical/x-xyz'})
-        zip.file(`${mhchemCE.extract(molecule).toLowerCase().replace(" ","_")}.xyz`,blob)
+        root.file(`${mhchemCE.extract(molecule).toLowerCase().replace(" ","_")}.xyz`,blob)
       }
       const zipFile = await zip.generateAsync({type: 'blob'})
-      saveAs(zipFile, "molecules.zip")
+      saveAs(zipFile, `${folderName}.zip`)
     }
   }
 </script>
