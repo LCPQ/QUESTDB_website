@@ -375,7 +375,7 @@ draft: false
       if (!(sdatdic.has(key))) {
         sdatdic.set(key, new Map())
       }
-      const myT1s = T1ref.get(SetName).get(d.molecule)
+      const myT1s = T1ref.get(d.molecule)
       for (const exc of d.excitations) {
         var allowT1 = false
         const T1Key = JSON.stringify((exc.initial, exc.final))
@@ -516,10 +516,9 @@ draft: false
         publiCache.set(DOI,await PubliData.loadAsync(DOI))
       }      
       const setName = exSet.name
-      window.T1ref.set(setName, new Map())
       for (const mol of mols) {
-        window.T1ref.get(setName).set(mol, new Map())
-        var TBESortdat = window.dats.filter((d)=>exSet.name === d.set.name && d.molecule === mol).sort((d1, d2) => {
+        window.T1ref.set(mol, new Map())
+        var TBESortdat = window.dats.filter((d)=> d.molecule === mol).sort((d1, d2) => {
           if (d1.method.isTBE && !d2.method.isTBE) {
             return -1
           } else if (!d1.method.isTBE && d2.method.isTBE) {
@@ -537,7 +536,7 @@ draft: false
         })
         if (TBESortdat.length > 0 && TBESortdat[0].method.isTBE) {
           for (const exc of TBESortdat[0].excitations) {
-            window.T1ref.get(setName).get(mol).set(JSON.stringify((exc.initial, exc.final)), exc.T1)
+            window.T1ref.get(mol).set(JSON.stringify((exc.initial, exc.final)), exc.T1)
           }
         }
       }
@@ -610,7 +609,7 @@ draft: false
         for (const dat of paperdata) {
           const setName = dat.set.name
           const key1 = dat.molecule;
-          const myT1s = T1ref.get(setName).get(dat.molecule)
+          const myT1s = T1ref.get(dat.molecule)
           if (!datadic.has(key1)) {
             datadic.set(key1, new Map())
           }
