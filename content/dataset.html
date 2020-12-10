@@ -192,16 +192,28 @@ draft: false
   }
   async function reloadCustomFiles() {
     processingIndicator.isActive = true
-    window.dats = window.defaultDats;
+    window.customDats = []
+    window.dats = window.defaultDats
     const kinds = new Map([["file_abs", VertExcitationKinds.Absorbtion], ["file_fluo", VertExcitationKinds.Fluorescence]])
     for (const el of $('#form_dat > fieldset > fieldset > div > input[type="file"')) {
       if (kinds.has(el.name)) {
+        const kind=kinds.get(el.name)
         for (const f of el.files) {
-          const dat = await VertDataFile.loadAsync(f, kinds.get(el.name))
-          window.dats.push(dat)
+          const dat = await VertDataFile.loadAsync(f, kind)
+          window.customDats.push(dat)
         }
       }
     }
+    for (const defdat of window.defaultDats) {
+      if (defdat.method.isTBE) {
+        for (const custdat of window.customDats) {
+          if (custdat.molecule===defdat.molecule) {
+            custdat.CopyExcitationsTypeFrom(defdat)  
+          }
+        }
+      }
+    }
+    window.dats=window.defaultDats.concat(window.customDats)
     processingIndicator.isActive = false
     reloadSizeSelector()
     reloadSelect("sets")
