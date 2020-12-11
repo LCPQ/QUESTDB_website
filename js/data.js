@@ -203,7 +203,7 @@ class excitationBase {
       this.type.Value = excitationTypes.Others.Value;
     }
     else if (!(this.type & (excitationTypes.Single.Value | excitationTypes.Double.Value))){
-      this.type.Value = excitationTypes.Single
+      this.type.Value += excitationTypes.Single.Value
     }
     this.T1 = T1
   }
