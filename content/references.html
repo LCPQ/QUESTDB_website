@@ -44,16 +44,24 @@ draft: false
       if (sodois.has(null)) {
         sodois.delete(null)
       }
+      for (const [setName,dois] of sets) {
+        if (dois.length>0) {
+          const doi=dois[0]          
+          if (sodois.has(doi)) {
+            sodois.delete(doi)
+          }
+        }
+      }
       odois=Array.from(sodois)
       const uoopublis =  await PubliData.loadManyAsync(odois)
-      const opublis = uoopublis.sort((puba, pubb) => pubUtils.getIssuedDate(puba) - pubUtils.getIssuedDate(pubb))
+      const opublis = uoopublis.sort((puba, pubb) => pubUtils.parseDate(pubUtils.bestDate(puba).dateInfo) - pubUtils.parseDate(pubUtils.bestDate(pubb).dateInfo))
       for (const publi of opublis) {
         const art = await createPubliUI(publi, true, !myDB.others.includes(publi.DOI))
         $(art).appendTo("#publis_other")
       }
       const rdois = myDB.reviews
       const uorpublis =  await PubliData.loadManyAsync(rdois)
-      const rpublis = uorpublis.sort((puba, pubb) => pubUtils.getIssuedDate(puba) - pubUtils.getIssuedDate(pubb))
+      const rpublis = uorpublis.sort((puba, pubb) => pubUtils.parseDate(pubUtils.bestDate(puba).dateInfo) - pubUtils.parseDate(pubUtils.bestDate(pubb).dateInfo))
       for (const publi of rpublis) {
         art = await createPubliUI(publi, true, true)
         $(art).appendTo("#publis_review")
