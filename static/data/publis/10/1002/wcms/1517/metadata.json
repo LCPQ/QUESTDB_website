@@ -1,0 +1,56 @@
+{
+  "DOI": "10.1002/wcms.1517",
+  "URL": "https://onlinelibrary.wiley.com/doi/abs/10.1002/wcms.1517",
+  "abstract": "Abstract We describe our efforts of the past few years to create a large set of more than 500 highly accurate vertical excitation energies of various natures (π → π\\*, n → π\\*, double excitation, Rydberg, singlet, doublet, triplet, etc.) in small- and medium-sized molecules. These values have been obtained using an incremental strategy which consists in combining high-order coupled cluster and selected configuration interaction calculations using increasingly large diffuse basis sets in order to reach high accuracy. One of the key aspects of the so-called QUEST database of vertical excitations is that it does not rely on any experimental values, avoiding potential biases inherently linked to experiments and facilitating theoretical cross comparisons. Following this composite protocol, we have been able to produce theoretical best estimates (TBEs) with the aug-cc-pVTZ basis set for each of these transitions, as well as basis set corrected TBEs (i.e., near the complete basis set limit) for some of them. The TBEs/aug-cc-pVTZ have been employed to benchmark a large number of (lower-order) wave function methods such as CIS(D), ADC(2), CC2, STEOM-CCSD, CCSD, CCSDR(3), CCSDT-3, ADC(3), CC3, NEVPT2, and so on (including spin-scaled variants). In order to gather the huge amount of data produced during the QUEST project, we have created a website (https://lcpq.github.io/QUESTDB\\_website) where one can easily test and compare the accuracy of a given method with respect to various variables such as the molecule size or its family, the nature of the excited states, the type of basis set, and so on. We hope that the present review will provide a useful summary of our effort so far and foster new developments around excited-state methods. This article is categorized under: Electronic Structure Theory \\> Ab Initio Electronic Structure Methods",
+  "author": [
+    {
+      "family": "Véril",
+      "given": "Mickaël"
+    },
+    {
+      "family": "Scemama",
+      "given": "Anthony"
+    },
+    {
+      "family": "Caffarel",
+      "given": "Michel"
+    },
+    {
+      "family": "Lipparini",
+      "given": "Filippo"
+    },
+    {
+      "family": "Boggio-Pasqua",
+      "given": "Martial"
+    },
+    {
+      "family": "Jacquemin",
+      "given": "Denis"
+    },
+    {
+      "family": "Loos",
+      "given": "Pierre-François"
+    }
+  ],
+  "container-title": [
+  "WIREs Computational Molecular Science"
+   ],
+  "id": "https://doi.org/10.1002/wcms.1517",
+  "issue": "n/a",
+  "keyword": "benchmark, coupled cluster theory, database, excitation energies, excited states, full configuration interaction",
+  "page": "e1517",
+  "title": [
+    "QUESTDB: A database of highly accurate excitation energies for the electronic structure community"
+  ],
+  "type": "article-journal",
+  "created": {
+    "date-parts": [
+      [
+        2021,
+        2,
+        17
+      ]
+    ]
+  },
+  "volume": "n/a"
+}
