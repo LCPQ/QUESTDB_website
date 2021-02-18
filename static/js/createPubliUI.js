@@ -1,8 +1,4 @@
 async function createPubliUI(publi,toolTips=false,abstract=false) {
-  var DayAndMothsFormat ={
-    minimumIntegerDigits: 2,
-    useGrouping: false
-  }
   const art = $("<article/>").addClass("publi")
   art.className = "publi"
   $("<a/>", {
