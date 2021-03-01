@@ -20,6 +20,9 @@ class pubUtils {
     if (publi.issued != null) {
       return {type:"issued", dateInfo:publi.issued}
     }
+    else if (publi.indexed) {
+      return {type:"indexed", dateInfo:publi.indexed}
+    }
     else {
       return {type:"created", dateInfo:publi.created}
     }
