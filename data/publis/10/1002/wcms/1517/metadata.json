@@ -1,49 +1,176 @@
 {
-  "DOI": "10.1002/wcms.1517",
-  "URL": "https://onlinelibrary.wiley.com/doi/abs/10.1002/wcms.1517",
-  "abstract": "Abstract We describe our efforts of the past few years to create a large set of more than 500 highly accurate vertical excitation energies of various natures (π → π\\*, n → π\\*, double excitation, Rydberg, singlet, doublet, triplet, etc.) in small- and medium-sized molecules. These values have been obtained using an incremental strategy which consists in combining high-order coupled cluster and selected configuration interaction calculations using increasingly large diffuse basis sets in order to reach high accuracy. One of the key aspects of the so-called QUEST database of vertical excitations is that it does not rely on any experimental values, avoiding potential biases inherently linked to experiments and facilitating theoretical cross comparisons. Following this composite protocol, we have been able to produce theoretical best estimates (TBEs) with the aug-cc-pVTZ basis set for each of these transitions, as well as basis set corrected TBEs (i.e., near the complete basis set limit) for some of them. The TBEs/aug-cc-pVTZ have been employed to benchmark a large number of (lower-order) wave function methods such as CIS(D), ADC(2), CC2, STEOM-CCSD, CCSD, CCSDR(3), CCSDT-3, ADC(3), CC3, NEVPT2, and so on (including spin-scaled variants). In order to gather the huge amount of data produced during the QUEST project, we have created a website (https://lcpq.github.io/QUESTDB\\_website) where one can easily test and compare the accuracy of a given method with respect to various variables such as the molecule size or its family, the nature of the excited states, the type of basis set, and so on. We hope that the present review will provide a useful summary of our effort so far and foster new developments around excited-state methods. This article is categorized under: Electronic Structure Theory \\> Ab Initio Electronic Structure Methods",
-  "author": [
+  "indexed": {
+    "date-parts": [
+      [
+        2021,
+        2,
+        20
+      ]
+    ],
+    "date-time": "2021-02-20T10:48:41Z",
+    "timestamp": 1613818121855
+  },
+  "reference-count": 230,
+  "publisher": "Wiley",
+  "license": [
     {
-      "family": "Véril",
-      "given": "Mickaël"
+      "URL": "http://onlinelibrary.wiley.com/termsAndConditions#vor",
+      "start": {
+        "date-parts": [
+          [
+            2021,
+            2,
+            17
+          ]
+        ],
+        "date-time": "2021-02-17T00:00:00Z",
+        "timestamp": 1613520000000
+      },
+      "delay-in-days": 0,
+      "content-version": "vor"
     },
     {
-      "family": "Scemama",
-      "given": "Anthony"
-    },
-    {
-      "family": "Caffarel",
-      "given": "Michel"
-    },
-    {
-      "family": "Lipparini",
-      "given": "Filippo"
-    },
-    {
-      "family": "Boggio-Pasqua",
-      "given": "Martial"
-    },
-    {
-      "family": "Jacquemin",
-      "given": "Denis"
-    },
-    {
-      "family": "Loos",
-      "given": "Pierre-François"
+      "URL": "http://doi.wiley.com/10.1002/tdm_license_1.1",
+      "start": {
+        "date-parts": [
+          [
+            2021,
+            2,
+            17
+          ]
+        ],
+        "date-time": "2021-02-17T00:00:00Z",
+        "timestamp": 1613520000000
+      },
+      "delay-in-days": 0,
+      "content-version": "tdm"
     }
   ],
-  "container-title": [
-  "WIREs Computational Molecular Science"
-   ],
-  "id": "https://doi.org/10.1002/wcms.1517",
-  "issue": "n/a",
-  "keyword": "benchmark, coupled cluster theory, database, excitation energies, excited states, full configuration interaction",
-  "page": "e1517",
-  "title": [
-    "QUESTDB: A database of highly accurate excitation energies for the electronic structure community"
+  "funder": [
+    {
+      "DOI": "10.13039/501100001665",
+      "name": "Agence Nationale de la Recherche",
+      "doi-asserted-by": "publisher",
+      "award": [
+        "ANR\u201018\u2010EURE\u20100012"
+      ]
+    },
+    {
+      "DOI": "10.13039/100010663",
+      "name": "H2020 European Research Council",
+      "doi-asserted-by": "publisher",
+      "award": [
+        "863481"
+      ]
+    }
   ],
-  "type": "article-journal",
+  "content-domain": {
+    "domain": [
+      "onlinelibrary.wiley.com"
+    ],
+    "crossmark-restriction": true
+  },
+  "short-container-title": [
+    "WIREs Comput Mol Sci"
+  ],
+  "DOI": "10.1002/wcms.1517",
+  "type": "journal-article",
   "created": {
+    "date-parts": [
+      [
+        2021,
+        2,
+        20
+      ]
+    ],
+    "date-time": "2021-02-20T10:06:14Z",
+    "timestamp": 1613815574000
+  },
+  "update-policy": "http://dx.doi.org/10.1002/crossmark_policy",
+  "source": "Crossref",
+  "is-referenced-by-count": 0,
+  "title": [
+    "QUESTDB\n            : A database of highly accurate excitation energies for the electronic structure community"
+  ],
+  "prefix": "10.1002",
+  "author": [
+    {
+      "given": "Micka\u00ebl",
+      "family": "V\u00e9ril",
+      "sequence": "first",
+      "affiliation": [
+        {
+          "name": "Laboratoire de Chimie et Physique Quantiques Universit\u00e9 de Toulouse, CNRS, UPS  Toulouse France"
+        }
+      ]
+    },
+    {
+      "ORCID": "http://orcid.org/0000-0003-4955-7136",
+      "authenticated-orcid": false,
+      "given": "Anthony",
+      "family": "Scemama",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Laboratoire de Chimie et Physique Quantiques Universit\u00e9 de Toulouse, CNRS, UPS  Toulouse France"
+        }
+      ]
+    },
+    {
+      "given": "Michel",
+      "family": "Caffarel",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Laboratoire de Chimie et Physique Quantiques Universit\u00e9 de Toulouse, CNRS, UPS  Toulouse France"
+        }
+      ]
+    },
+    {
+      "given": "Filippo",
+      "family": "Lipparini",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Dipartimento di Chimica e Chimica Industriale University of Pisa  Pisa Italy"
+        }
+      ]
+    },
+    {
+      "given": "Martial",
+      "family": "Boggio\u2010Pasqua",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Laboratoire de Chimie et Physique Quantiques Universit\u00e9 de Toulouse, CNRS, UPS  Toulouse France"
+        }
+      ]
+    },
+    {
+      "given": "Denis",
+      "family": "Jacquemin",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Universit\u00e9 de Nantes, CNRS, CEISAM UMR 6230  Nantes France"
+        }
+      ]
+    },
+    {
+      "ORCID": "http://orcid.org/0000-0003-0598-7425",
+      "authenticated-orcid": false,
+      "given": "Pierre\u2010Fran\u00e7ois",
+      "family": "Loos",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Laboratoire de Chimie et Physique Quantiques Universit\u00e9 de Toulouse, CNRS, UPS  Toulouse France"
+        }
+      ]
+    }
+  ],
+  "member": "311",
+  "published-online": {
     "date-parts": [
       [
         2021,
@@ -52,5 +179,2532 @@
       ]
     ]
   },
-  "volume": "n/a"
+  "reference": [
+    {
+      "key": "e_1_2_12_2_1",
+      "author": "Szabo A",
+      "year": "1989",
+      "volume-title": "Modern quantum chemistry"
+    },
+    {
+      "key": "e_1_2_12_3_1",
+      "author": "Jensen F",
+      "year": "2017",
+      "volume-title": "Introduction to computational chemistry"
+    },
+    {
+      "key": "e_1_2_12_4_1",
+      "author": "Cramer CJ",
+      "year": "2004",
+      "volume-title": "Essentials of computational chemistry: theories and models"
+    },
+    {
+      "key": "e_1_2_12_5_1",
+      "author": "Helgaker T",
+      "year": "2013",
+      "volume-title": "Molecular electronic\u2010structure theory"
+    },
+    {
+      "key": "e_1_2_12_6_1",
+      "author": "Roos BO",
+      "first-page": "219",
+      "year": "1996",
+      "volume-title": "Adv. Chem. Phys."
+    },
+    {
+      "key": "e_1_2_12_7_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "527",
+      "DOI": "10.1080/0144235021000053811",
+      "article-title": "Recent advances in electronic structure theory: method of moments of coupled\u2010cluster equations and renormalized coupled\u2010cluster approaches",
+      "volume": "21",
+      "author": "Piecuch P",
+      "year": "2002",
+      "journal-title": "Int Rev Phys Chem"
+    },
+    {
+      "key": "e_1_2_12_8_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "4009",
+      "DOI": "10.1021/cr0505627",
+      "article-title": "Single\u2010reference ab initio methods for the calculation of excited states of large molecules",
+      "volume": "105",
+      "author": "Dreuw A",
+      "year": "2005",
+      "journal-title": "Chem Rev"
+    },
+    {
+      "key": "e_1_2_12_9_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "83",
+      "DOI": "10.1021/ar0402006",
+      "article-title": "Spin\u2010flip equation\u2010of\u2010motion coupled\u2010cluster electronic structure method for a description of excited states, bond breaking, diradicals, and triradicals",
+      "volume": "39",
+      "author": "Krylov AI",
+      "year": "2006",
+      "journal-title": "Acc Chem Res"
+    },
+    {
+      "key": "e_1_2_12_10_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "566",
+      "DOI": "10.1002/wcms.99",
+      "article-title": "Excited state coupled cluster methods",
+      "volume": "2",
+      "author": "Sneskov K",
+      "year": "2012",
+      "journal-title": "WIREs Comput Mol Sci"
+    },
+    {
+      "key": "e_1_2_12_11_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "28",
+      "DOI": "10.1002/cphc.201100200",
+      "article-title": "Progress and challenges in the calculation of electronic excited states",
+      "volume": "13",
+      "author": "Gonz\u00e1lez L",
+      "year": "2012",
+      "journal-title": "Chem Phys Chem"
+    },
+    {
+      "key": "e_1_2_12_12_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "2019",
+      "DOI": "10.1002/qua.24438",
+      "article-title": "TD\u2010DFT benchmarks: a review",
+      "volume": "113",
+      "author": "Laurent AD",
+      "year": "2013",
+      "journal-title": "Int J Quantum Chem"
+    },
+    {
+      "key": "e_1_2_12_13_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "845",
+      "DOI": "10.1039/C2CS35394F",
+      "article-title": "The calculations of excited\u2010state properties with time\u2010dependent density functional theory",
+      "volume": "42",
+      "author": "Adamo C",
+      "year": "2013",
+      "journal-title": "Chem Soc Rev"
+    },
+    {
+      "key": "e_1_2_12_14_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "7249",
+      "DOI": "10.1021/acs.chemrev.8b00193",
+      "article-title": "Combining wave function methods with density functional theory for excited states",
+      "volume": "118",
+      "author": "Ghosh S",
+      "year": "2018",
+      "journal-title": "Chem Rev"
+    },
+    {
+      "key": "e_1_2_12_15_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "7371",
+      "DOI": "10.1021/acs.jpclett.0c01875",
+      "article-title": "The Bethe\u2010Salpeter formalism: from physics to chemistry",
+      "volume": "11",
+      "author": "Blase X",
+      "year": "2020",
+      "journal-title": "J Phys Chem Lett"
+    },
+    {
+      "key": "e_1_2_12_16_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "2374",
+      "DOI": "10.1021/acs.jpclett.0c00014",
+      "article-title": "The quest for highly\u2010accurate excitation energies: a computational perspective",
+      "volume": "11",
+      "author": "Loos PF",
+      "year": "2020",
+      "journal-title": "J Phys Chem Lett"
+    },
+    {
+      "key": "e_1_2_12_17_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "321",
+      "DOI": "10.1039/cs9962500321",
+      "article-title": "Potential energy surface crossings in organic photochemistry",
+      "volume": "25",
+      "author": "Bernardi F",
+      "year": "1996",
+      "journal-title": "Chem Soc Rev"
+    },
+    {
+      "key": "e_1_2_12_18_1",
+      "author": "Olivucci M",
+      "year": "2010",
+      "volume-title": "Computational photochemistry"
+    },
+    {
+      "key": "e_1_2_12_19_1",
+      "author": "Robb MA",
+      "first-page": "87",
+      "year": "2007",
+      "volume-title": "A computational strategy for organic photochemistry"
+    },
+    {
+      "key": "e_1_2_12_20_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "3064",
+      "DOI": "10.1002/cphc.201100504",
+      "article-title": "The chemistry of bioluminescence: an analysis of chemical functionalities",
+      "volume": "12",
+      "author": "Navizet I",
+      "year": "2011",
+      "journal-title": "ChemPhysChem"
+    },
+    {
+      "key": "e_1_2_12_21_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "7026",
+      "DOI": "10.1021/acs.chemrev.7b00577",
+      "article-title": "Recent advances and perspectives on nonadiabatic mixed quantum\u2013classical dynamics",
+      "volume": "118",
+      "author": "Crespo\u2010Otero R",
+      "year": "2018",
+      "journal-title": "Chem Rev"
+    },
+    {
+      "key": "e_1_2_12_22_1",
+      "author": "Robb MA",
+      "year": "2018",
+      "series-title": "Theoretical and computational chemistry series",
+      "volume-title": "Theoretical chemistry for electronic excited states"
+    },
+    {
+      "key": "e_1_2_12_23_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "16832",
+      "DOI": "10.1002/anie.201916381",
+      "article-title": "Molecular photochemistry: recent developments in theory",
+      "volume": "59",
+      "author": "Mai S",
+      "year": "2020",
+      "journal-title": "Angew Chem Int Ed"
+    },
+    {
+      "key": "e_1_2_12_24_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "421",
+      "DOI": "10.1002/qua.560120850",
+      "article-title": "Calculation of properties with the coupled\u2010cluster method",
+      "volume": "12",
+      "author": "Monkhorst HJ",
+      "year": "1977",
+      "journal-title": "Int J Quantum Chem"
+    },
+    {
+      "key": "e_1_2_12_25_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "227",
+      "DOI": "10.1007/BF00532006",
+      "article-title": "A numerically stable procedure for calculating M\u00f8ller\u2010Plesset energy derivatives, derived using the theory of Lagrangians",
+      "volume": "76",
+      "author": "Helgaker T",
+      "year": "1989",
+      "journal-title": "Theoret Chim Acta"
+    },
+    {
+      "key": "e_1_2_12_26_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "3345",
+      "DOI": "10.1063/1.458815",
+      "article-title": "Excitation energies from the coupled cluster singles and doubles linear response function (CCSDLR). Applications to Be, CH+, CO, and H2O",
+      "volume": "93",
+      "author": "Koch H",
+      "year": "1990",
+      "journal-title": "J Chem Phys"
+    },
+    {
+      "key": "e_1_2_12_27_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "7429",
+      "DOI": "10.1063/1.470315",
+      "article-title": "Response functions in the CC3 iterative triple excitation model",
+      "volume": "103",
+      "author": "Christiansen O",
+      "year": "1995",
+      "journal-title": "J Chem Phys"
+    },
+    {
+      "key": "e_1_2_12_28_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "1",
+      "DOI": "10.1002/(SICI)1097-461X(1998)68:1<1::AID-QUA1>3.0.CO;2-Z",
+      "article-title": "Response functions from Fourier component variational perturbation theory applied to a time\u2010averaged quasienergy",
+      "volume": "68",
+      "author": "Christiansen O",
+      "year": "1998",
+      "journal-title": "Int J Quantum Chem"
+    },
+    {
+      "key": "e_1_2_12_29_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "7751",
+      "DOI": "10.1063/1.1564061",
+      "article-title": "Geometry optimizations with the coupled\u2010cluster model CC2 using the resolution\u2010of\u2010the\u2010identity approximation",
+      "volume": "118",
+      "author": "H\u00e4ttig C",
+      "year": "2003",
+      "journal-title": "J Chem Phys"
+    },
+    {
+      "key": "e_1_2_12_30_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "9257",
+      "DOI": "10.1063/1.1805494",
+      "article-title": "Calculation of excited\u2010state properties using general coupled\u2010cluster and configuration\u2010interaction models",
+      "volume": "121",
+      "author": "K\u00e1llay M",
+      "year": "2004",
+      "journal-title": "J Chem Phys"
+    },
+    {
+      "key": "e_1_2_12_31_1",
+      "author": "H\u00e4ttig C",
+      "first-page": "37",
+      "year": "2005",
+      "series-title": "Advances in Quantum Chemistry",
+      "volume-title": "Response theory and molecular properties (a tribute to Jan Linderberg and Poul J\u00f8rgensen)",
+      "DOI": "10.1016/S0065-3276(05)50003-0",
+      "doi-asserted-by": "crossref"
+    },
+    {
+      "key": "e_1_2_12_32_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "82",
+      "DOI": "10.1002/wcms.1206",
+      "article-title": "The algebraic diagrammatic construction scheme for the polarization propagator for the calculation of excited states",
+      "volume": "5",
+      "author": "Dreuw A",
+      "year": "2015",
+      "journal-title": "WIREs Comput Mol Sci"
+    },
+    {
+      "key": "e_1_2_12_33_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "5622",
+      "DOI": "10.1063/1.456415",
+      "article-title": "Gaussian\u20101 theory: a general procedure for prediction of molecular energies",
+      "volume": "90",
+      "author": "Pople JA",
+      "year": "1989",
+      "journal-title": "J Chem Phys"
+    },
+    {
+      "key": "e_1_2_12_34_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "7221",
+      "DOI": "10.1063/1.460205",
+      "article-title": "Gaussian\u20102 theory for molecular energies of first\u2010 and second\u2010row compounds",
+      "volume": "94",
+      "author": "Curtiss LA",
+      "year": "1991",
+      "journal-title": "J Chem Phys"
+    },
+    {
+      "key": "e_1_2_12_35_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "1063",
+      "DOI": "10.1063/1.473182",
+      "article-title": "Assessment of Gaussian\u20102 and density functional theories for the computation of enthalpies of formation",
+      "volume": "106",
+      "author": "Curtiss LA",
+      "year": "1997",
+      "journal-title": "J Chem Phys"
+    },
+    {
+      "key": "e_1_2_12_36_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "7764",
+      "DOI": "10.1063/1.477422",
+      "article-title": "Gaussian\u20103 (G3) theory for molecules containing first and second\u2010row atoms",
+      "volume": "109",
+      "author": "Curtiss LA",
+      "year": "1998",
+      "journal-title": "J Chem Phys"
+    },
+    {
+      "key": "e_1_2_12_37_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "084108",
+      "DOI": "10.1063/1.2436888",
+      "article-title": "Gaussian\u20104 theory",
+      "volume": "126",
+      "author": "Curtiss LA",
+      "year": "2007",
+      "journal-title": "J Chem Phys"
+    },
+    {
+      "key": "e_1_2_12_38_1",
+      "author": "\u00c1ngy\u00e1n J",
+      "year": "2020",
+      "series-title": "Theoretical and Computational Chemistry Series",
+      "volume-title": "London dispersion forces in molecules, solids and nano\u2010structures"
+    },
+    {
+      "key": "e_1_2_12_39_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "1985",
+      "DOI": "10.1039/B600027D",
+      "article-title": "Benchmark database of accurate (MP2 and CCSD(T) complete basis set limit) interaction energies of small model complexes, DNA base pairs, and amino acid pairs",
+      "volume": "8",
+      "author": "Jurecka P",
+      "year": "2006",
+      "journal-title": "Phys Chem Chem Phys"
+    },
+    {
+      "key": "e_1_2_12_40_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "2427",
+      "DOI": "10.1021/ct2002946",
+      "article-title": "S66: a well\u2010balanced database of benchmark interaction energies relevant to biomolecular structures",
+      "volume": "7",
+      "author": "Rez\u00e1c J",
+      "year": "2011",
+      "journal-title": "J Chem Theory Comput"
+    },
+    {
+      "key": "e_1_2_12_41_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "5665",
+      "DOI": "10.1021/acs.jctc.5b00453",
+      "article-title": "GW 100: benchmarking G0W0 for molecular systems",
+      "volume": "11",
+      "author": "Setten MJ",
+      "year": "2015",
+      "journal-title": "J Chem Theory Comput"
+    },
+    {
+      "key": "e_1_2_12_42_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "1952",
+      "DOI": "10.1080/00268976.2015.1025113",
+      "article-title": "Coupled\u2010cluster reference values for the Gw27 and Gw100 test sets for the assessment of Gw methods",
+      "volume": "113",
+      "author": "Krause K",
+      "year": "2015",
+      "journal-title": "Mol Phys"
+    },
+    {
+      "key": "e_1_2_12_43_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "235113",
+      "DOI": "10.1103/PhysRevB.93.235113",
+      "article-title": "Correlation energy for the homogeneous electron gas: exact Bethe\u2010Salpeter solution and an approximate evaluation",
+      "volume": "93",
+      "author": "Maggio E",
+      "year": "2016",
+      "journal-title": "Phys Rev B"
+    },
+    {
+      "key": "e_1_2_12_44_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "58",
+      "DOI": "10.1038/s41597-020-0385-y",
+      "article-title": "Atomic structures and orbital energies of 61,489 crystal\u2010forming organic molecules",
+      "volume": "7",
+      "author": "Stuke A",
+      "year": "2020",
+      "journal-title": "Sci Data"
+    },
+    {
+      "key": "e_1_2_12_45_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "232",
+      "DOI": "10.1021/ct300648t",
+      "article-title": "The GW\u2010method for quantum chemistry applications: theory and implementation",
+      "volume": "9",
+      "author": "Setten MJ",
+      "year": "2013",
+      "journal-title": "J Chem Theory Comput"
+    },
+    {
+      "key": "e_1_2_12_46_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "149",
+      "DOI": "10.1016/j.cpc.2016.06.019",
+      "article-title": "Molgw 1: many\u2010body perturbation theory software for atoms, molecules, and clusters",
+      "volume": "208",
+      "author": "Bruneval F",
+      "year": "2016",
+      "journal-title": "Comput Phys Commun"
+    },
+    {
+      "key": "e_1_2_12_47_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "5076",
+      "DOI": "10.1021/acs.jctc.6b00774",
+      "article-title": "Benchmark of GW approaches for the GW100 test set",
+      "volume": "12",
+      "author": "Caruso F",
+      "year": "2016",
+      "journal-title": "J Chem Theory Comput"
+    },
+    {
+      "key": "e_1_2_12_48_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "1895",
+      "DOI": "10.1021/acs.jctc.7b00952",
+      "article-title": "GW100: comparison of methods and accuracy of results obtained with the WEST code",
+      "volume": "14",
+      "author": "Govoni M",
+      "year": "2018",
+      "journal-title": "J Chem Theory Comput"
+    },
+    {
+      "key": "e_1_2_12_49_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "11599",
+      "DOI": "10.1063/1.1811608",
+      "article-title": "HEAT: high accuracy extrapolated ab initio thermochemistry",
+      "volume": "121",
+      "author": "Tajti A",
+      "year": "2004",
+      "journal-title": "J Chem Phys"
+    },
+    {
+      "key": "e_1_2_12_50_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "064108",
+      "DOI": "10.1063/1.2206789",
+      "article-title": "High\u2010accuracy extrapolated ab initio thermochemistry. II. Minor improvements to the protocol and a vital simplification",
+      "volume": "125",
+      "author": "Bomble YJ",
+      "year": "2006",
+      "journal-title": "J Chem Phys"
+    },
+    {
+      "key": "e_1_2_12_51_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "114111",
+      "DOI": "10.1063/1.2835612",
+      "article-title": "High\u2010accuracy extrapolated ab initio thermochemistry. III. Additional improvements and overview",
+      "volume": "128",
+      "author": "Harding ME",
+      "year": "2008",
+      "journal-title": "J Chem Phys"
+    },
+    {
+      "key": "e_1_2_12_52_1",
+      "first-page": "031059",
+      "article-title": "Towards the solution of the many\u2010electron problem in real materials: equation of state of the hydrogen chain with state\u2010of\u2010the\u2010art many\u2010body methods",
+      "volume": "7",
+      "author": "Motta M",
+      "year": "2017",
+      "journal-title": "Phys Rev X"
+    },
+    {
+      "key": "e_1_2_12_53_1",
+      "first-page": "011041",
+      "article-title": "Direct comparison of many\u2010body methods for realistic electronic Hamiltonians",
+      "volume": "10",
+      "author": "Williams KT",
+      "year": "2020",
+      "journal-title": "Phys Rev X"
+    },
+    {
+      "key": "e_1_2_12_54_1",
+      "author": "Parr RG",
+      "year": "1989",
+      "volume-title": "Density\u2010functional theory of atoms and molecules"
+    },
+    {
+      "key": "e_1_2_12_55_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "224105",
+      "DOI": "10.1063/1.2202732",
+      "article-title": "Comparative assessment of density functional methods for 3d transition\u2010metal chemistry",
+      "volume": "124",
+      "author": "Zhao Y",
+      "year": "2006",
+      "journal-title": "J Chem Phys"
+    },
+    {
+      "issue": "19",
+      "key": "e_1_2_12_56_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "2315",
+      "DOI": "10.1080/00268976.2017.1333644",
+      "article-title": "Thirty years of density functional theory in computational chemistry: an overview and extensive assessment of 200 density functionals",
+      "volume": "115",
+      "author": "Mardirossian N",
+      "year": "2017",
+      "journal-title": "Mol Phys"
+    },
+    {
+      "key": "e_1_2_12_57_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "107",
+      "DOI": "10.1021/ct900489g",
+      "article-title": "A general database for main group thermochemistry, kinetics, and noncovalent interactions \u2013 assessment of common and reparameterized (meta\u2010)GGA density functionals",
+      "volume": "6",
+      "author": "Goerigk L",
+      "year": "2010",
+      "journal-title": "J Chem Theory Comput"
+    },
+    {
+      "key": "e_1_2_12_58_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "6670",
+      "DOI": "10.1039/c0cp02984j",
+      "article-title": "A thorough benchmark of density functional methods for general main group thermochemistry, kinetics, and noncovalent interactions",
+      "volume": "13",
+      "author": "Goerigk L",
+      "year": "2011",
+      "journal-title": "Phys Chem Chem Phys"
+    },
+    {
+      "key": "e_1_2_12_59_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "291",
+      "DOI": "10.1021/ct100466k",
+      "article-title": "Efficient and accurate double\u2010hybrid\u2010meta\u2010GGA density functionals\u2014evaluation with the extended GMTKN30 database for general main group thermochemistry, kinetics, and noncovalent interactions",
+      "volume": "7",
+      "author": "Goerigk L",
+      "year": "2011",
+      "journal-title": "J Chem Theory Comput"
+    },
+    {
+      "key": "e_1_2_12_60_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "32184",
+      "DOI": "10.1039/C7CP04913G",
+      "article-title": "A look at the density functional theory zoo with the advanced GMTKN55 database for general main group thermochemistry, kinetics and noncovalent interactions",
+      "volume": "19",
+      "author": "Goerigk L",
+      "year": "2017",
+      "journal-title": "Phys Chem Chem Phys"
+    },
+    {
+      "key": "e_1_2_12_61_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "134110",
+      "DOI": "10.1063/1.2889385",
+      "article-title": "Benchmarks for electronically excited states: CASPT2, CC2, CCSD and CC3",
+      "volume": "128",
+      "author": "Schreiber M",
+      "year": "2008",
+      "journal-title": "J Chem Phys"
+    },
+    {
+      "key": "e_1_2_12_62_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "104103",
+      "DOI": "10.1063/1.2973541",
+      "article-title": "Benchmarks for electronically excited states: time\u2010dependent density functional theory and density functional theory based multireference configuration interaction",
+      "volume": "129",
+      "author": "Silva\u2010Junior MR",
+      "year": "2008",
+      "journal-title": "J Chem Phys"
+    },
+    {
+      "key": "e_1_2_12_63_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "174318",
+      "DOI": "10.1063/1.3499598",
+      "article-title": "Benchmarks of electronically excited states: basis set effects on CASPT2 results",
+      "volume": "133",
+      "author": "Silva\u2010Junior MR",
+      "year": "2010",
+      "journal-title": "J Chem Phys"
+    },
+    {
+      "key": "e_1_2_12_64_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "453",
+      "DOI": "10.1080/00268970903549047",
+      "article-title": "Basis set effects on coupled cluster benchmarks of electronically excited states: CC3, CCSDR(3) and CC2",
+      "volume": "108",
+      "author": "Silva\u2010Junior MR",
+      "year": "2010",
+      "journal-title": "Mol Phys"
+    },
+    {
+      "key": "e_1_2_12_65_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "409",
+      "DOI": "10.1016/0009-2614(95)00841-Q",
+      "article-title": "The second\u2010order approximate coupled cluster singles and doubles model CC2",
+      "volume": "243",
+      "author": "Christiansen O",
+      "year": "1995",
+      "journal-title": "Chem Phys Lett"
+    },
+    {
+      "key": "e_1_2_12_66_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "5154",
+      "DOI": "10.1063/1.1290013",
+      "article-title": "CC2 excitation energy calculations on large molecules using the resolution of the identity approximation",
+      "volume": "113",
+      "author": "H\u00e4ttig C",
+      "year": "2000",
+      "journal-title": "J Chem Phys"
+    },
+    {
+      "key": "e_1_2_12_67_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "153",
+      "DOI": "10.1103/RevModPhys.40.153",
+      "article-title": "Equations\u2010of\u2010motion method and the extended shell model",
+      "volume": "40",
+      "author": "Rowe DJ",
+      "year": "1968",
+      "journal-title": "Rev Mod Phys"
+    },
+    {
+      "key": "e_1_2_12_68_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "7029",
+      "DOI": "10.1063/1.464746",
+      "article-title": "The equation of motion coupled\u2010cluster method. A systematic biorthogonal approach to molecular excitation energies, transition probabilities, and excited state properties",
+      "volume": "98",
+      "author": "Stanton JF",
+      "year": "1993",
+      "journal-title": "J Chem Phys"
+    },
+    {
+      "key": "e_1_2_12_69_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "4393",
+      "DOI": "10.1063/1.466321",
+      "article-title": "Calculation of size\u2010intensive transition moments from the coupled cluster singles and doubles linear response function",
+      "volume": "100",
+      "author": "Koch H",
+      "year": "1994",
+      "journal-title": "J Chem Phys"
+    },
+    {
+      "key": "e_1_2_12_70_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "1808",
+      "DOI": "10.1063/1.473322",
+      "article-title": "The CC3 model: an iterative coupled cluster approach including connected triples",
+      "volume": "106",
+      "author": "Koch H",
+      "year": "1997",
+      "journal-title": "J Chem Phys"
+    },
+    {
+      "key": "e_1_2_12_71_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "5483",
+      "DOI": "10.1021/j100377a012",
+      "article-title": "Second\u2010order perturbation theory with a CASSCF reference function",
+      "volume": "94",
+      "author": "Andersson K",
+      "year": "1990",
+      "journal-title": "J Phys Chem"
+    },
+    {
+      "key": "e_1_2_12_72_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "1218",
+      "DOI": "10.1063/1.462209",
+      "article-title": "Second\u2010order perturbation theory with a complete active space self\u2010consistent field reference function",
+      "volume": "96",
+      "author": "Andersson K",
+      "year": "1992",
+      "journal-title": "J Chem Phys"
+    },
+    {
+      "key": "e_1_2_12_73_1",
+      "author": "B O Roos KA",
+      "first-page": "219",
+      "year": "1996",
+      "volume-title": "Adv. Chem. Phys."
+    },
+    {
+      "key": "e_1_2_12_74_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "104101",
+      "DOI": "10.1063/1.3689445",
+      "article-title": "Benchmarking the performance of time\u2010dependent density functional methods",
+      "volume": "136",
+      "author": "Leang SS",
+      "year": "2012",
+      "journal-title": "J Chem Phys"
+    },
+    {
+      "key": "e_1_2_12_75_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "997",
+      "DOI": "10.1103/PhysRevLett.52.997",
+      "article-title": "Density\u2010functional theory for time\u2010dependent systems",
+      "volume": "52",
+      "author": "Runge E",
+      "year": "1984",
+      "journal-title": "Phys Rev Lett"
+    },
+    {
+      "key": "e_1_2_12_76_1",
+      "author": "Casida ME",
+      "first-page": "155",
+      "year": "1995",
+      "volume-title": "Time\u2010dependent density functional response theory for molecules recent advances in density functional methods"
+    },
+    {
+      "key": "e_1_2_12_77_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "287",
+      "DOI": "10.1146/annurev-physchem-032511-143803",
+      "article-title": "Progress in time\u2010dependent density\u2010functional theory",
+      "volume": "63",
+      "author": "Casida ME",
+      "year": "2012",
+      "journal-title": "Annu Rev Phys Chem"
+    },
+    {
+      "key": "e_1_2_12_78_1",
+      "author": "Ullrich C",
+      "year": "2012",
+      "volume-title": "Time\u2010dependent density\u2010functional theory: concepts and applications. Oxford graduate texts"
+    },
+    {
+      "key": "e_1_2_12_79_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "4307",
+      "DOI": "10.1021/acs.jctc.7b00386",
+      "article-title": "Time\u2010dependent double\u2010hybrid density functionals with spin\u2010component and spin\u2010opposite scaling",
+      "volume": "13",
+      "author": "Schwabe T",
+      "year": "2017",
+      "journal-title": "J Chem Theory Comput"
+    },
+    {
+      "key": "e_1_2_12_80_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "4735",
+      "DOI": "10.1021/acs.jctc.9b00013",
+      "article-title": "\u03c9B2PLYP and \u03c9B2GPPLYP: the first two double\u2010hybrid density functionals with long\u2010range correction optimized for excitation energies",
+      "volume": "15",
+      "author": "Casanova\u2010Paez M",
+      "year": "2019",
+      "journal-title": "J Chem Theory Comput"
+    },
+    {
+      "key": "e_1_2_12_81_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "064106",
+      "DOI": "10.1063/5.0018354",
+      "article-title": "Assessing the Tamm\u2013Dancoff approximation, singlet\u2013singlet, and singlet\u2013triplet excitations with the latest long\u2010range corrected double\u2010hybrid density functionals",
+      "volume": "153",
+      "author": "Casanova\u2010Paez M",
+      "year": "2020",
+      "journal-title": "J Chem Phys"
+    },
+    {
+      "key": "e_1_2_12_82_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "7433",
+      "DOI": "10.1063/1.1508368",
+      "article-title": "Adiabatic time\u2010dependent density functional methods for excited state properties",
+      "volume": "117",
+      "author": "Furche F",
+      "year": "2002",
+      "journal-title": "J Chem Phys"
+    },
+    {
+      "key": "e_1_2_12_83_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "2376",
+      "DOI": "10.1021/ct200272b",
+      "article-title": "Assessing excited state methods by adiabatic excitation energies",
+      "volume": "7",
+      "author": "Send R",
+      "year": "2011",
+      "journal-title": "J Chem Theory Comput"
+    },
+    {
+      "key": "e_1_2_12_84_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "6623",
+      "DOI": "10.1039/C2CP42694C",
+      "article-title": "Benchmarks for 0\u20130 transitions of aromatic organic molecules: DFT/B3LYP, ADC(2), CC2, SOS\u2010CC2 and SCS\u2010CC2 compared to high\u2010resolution gas\u2010phase data",
+      "volume": "15",
+      "author": "Winter NOC",
+      "year": "2013",
+      "journal-title": "Phys Chem Chem Phys"
+    },
+    {
+      "key": "e_1_2_12_85_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "4646",
+      "DOI": "10.1021/acs.jpclett.8b02058",
+      "article-title": "Theoretical 0\u20130 energies with chemical accuracy",
+      "volume": "9",
+      "author": "Loos PF",
+      "year": "2018",
+      "journal-title": "J Phys Chem Lett"
+    },
+    {
+      "key": "e_1_2_12_86_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "2481",
+      "DOI": "10.1021/acs.jctc.8b01103",
+      "article-title": "Chemically accurate 0\u20130 energies with not\u2010so\u2010accurate excited state geometries",
+      "volume": "15",
+      "author": "Loos PF",
+      "year": "2019",
+      "journal-title": "J Chem Theory Comput"
+    },
+    {
+      "key": "e_1_2_12_87_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "684",
+      "DOI": "10.1002/cptc.201900070",
+      "article-title": "Evaluating 0\u20130 energies with theoretical tools: a short review",
+      "volume": "3",
+      "author": "Loos PF",
+      "year": "2019",
+      "journal-title": "ChemPhotoChem"
+    },
+    {
+      "key": "e_1_2_12_88_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "3544",
+      "DOI": "10.1063/1.1642595",
+      "article-title": "A density functional calculation of the vibronic structure of electronic absorption spectra",
+      "volume": "120",
+      "author": "Dierksen M",
+      "year": "2004",
+      "journal-title": "J Chem Phys"
+    },
+    {
+      "key": "e_1_2_12_89_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "184103",
+      "DOI": "10.1063/1.3418614",
+      "article-title": "Assessment of TD\u2010DFT methods and of various spin scaled CIS\n                     n\n                  D and CC2 versions for the treatment of low\u2010lying valence excitations of large organic dyes",
+      "volume": "132",
+      "author": "Goerigk L",
+      "year": "2010",
+      "journal-title": "J Chem Phys"
+    },
+    {
+      "key": "e_1_2_12_90_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "2359",
+      "DOI": "10.1021/ct300326f",
+      "article-title": "A TD\u2010DFT assessment of functionals for optical 0\u20130 transitions in solvated dyes",
+      "volume": "8",
+      "author": "Jacquemin D",
+      "year": "2012",
+      "journal-title": "J Chem Theory Comput"
+    },
+    {
+      "key": "e_1_2_12_91_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "5340",
+      "DOI": "10.1021/acs.jctc.5b00619",
+      "article-title": "0\u20130 energies using hybrid schemes: benchmarks of TD\u2010DFT, CIS(D), ADC(2), CC2, and BSE/GW formalisms for 80 real\u2010life compounds",
+      "volume": "11",
+      "author": "Jacquemin D",
+      "year": "2015",
+      "journal-title": "J Chem Theory Comput"
+    },
+    {
+      "key": "e_1_2_12_92_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "4213",
+      "DOI": "10.1021/acs.jctc.0c00154",
+      "article-title": "A new benchmark set for excitation energy of charge transfer states: systematic investigation of coupled cluster type methods",
+      "volume": "16",
+      "author": "Kozma B",
+      "year": "2020",
+      "journal-title": "J Chem Theory Comput"
+    },
+    {
+      "key": "e_1_2_12_93_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "586",
+      "DOI": "10.1021/acs.jpclett.5b02773",
+      "article-title": "Multiconfiguration pair\u2010density functional theory is as accurate as CASPT2 for electronic excitation",
+      "volume": "7",
+      "author": "Hoyer CE",
+      "year": "2016",
+      "journal-title": "J Phys Chem Lett"
+    },
+    {
+      "key": "e_1_2_12_94_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "4360",
+      "DOI": "10.1021/acs.jctc.8b00406",
+      "article-title": "A mountaineering strategy to excited states: highly\u2010accurate reference energies and benchmarks",
+      "volume": "14",
+      "author": "Loos PF",
+      "year": "2018",
+      "journal-title": "J Chem Theory Comput"
+    },
+    {
+      "key": "e_1_2_12_95_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "1939",
+      "DOI": "10.1021/acs.jctc.8b01205",
+      "article-title": "Reference energies for double excitations",
+      "volume": "15",
+      "author": "Loos PF",
+      "year": "2019",
+      "journal-title": "J Chem Theory Comput"
+    },
+    {
+      "key": "e_1_2_12_96_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "1711",
+      "DOI": "10.1021/acs.jctc.9b01216",
+      "article-title": "A mountaineering strategy to excited states: highly\u2010accurate energies and benchmarks for medium size molecules",
+      "volume": "16",
+      "author": "Loos PF",
+      "year": "2020",
+      "journal-title": "J Chem Theory Comput"
+    },
+    {
+      "key": "e_1_2_12_97_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "3720",
+      "DOI": "10.1021/acs.jctc.0c00227",
+      "article-title": "A mountaineering strategy to excited states: highly\u2010accurate energies and benchmarks for exotic molecules and radicals",
+      "volume": "16",
+      "author": "Loos PF",
+      "year": "2020",
+      "journal-title": "J Chem Theory Comput"
+    },
+    {
+      "key": "e_1_2_12_98_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "5021",
+      "DOI": "10.1063/1.1597635",
+      "article-title": "Analytic gradients for excited states in the coupled\u2010cluster model CC2 employing the resolution\u2010of\u2010the\u2010identity approximation",
+      "volume": "119",
+      "author": "K\u00f6hn A",
+      "year": "2003",
+      "journal-title": "J Chem Phys"
+    },
+    {
+      "key": "e_1_2_12_99_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "4157",
+      "DOI": "10.1021/jp501974p",
+      "article-title": "How method\u2010dependent are calculated differences between vertical, adiabatic and 0\u20130 excitation energies?",
+      "volume": "118",
+      "author": "Fang C",
+      "year": "2014",
+      "journal-title": "J Phys Chem A"
+    },
+    {
+      "key": "e_1_2_12_100_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "3448",
+      "DOI": "10.1080/00268976.2016.1235736",
+      "article-title": "Assessment of a composite CC2/DFT procedure for calculating 0\u20130 excitation energies of organic molecules",
+      "volume": "114",
+      "author": "Oruganti B",
+      "year": "2016",
+      "journal-title": "Mol Phys"
+    },
+    {
+      "key": "e_1_2_12_101_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "7041",
+      "DOI": "10.1063/1.452353",
+      "article-title": "The full CCSDT model for molecular electronic structure",
+      "volume": "86",
+      "author": "Noga J",
+      "year": "1987",
+      "journal-title": "J Chem Phys"
+    },
+    {
+      "key": "e_1_2_12_102_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "387",
+      "DOI": "10.1007/BF01117419",
+      "article-title": "Recursive intermediate factorization and complete computational linearization of the coupled\u2010cluster single, double, triple, and quadruple excitation equations",
+      "volume": "80",
+      "author": "Kucharski SA",
+      "year": "1991",
+      "journal-title": "Theoret Chim Acta"
+    },
+    {
+      "key": "e_1_2_12_103_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "8263",
+      "DOI": "10.1063/1.1416173",
+      "article-title": "Coupled\u2010cluster theory for excited electronic states: the full equation\u2010of\u2010motion coupled\u2010cluster single, double, and triple excitation method",
+      "volume": "115",
+      "author": "Kucharski SA",
+      "year": "2001",
+      "journal-title": "J Chem Phys"
+    },
+    {
+      "key": "e_1_2_12_104_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "643",
+      "DOI": "10.1063/1.1378323",
+      "article-title": "The active\u2010space equation\u2010of\u2010motion coupled\u2010cluster methods for excited electronic states: full EOMCCSDt",
+      "volume": "115",
+      "author": "Kowalski K",
+      "year": "2001",
+      "journal-title": "J Chem Phys"
+    },
+    {
+      "key": "e_1_2_12_105_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "2991",
+      "DOI": "10.1063/1.1589003",
+      "article-title": "Analytic first derivatives for general coupled\u2010cluster and configuration interaction models",
+      "volume": "119",
+      "author": "K\u00e1llay M",
+      "year": "2003",
+      "journal-title": "J Chem Phys"
+    },
+    {
+      "key": "e_1_2_12_106_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "255",
+      "DOI": "10.1016/S0009-2614(00)00772-7",
+      "article-title": "High\u2010order determinantal equation\u2010of\u2010motion coupled\u2010cluster calculations for electronic excited states",
+      "volume": "326",
+      "author": "Hirata S",
+      "year": "2000",
+      "journal-title": "Chem Phys Lett"
+    },
+    {
+      "key": "e_1_2_12_107_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "51",
+      "DOI": "10.1063/1.1753556",
+      "article-title": "Higher\u2010order equation\u2010of\u2010motion coupled\u2010cluster methods",
+      "volume": "121",
+      "author": "Hirata S",
+      "year": "2004",
+      "journal-title": "J Chem Phys"
+    },
+    {
+      "key": "e_1_2_12_108_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "054106",
+      "DOI": "10.1063/1.3193710",
+      "article-title": "Fermion Monte Carlo without fixed nodes: a game of life, death, and annihilation in Slater determinant space",
+      "volume": "131",
+      "author": "Booth GH",
+      "year": "2009",
+      "journal-title": "J Chem Phys"
+    },
+    {
+      "key": "e_1_2_12_109_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "174104",
+      "DOI": "10.1063/1.3407895",
+      "article-title": "Approaching chemical accuracy using full configuration\u2010interaction quantum Monte Carlo: a study of ionization potentials",
+      "volume": "132",
+      "author": "Booth GH",
+      "year": "2010",
+      "journal-title": "J Chem Phys"
+    },
+    {
+      "key": "e_1_2_12_110_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "041103",
+      "DOI": "10.1063/1.3302277",
+      "article-title": "Communications: survival of the fittest: accelerating convergence in full configuration\u2010interaction quantum Monte Carlo",
+      "volume": "132",
+      "author": "Cleland D",
+      "year": "2010",
+      "journal-title": "J Chem Phys"
+    },
+    {
+      "key": "e_1_2_12_111_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "084104",
+      "DOI": "10.1063/1.3624383",
+      "article-title": "Breaking the carbon dimer: the challenges of multiple bond dissociation with full configuration interaction quantum Monte Carlo methods",
+      "volume": "135",
+      "author": "Booth GH",
+      "year": "2011",
+      "journal-title": "J Chem Phys"
+    },
+    {
+      "key": "e_1_2_12_112_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "4441",
+      "DOI": "10.1021/ct300486d",
+      "article-title": "Full configuration interaction excitations of ethene and butadiene: resolution of an ancient question",
+      "volume": "8",
+      "author": "Daday C",
+      "year": "2012",
+      "journal-title": "J Chem Theory Comput"
+    },
+    {
+      "key": "e_1_2_12_113_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "134117",
+      "DOI": "10.1063/1.4932595",
+      "article-title": "An excited\u2010state approach within full configuration interaction quantum Monte Carlo",
+      "volume": "143",
+      "author": "Blunt NS",
+      "year": "2015",
+      "journal-title": "J Chem Phys"
+    },
+    {
+      "key": "e_1_2_12_114_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "224108",
+      "DOI": "10.1063/1.5134006",
+      "article-title": "Unbiasing the initiator approximation in full configuration interaction quantum Monte Carlo",
+      "volume": "151",
+      "author": "Ghanem K",
+      "year": "2019",
+      "journal-title": "J Chem Phys"
+    },
+    {
+      "key": "e_1_2_12_115_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "223003",
+      "DOI": "10.1103/PhysRevLett.119.223003",
+      "article-title": "Converging high\u2010level coupled\u2010cluster energetics by Monte Carlo sampling and moment expansions",
+      "volume": "119",
+      "author": "Deustua JE",
+      "year": "2017",
+      "journal-title": "Phys Rev Lett"
+    },
+    {
+      "key": "e_1_2_12_116_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "151101",
+      "DOI": "10.1063/1.5055769",
+      "article-title": "Communication: approaching exact quantum chemistry by cluster analysis of full configuration interaction quantum Monte Carlo wave functions",
+      "volume": "149",
+      "author": "Deustua JE",
+      "year": "2018",
+      "journal-title": "J Chem Phys"
+    },
+    {
+      "key": "e_1_2_12_117_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "164111",
+      "DOI": "10.1063/1.4998614",
+      "article-title": "Excited states using semistochastic heat\u2010bath configuration interaction",
+      "volume": "147",
+      "author": "Holmes AA",
+      "year": "2017",
+      "journal-title": "J Chem Phys"
+    },
+    {
+      "key": "e_1_2_12_118_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "2714",
+      "DOI": "10.1021/acs.jpca.8b01554",
+      "article-title": "Excited states of methylene, polyenes, and ozone from heat\u2010bath configuration interaction",
+      "volume": "122",
+      "author": "Chien AD",
+      "year": "2018",
+      "journal-title": "J Phys Chem A"
+    },
+    {
+      "key": "e_1_2_12_119_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "214110",
+      "DOI": "10.1063/1.5055390",
+      "article-title": "Fast semistochastic heat\u2010bath configuration interaction",
+      "volume": "149",
+      "author": "Li J",
+      "year": "2018",
+      "journal-title": "J Chem Phys"
+    },
+    {
+      "issue": "12",
+      "key": "e_1_2_12_120_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "124117",
+      "DOI": "10.1063/5.0018577",
+      "article-title": "Almost exact energies for the Gaussian\u20102 set with the semistochastic heat\u2010bath configuration interaction method",
+      "volume": "153",
+      "author": "Yao Y",
+      "year": "2020",
+      "journal-title": "The Journal of Chemical Physics"
+    },
+    {
+      "key": "e_1_2_12_121_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "012015",
+      "DOI": "10.1103/PhysRevResearch.2.012015",
+      "article-title": "Accurate many\u2010body electronic structure near the basis set limit: application to the chromium dimer",
+      "volume": "2",
+      "author": "Li J",
+      "year": "2020",
+      "journal-title": "Phys Rev Research"
+    },
+    {
+      "key": "e_1_2_12_122_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "4633",
+      "DOI": "10.1021/acs.jpclett.7b02075",
+      "article-title": "Virtual orbital many\u2010body expansions: a possible route towards the full configuration interaction limit",
+      "volume": "8",
+      "author": "Eriksen JJ",
+      "year": "2017",
+      "journal-title": "J Phys Chem Lett"
+    },
+    {
+      "key": "e_1_2_12_123_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "5180",
+      "DOI": "10.1021/acs.jctc.8b00680",
+      "article-title": "Many\u2010body expanded full configuration interaction. I. Weakly correlated regime",
+      "volume": "14",
+      "author": "Eriksen JJ",
+      "year": "2018",
+      "journal-title": "J Chem Theory Comput"
+    },
+    {
+      "key": "e_1_2_12_124_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "4873",
+      "DOI": "10.1021/acs.jctc.9b00456",
+      "article-title": "Many\u2010body expanded full configuration interaction. II. Strongly correlated regime",
+      "volume": "15",
+      "author": "Eriksen JJ",
+      "year": "2019",
+      "journal-title": "J Chem Theory Comput"
+    },
+    {
+      "key": "e_1_2_12_125_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "7910",
+      "DOI": "10.1021/acs.jpclett.9b02968",
+      "article-title": "Generalized many\u2010body expanded full configuration interaction theory",
+      "volume": "27",
+      "author": "Eriksen JJ",
+      "year": "2019",
+      "journal-title": "J Phys Chem Lett"
+    },
+    {
+      "key": "e_1_2_12_126_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "113001",
+      "DOI": "10.1103/PhysRevLett.121.113001",
+      "article-title": "Full coupled\u2010cluster reduction for accurate description of strong electron correlation",
+      "volume": "121",
+      "author": "Xu E",
+      "year": "2018",
+      "journal-title": "Phys Rev Lett"
+    },
+    {
+      "issue": "22",
+      "key": "e_1_2_12_127_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "9775",
+      "DOI": "10.1021/acs.jpclett.0c03084",
+      "article-title": "Towards Near\u2010Exact Solutions of Molecular Electronic Structure: Full Coupled\u2010Cluster Reduction with a Second\u2010Order Perturbative Correction",
+      "volume": "11",
+      "author": "Xu E",
+      "year": "2020",
+      "journal-title": "The Journal of Physical Chemistry Letters"
+    },
+    {
+      "key": "e_1_2_12_128_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "176101",
+      "DOI": "10.1063/5.0027617",
+      "article-title": "The performance of CIPSI on the ground state electronic energy of benzene",
+      "volume": "153",
+      "author": "Loos PF",
+      "year": "2020",
+      "journal-title": "J Chem Phys"
+    },
+    {
+      "issue": "1",
+      "key": "e_1_2_12_129_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "418",
+      "DOI": "10.1021/acs.jpclett.0c03225",
+      "article-title": "The Shape of Full Configuration Interaction to Come",
+      "volume": "12",
+      "author": "Eriksen JJ",
+      "year": "2021",
+      "journal-title": "The Journal of Physical Chemistry Letters"
+    },
+    {
+      "key": "e_1_2_12_130_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "23",
+      "DOI": "10.1103/PhysRev.183.23",
+      "article-title": "Studies in configuration interaction: the first\u2010row diatomic hydrides",
+      "volume": "183",
+      "author": "Bender CF",
+      "year": "1969",
+      "journal-title": "Phys Rev"
+    },
+    {
+      "key": "e_1_2_12_131_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "5584",
+      "DOI": "10.1063/1.1671985",
+      "article-title": "Configuration interaction studies of ground and excited states of polyatomic molecules. I. the CI formulation and studies of formaldehyde",
+      "volume": "51",
+      "author": "Whitten JL",
+      "year": "1969",
+      "journal-title": "J Chem Phys"
+    },
+    {
+      "key": "e_1_2_12_132_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "5745",
+      "DOI": "10.1063/1.1679199",
+      "article-title": "Iterative perturbation calculations of ground and excited state energies from multiconfigurational zeroth\u2010order wavefunctions",
+      "volume": "58",
+      "author": "Huron B",
+      "year": "1973",
+      "journal-title": "J Chem Phys"
+    },
+    {
+      "key": "e_1_2_12_133_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "121",
+      "DOI": "10.1016/j.cplett.2005.06.107",
+      "article-title": "Important configurations in configuration interaction and coupled\u2010cluster wave functions",
+      "volume": "412",
+      "author": "Abrams ML",
+      "year": "2005",
+      "journal-title": "Chem Phys Lett"
+    },
+    {
+      "key": "e_1_2_12_134_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "014108",
+      "DOI": "10.1063/1.2207621",
+      "article-title": "Select\u2010divide\u2010and\u2010conquer method for large\u2010scale configuration interaction",
+      "volume": "125",
+      "author": "Bunge CF",
+      "year": "2006",
+      "journal-title": "J Chem Phys"
+    },
+    {
+      "key": "e_1_2_12_135_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "64",
+      "DOI": "10.1016/j.chemphys.2008.11.021",
+      "article-title": "A priori identification of configurational deadwood",
+      "volume": "356",
+      "author": "Bytautas L",
+      "year": "2009",
+      "journal-title": "Chem Phys"
+    },
+    {
+      "key": "e_1_2_12_136_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "879",
+      "DOI": "10.1139/cjc-2013-0017",
+      "article-title": "Using perturbatively selected configuration interaction in quantum Monte Carlo calculations",
+      "volume": "91",
+      "author": "Giner E",
+      "year": "2013",
+      "journal-title": "Can J Chem"
+    },
+    {
+      "key": "e_1_2_12_137_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "5286",
+      "DOI": "10.1021/ct5004252",
+      "article-title": "Spin density distribution in open\u2010shell transition metal systems: a comparative post\u2010Hartree\u2013Fock, density functional theory, and quantum Monte Carlo study of the CuCl Molecule",
+      "volume": "10",
+      "author": "Caffarel M",
+      "year": "2014",
+      "journal-title": "J Chem Theory Comput"
+    },
+    {
+      "key": "e_1_2_12_138_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "044115",
+      "DOI": "10.1063/1.4905528",
+      "article-title": "Fixed\u2010node diffusion Monte Carlo potential energy curve of the fluorine molecule F2 using selected configuration interaction trial wavefunctions",
+      "volume": "142",
+      "author": "Giner E",
+      "year": "2015",
+      "journal-title": "J Chem Phys"
+    },
+    {
+      "key": "e_1_2_12_139_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "034101",
+      "DOI": "10.1063/1.4992127",
+      "article-title": "Hybrid stochastic\u2010deterministic calculation of the second\u2010order perturbative contribution of multireference perturbation theory",
+      "volume": "147",
+      "author": "Garniron Y",
+      "year": "2017",
+      "journal-title": "J Chem Phys"
+    },
+    {
+      "key": "e_1_2_12_140_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "151103",
+      "DOI": "10.1063/1.4947093",
+      "article-title": "Communication: toward an improved control of the fixed\u2010node error in quantum Monte Carlo: the case of the water molecule",
+      "volume": "144",
+      "author": "Caffarel M",
+      "year": "2016",
+      "journal-title": "J Chem Phys"
+    },
+    {
+      "key": "e_1_2_12_141_1",
+      "unstructured": "CaffarelM ApplencourtT GinerE ScemamaA.Using CIPSI nodes in diffusion Monte Carlo;2016. p. 15\u201346.",
+      "DOI": "10.1021/bk-2016-1234.ch002",
+      "doi-asserted-by": "crossref"
+    },
+    {
+      "key": "e_1_2_12_142_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "3674",
+      "DOI": "10.1021/acs.jctc.6b00407",
+      "article-title": "Heat\u2010bath configuration interaction: an efficient selected configuration interaction algorithm inspired by heat\u2010Bath sampling",
+      "volume": "12",
+      "author": "Holmes AA",
+      "year": "2016",
+      "journal-title": "J Chem Theory Comput"
+    },
+    {
+      "key": "e_1_2_12_143_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "1595",
+      "DOI": "10.1021/acs.jctc.6b01028",
+      "article-title": "Semistochastic heat\u2010bath configuration interaction method: selected configuration interaction with semistochastic perturbation theory",
+      "volume": "13",
+      "author": "Sharma S",
+      "year": "2017",
+      "journal-title": "J Chem Theory Comput"
+    },
+    {
+      "key": "e_1_2_12_144_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "1395",
+      "DOI": "10.1021/acs.jctc.7b01250",
+      "article-title": "Deterministic construction of nodal surfaces within quantum Monte Carlo: the case of FeS",
+      "volume": "14",
+      "author": "Scemama A",
+      "year": "2018",
+      "journal-title": "J Chem Theory Comput"
+    },
+    {
+      "key": "e_1_2_12_145_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "034108",
+      "DOI": "10.1063/1.5041327",
+      "article-title": "Excitation energies from diffusion Monte Carlo using selected configuration interaction nodes",
+      "volume": "149",
+      "author": "Scemama A",
+      "year": "2018",
+      "journal-title": "J Chem Phys"
+    },
+    {
+      "key": "e_1_2_12_146_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "064103",
+      "DOI": "10.1063/1.5044503",
+      "article-title": "Selected configuration interaction dressed by perturbation",
+      "volume": "149",
+      "author": "Garniron Y",
+      "year": "2018",
+      "journal-title": "J Chem Phys"
+    },
+    {
+      "key": "e_1_2_12_147_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "124114",
+      "DOI": "10.1063/1.4869192",
+      "article-title": "Adaptive multiconfigurational wave functions",
+      "volume": "140",
+      "author": "Evangelista FA",
+      "year": "2014",
+      "journal-title": "J Chem Phys"
+    },
+    {
+      "key": "e_1_2_12_148_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "044112",
+      "DOI": "10.1063/1.4955109",
+      "article-title": "A deterministic alternative to the full configuration interaction quantum Monte Carlo method",
+      "volume": "145",
+      "author": "Tubman NM",
+      "year": "2016",
+      "journal-title": "J Chem Phys"
+    },
+    {
+      "key": "e_1_2_12_149_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "2139",
+      "DOI": "10.1021/acs.jctc.8b00536",
+      "article-title": "Modern approaches to exact diagonalization and selected configuration interaction with the adaptive sampling CI method",
+      "volume": "16",
+      "author": "Tubman NM",
+      "year": "2020",
+      "journal-title": "J Chem Theory Comput"
+    },
+    {
+      "key": "e_1_2_12_150_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "161106",
+      "DOI": "10.1063/1.4948308",
+      "article-title": "Communication: an adaptive configuration interaction approach for strongly correlated electrons with tunable accuracy",
+      "volume": "144",
+      "author": "Schriber JB",
+      "year": "2016",
+      "journal-title": "J Chem Phys"
+    },
+    {
+      "key": "e_1_2_12_151_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "5354",
+      "DOI": "10.1021/acs.jctc.7b00725",
+      "article-title": "Adaptive configuration interaction for computing challenging electronic excited states with tunable accuracy",
+      "volume": "13",
+      "author": "Schriber JB",
+      "year": "2017",
+      "journal-title": "J Chem Theory Comput"
+    },
+    {
+      "key": "e_1_2_12_152_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "1169",
+      "DOI": "10.1021/acs.jctc.5b01099",
+      "article-title": "iCI: iterative CI toward full CI",
+      "volume": "12",
+      "author": "Liu W",
+      "year": "2016",
+      "journal-title": "J Chem Theory Comput"
+    },
+    {
+      "key": "e_1_2_12_153_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "164101",
+      "DOI": "10.1063/1.4981527",
+      "article-title": "Energy\u2010based truncation of multi\u2010determinant wavefunctions in quantum Monte Carlo",
+      "volume": "146",
+      "author": "Per MC",
+      "year": "2017",
+      "journal-title": "J Chem Phys"
+    },
+    {
+      "key": "e_1_2_12_154_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "034102",
+      "DOI": "10.1063/1.4993214",
+      "article-title": "Selected configuration interaction method using sampled first\u2010order corrections to wave functions",
+      "volume": "147",
+      "author": "Ohtsuka Y",
+      "year": "2017",
+      "journal-title": "J Chem Phys"
+    },
+    {
+      "key": "e_1_2_12_155_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "104102",
+      "DOI": "10.1063/1.4977727",
+      "article-title": "Incremental full configuration interaction",
+      "volume": "146",
+      "author": "Zimmerman PM",
+      "year": "2017",
+      "journal-title": "J Chem Phys"
+    },
+    {
+      "key": "e_1_2_12_156_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "5739",
+      "DOI": "10.1021/acs.jctc.8b00849",
+      "article-title": "Machine learning configuration interaction",
+      "volume": "14",
+      "author": "Coe JP",
+      "year": "2018",
+      "journal-title": "J Chem Theory Comput"
+    },
+    {
+      "key": "e_1_2_12_157_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "1481",
+      "DOI": "10.1007/s00214-014-1481-x",
+      "article-title": "SDS: the static\u2013dynamic\u2013static framework for strongly correlated electrons",
+      "volume": "133",
+      "author": "Liu W",
+      "year": "2014",
+      "journal-title": "Theor Chem Acc"
+    },
+    {
+      "key": "e_1_2_12_158_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "2696",
+      "DOI": "10.1080/00268976.2017.1308029",
+      "article-title": "Further development of SDSPT2 for strongly correlated electrons",
+      "volume": "115",
+      "author": "Lei Y",
+      "year": "2017",
+      "journal-title": "Mol Phys"
+    },
+    {
+      "key": "e_1_2_12_159_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "2296",
+      "DOI": "10.1021/acs.jctc.9b01200",
+      "article-title": "Iterative configuration interaction with selection",
+      "volume": "16",
+      "author": "Zhang N",
+      "year": "2020",
+      "journal-title": "J Chem Theory Comput"
+    },
+    {
+      "key": "e_1_2_12_160_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "3591",
+      "DOI": "10.1021/acs.jctc.9b00176",
+      "article-title": "Quantum package 2.0: a open\u2010source determinant\u2010driven suite of programs",
+      "volume": "15",
+      "author": "Garniron Y",
+      "year": "2019",
+      "journal-title": "J Chem Theory Comput"
+    },
+    {
+      "key": "e_1_2_12_161_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "91",
+      "DOI": "10.1016/0301-0104(83)85011-3",
+      "article-title": "Convergence of an improved CIPSI algorithm",
+      "volume": "75",
+      "author": "Evangelisti S",
+      "year": "1983",
+      "journal-title": "Chem Phys"
+    },
+    {
+      "key": "e_1_2_12_162_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "1746",
+      "DOI": "10.1063/1.449362",
+      "article-title": "Second order perturbation correction to CI energies by use of diagrammatic techniques: an improvement to the CIPSI algorithm",
+      "volume": "83",
+      "author": "Cimiraglia R",
+      "year": "1985",
+      "journal-title": "J Chem Phys"
+    },
+    {
+      "key": "e_1_2_12_163_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "39",
+      "DOI": "10.1002/jcc.540080105",
+      "article-title": "Recent advances in multireference second order perturbation CI: the CIPSI method revisited",
+      "volume": "8",
+      "author": "Cimiraglia R",
+      "year": "1987",
+      "journal-title": "J Comput Chem"
+    },
+    {
+      "key": "e_1_2_12_164_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "6376",
+      "DOI": "10.1063/1.455405",
+      "article-title": "Approximate natural orbitals and the convergence of a second order multireference many\u2010body perturbation theory (CIPSI) algorithm",
+      "volume": "89",
+      "author": "Illas F",
+      "year": "1988",
+      "journal-title": "J Chem Phys"
+    },
+    {
+      "key": "e_1_2_12_165_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "229",
+      "DOI": "10.1007/BF01113255",
+      "article-title": "Treating large intermediate spaces in the CIPSI method through a direct selected CI algorithm",
+      "volume": "82",
+      "author": "Povill A",
+      "year": "1992",
+      "journal-title": "Theor Chem Acc"
+    },
+    {
+      "key": "e_1_2_12_166_1",
+      "unstructured": "ScemamaA GinerE ApplencourtT CaffarelM QMC using very large configuration interaction\u2010type expansions. Pacifichem Advances in Quantum Monte Carlo;2015."
+    },
+    {
+      "key": "e_1_2_12_167_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "1866",
+      "DOI": "10.1002/jcc.24382",
+      "article-title": "Quantum Monte Carlo with very large multideterminant wavefunctions",
+      "volume": "37",
+      "author": "Scemama A",
+      "year": "2016",
+      "journal-title": "J Comput Chem"
+    },
+    {
+      "key": "e_1_2_12_168_1",
+      "first-page": "100002",
+      "article-title": "Influence of pseudopotentials on excitation energies from selected configuration interaction and diffusion Monte Carlo",
+      "volume": "1",
+      "author": "Scemama A",
+      "year": "2019",
+      "journal-title": "Res Chem"
+    },
+    {
+      "key": "e_1_2_12_169_1",
+      "unstructured": "DashM MoroniS ScemamaA FilippiC.Perturbatively selected configuration\u2010interaction wave functions for efficient geometry optimization in quantum Monte Carlo. arXiv:180409610;2018."
+    },
+    {
+      "key": "e_1_2_12_170_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "4896",
+      "DOI": "10.1021/acs.jctc.9b00476",
+      "article-title": "Excited states with selected configuration interaction\u2010quantum Monte Carlo: chemically accurate excitation energies and geometries",
+      "volume": "15",
+      "author": "Dash M",
+      "year": "2019",
+      "journal-title": "J Chem Theory Comput"
+    },
+    {
+      "key": "e_1_2_12_171_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "174107",
+      "DOI": "10.1063/5.0026324",
+      "article-title": "Taming the fixed\u2010node error in diffusion Monte Carlo via range separation",
+      "volume": "153",
+      "author": "Scemama A",
+      "year": "2020",
+      "journal-title": "J Chem Phys"
+    },
+    {
+      "key": "e_1_2_12_172_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "184111",
+      "DOI": "10.1063/5.0021036",
+      "article-title": "Towards a systematic improvement of the fixed\u2010node approximation in diffusion Monte Carlo for solids",
+      "volume": "153",
+      "author": "Benali A",
+      "year": "2020",
+      "journal-title": "J Chem Phys"
+    },
+    {
+      "key": "e_1_2_12_173_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "6237",
+      "DOI": "10.1021/acs.jctc.7b00921",
+      "article-title": "Accurate excited\u2010state geometries: a CASPT2 and coupled\u2010cluster reference database for small molecules",
+      "volume": "13",
+      "author": "Budz\u00e1k \u0160",
+      "year": "2017",
+      "journal-title": "J Chem Theory Comput"
+    },
+    {
+      "key": "e_1_2_12_174_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "269",
+      "DOI": "10.1002/wcms.1172",
+      "article-title": "The Dalton quantum chemistry program system",
+      "volume": "4",
+      "author": "Aidas K",
+      "year": "2014",
+      "journal-title": "WIREs Comput Mol Sci"
+    },
+    {
+      "key": "e_1_2_12_175_1",
+      "unstructured": "CFOUR Coupled\u2010Cluster techniques for Computational Chemistry a quantum\u2010chemical program package by J.F. Stanton J. Gauss L. Cheng M.E. Harding D.A. Matthews P.G. Szalay with contributions from A.A. Auer R.J. Bartlett U. Benedikt C. Berger D.E. Bernholdt Y.J. Bomble O. Christiansen F. Engel R. Faber M. Heckert O. Heun M. Hilgenberg C. Huber T.\u2010C. Jagau D. Jonsson J. Jus\u00e9lius T. Kirsch K. Klein W.J. Lauderdale F. Lipparini T. Metzroth L.A. M\u00fcck D.P. O'Neill D.R. Price E. Prochnow C. Puzzarini K. Ruud F. Schiffmann W. Schwalbach C. Simmons S. Stopkowicz A. Tajti J. V\u00e1zquez F. Wang J.D. Watts and the integral packages MOLECULE (J. Alml\u00f6f and P.R. Taylor) PROPS (P.R. Taylor) ABACUS (T. Helgaker H.J. Aa. Jensen P. J\u00f8rgensen and J. Olsen) and ECP routines by A. V. Mitin and C. van W\u00fcllen. For the current version seehttp://www.cfour.de"
+    },
+    {
+      "key": "e_1_2_12_176_1",
+      "author": "Frisch MJ",
+      "year": "2016",
+      "volume-title": "Gaussian 16 Revision A.03"
+    },
+    {
+      "key": "e_1_2_12_177_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "879",
+      "DOI": "10.1063/1.433929",
+      "article-title": "Self\u2010consistent molecular orbital methods. XIX. Split\u2010valence Gaussian\u2010type basis sets for beryllium",
+      "volume": "66",
+      "author": "Binkley JS",
+      "year": "1977",
+      "journal-title": "J Chem Phys"
+    },
+    {
+      "key": "e_1_2_12_178_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "294",
+      "DOI": "10.1002/jcc.540040303",
+      "article-title": "Efficient diffuse function\u2010augmented basis sets for anion calculations. III. The 3\u201021+G basis set for first\u2010row elements, Li\u2010F",
+      "volume": "4",
+      "author": "Clark T",
+      "year": "1983",
+      "journal-title": "J Comput Chem"
+    },
+    {
+      "key": "e_1_2_12_179_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "2921",
+      "DOI": "10.1063/1.430801",
+      "article-title": "Self\u2010consistent molecular orbital methods. XV. Extended Gaussian\u2010type basis sets for lithium, beryllium, and boron",
+      "volume": "62",
+      "author": "Dill JD",
+      "year": "1975",
+      "journal-title": "J Chem Phys"
+    },
+    {
+      "key": "e_1_2_12_180_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "724",
+      "DOI": "10.1063/1.1674902",
+      "article-title": "Self\u2010consistent molecular\u2010orbital methods. IX. An extended Gaussian\u2010type basis for molecular\u2010orbital studies of organic molecules",
+      "volume": "54",
+      "author": "Ditchfield R",
+      "year": "1971",
+      "journal-title": "J Chem Phys"
+    },
+    {
+      "key": "e_1_2_12_181_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "3654",
+      "DOI": "10.1063/1.444267",
+      "article-title": "Self\u2010consistent molecular orbital methods. XXIII. A polarization\u2010type basis set for second\u2010row elements",
+      "volume": "77",
+      "author": "Francl MM",
+      "year": "1982",
+      "journal-title": "J Chem Phys"
+    },
+    {
+      "key": "e_1_2_12_182_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "2797",
+      "DOI": "10.1021/ja00374a017",
+      "article-title": "Self\u2010consistent molecular\u2010orbital methods. 22. Small split\u2010valence basis sets for second\u2010row elements",
+      "volume": "104",
+      "author": "Gordon MS",
+      "year": "1982",
+      "journal-title": "J Am Chem Soc"
+    },
+    {
+      "key": "e_1_2_12_183_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "2257",
+      "DOI": "10.1063/1.1677527",
+      "article-title": "Self\u2010consistent molecular orbital methods. XII. Further extensions of Gaussian\u2010type basis sets for use in molecular orbital studies of organic molecules",
+      "volume": "56",
+      "author": "Hehre WJ",
+      "year": "1972",
+      "journal-title": "J Chem Phys"
+    },
+    {
+      "key": "e_1_2_12_184_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "1007",
+      "DOI": "10.1063/1.456153",
+      "article-title": "Gaussian basis sets for use in correlated molecular calculations. I. The atoms boron through neon and hydrogen",
+      "volume": "90",
+      "author": "Dunning TH",
+      "year": "1989",
+      "journal-title": "J Chem Phys"
+    },
+    {
+      "key": "e_1_2_12_185_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "6796",
+      "DOI": "10.1063/1.462569",
+      "article-title": "Electron affinities of the first\u2010row atoms revisited. Systematic basis sets and wave functions",
+      "volume": "96",
+      "author": "Kendall RA",
+      "year": "1992",
+      "journal-title": "J Chem Phys"
+    },
+    {
+      "key": "e_1_2_12_186_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "69",
+      "DOI": "10.1007/s00214-010-0764-0",
+      "article-title": "Gaussian basis sets for use in correlated molecular calculations. VII. Valence, core\u2010valence, and scalar relativistic basis sets for Li, Be, Na, and Mg",
+      "volume": "128",
+      "author": "Prascher BP",
+      "year": "2011",
+      "journal-title": "Theor Chem Acc"
+    },
+    {
+      "key": "e_1_2_12_187_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "1358",
+      "DOI": "10.1063/1.464303",
+      "article-title": "Gaussian basis sets for use in correlated molecular calculations. III. The atoms aluminum through argon",
+      "volume": "98",
+      "author": "Woon DE",
+      "year": "1993",
+      "journal-title": "J Chem Phys"
+    },
+    {
+      "key": "e_1_2_12_188_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "2975",
+      "DOI": "10.1063/1.466439",
+      "article-title": "Gaussian basis sets for use in correlated molecular calculations. IV. Calculation of static electrical response properties",
+      "volume": "100",
+      "author": "Woon DE",
+      "year": "1994",
+      "journal-title": "J Chem Phys"
+    },
+    {
+      "key": "e_1_2_12_189_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "1571",
+      "DOI": "10.1002/(SICI)1096-987X(199610)17:13<1571::AID-JCC9>3.0.CO;2-P",
+      "article-title": "The role of databases in support of computational chemistry calculations",
+      "volume": "17",
+      "author": "Feller D",
+      "year": "1996",
+      "journal-title": "J Comput Chem"
+    },
+    {
+      "key": "e_1_2_12_190_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "4814",
+      "DOI": "10.1021/acs.jcim.9b00725",
+      "article-title": "A new basis set exchange: an open, up\u2010to\u2010date resource for the molecular sciences community",
+      "volume": "59",
+      "author": "Pritchard BP",
+      "year": "2019",
+      "journal-title": "J Chem Inf Model"
+    },
+    {
+      "key": "e_1_2_12_191_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "1045",
+      "DOI": "10.1021/ci600510j",
+      "article-title": "Basis set exchange: a community database for computational sciences",
+      "volume": "47",
+      "author": "Schuchardt KL",
+      "year": "2007",
+      "journal-title": "J Chem Inf Model"
+    },
+    {
+      "key": "e_1_2_12_192_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "094105",
+      "DOI": "10.1063/1.4819401",
+      "article-title": "An efficient linear\u2010scaling CCSD(T) method based on local natural orbitals",
+      "volume": "139",
+      "author": "Rolik Z",
+      "year": "2013",
+      "journal-title": "J Chem Phys"
+    },
+    {
+      "key": "e_1_2_12_193_1",
+      "unstructured": "K\u00e1llayM RolikZ CsontosJ NagyP SamuG MesterD et al.MRCC quantum chemical program;2017."
+    },
+    {
+      "key": "e_1_2_12_194_1",
+      "unstructured": "ApplencourtT GasperichK ScemamaA.Spin adaptation with determinant\u2010based selected configuration interaction;2018."
+    },
+    {
+      "key": "e_1_2_12_195_1",
+      "unstructured": "TURBOMOLE V7.3 2018.A development of University of Karlsruhe and Forschungszentrum Karlsruhe GmbH 1989\u20132007 TURBOMOLE GmbH since 2007.http://www.turbomole.com. Accessed 13 Jun 2016."
+    },
+    {
+      "key": "e_1_2_12_196_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "21",
+      "DOI": "10.1016/0009-2614(94)00070-0",
+      "article-title": "A doubles correction to electronic excited states from configuration interaction in the space of single substitutions",
+      "volume": "219",
+      "author": "Head\u2010Gordon M",
+      "year": "1994",
+      "journal-title": "Chem Phys Lett"
+    },
+    {
+      "key": "e_1_2_12_197_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "114",
+      "DOI": "10.1016/0009-2614(95)01111-L",
+      "article-title": "A perturbative correction to restricted open\u2010shell configuration\u2010interaction with single substitutions for excited\u2010states of radicals",
+      "volume": "246",
+      "author": "Head\u2010Gordon M",
+      "year": "1995",
+      "journal-title": "Chem Phys Lett"
+    },
+    {
+      "key": "e_1_2_12_198_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "317",
+      "DOI": "10.1002/wcms.1122",
+      "article-title": "Q\u2010Chem: an engine for innovation",
+      "volume": "3",
+      "author": "Krylov AI",
+      "year": "2013",
+      "journal-title": "WIREs Comput Mol Sci"
+    },
+    {
+      "key": "e_1_2_12_199_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "1064",
+      "DOI": "10.1063/1.469817",
+      "article-title": "Perturbative treatment of the similarity transformed Hamiltonian in equation\u2010of\u2010motion coupled\u2010cluster approximations",
+      "volume": "103",
+      "author": "Stanton JF",
+      "year": "1995",
+      "journal-title": "J Chem Phys"
+    },
+    {
+      "key": "e_1_2_12_200_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "6402",
+      "DOI": "10.1063/1.1504708",
+      "article-title": "Electron excitation energies using a consistent third\u2010order propagator approach: comparison with full configuration interaction and coupled cluster results",
+      "volume": "117",
+      "author": "Trofimov AB",
+      "year": "2002",
+      "journal-title": "J Chem Phys"
+    },
+    {
+      "key": "e_1_2_12_201_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "064113",
+      "DOI": "10.1063/1.4892418",
+      "article-title": "The third\u2010order algebraic diagrammatic construction method (ADC(3)) for the polarization propagator for closed\u2010shell molecules: efficient implementation and benchmarking",
+      "volume": "141",
+      "author": "Harbach PHP",
+      "year": "2014",
+      "journal-title": "J Chem Phys"
+    },
+    {
+      "key": "e_1_2_12_202_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "153",
+      "DOI": "10.1016/S0301-0104(96)00303-5",
+      "article-title": "Polarization propagator study of electronic excitation in key heterocyclic molecules I. Pyrrole",
+      "volume": "214",
+      "author": "Trofimov AB",
+      "year": "1997",
+      "journal-title": "Chem Phys"
+    },
+    {
+      "key": "e_1_2_12_203_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "1451",
+      "DOI": "10.1063/1.472007",
+      "article-title": "Perturbative triple excitation corrections to coupled cluster singles and doubles excitation energies",
+      "volume": "105",
+      "author": "Christiansen O",
+      "year": "1996",
+      "journal-title": "J Chem Phys"
+    },
+    {
+      "key": "e_1_2_12_204_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "581",
+      "DOI": "10.1016/0009-2614(96)00708-7",
+      "article-title": "Iterative and non\u2010iterative triple excitation corrections in coupled\u2010cluster methods for excited electronic states: the EOM\u2010CCSDT\u20103 and EOM\u2010CCSD() methods",
+      "volume": "258",
+      "author": "Watts JD",
+      "year": "1996",
+      "journal-title": "Chem Phys Lett"
+    },
+    {
+      "key": "e_1_2_12_205_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "2339",
+      "DOI": "10.1021/ct1002016",
+      "article-title": "Parallel calculation of CCSDT and Mk\u2010MRCCSDT energies",
+      "volume": "6",
+      "author": "Prochnow E",
+      "year": "2010",
+      "journal-title": "J Chem Theory Comput"
+    },
+    {
+      "key": "e_1_2_12_206_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "73",
+      "DOI": "10.1002/wcms.81",
+      "article-title": "The ORCA program system",
+      "volume": "2",
+      "author": "Neese F",
+      "year": "2012",
+      "journal-title": "WIREs Comput Mol Sci"
+    },
+    {
+      "key": "e_1_2_12_207_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "6441",
+      "DOI": "10.1063/1.474000",
+      "article-title": "A new method for excited states: similarity transformed equation\u2010of\u2010motion coupled\u2010cluster theory",
+      "volume": "106",
+      "author": "Nooijen M",
+      "year": "1997",
+      "journal-title": "J Chem Phys"
+    },
+    {
+      "key": "e_1_2_12_208_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "72",
+      "DOI": "10.1021/acs.jctc.7b00802",
+      "article-title": "Exploring the accuracy of a low scaling similarity transformed equation of motion method for vertical excitation energies",
+      "volume": "14",
+      "author": "Dutta AK",
+      "year": "2018",
+      "journal-title": "J Chem Theory Comput"
+    },
+    {
+      "key": "e_1_2_12_209_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "044107",
+      "DOI": "10.1063/1.4776675",
+      "article-title": "Application of the scaled\u2010opposite\u2010spin approximation to algebraic diagrammatic construction schemes of second order",
+      "volume": "138",
+      "author": "Krauter CM",
+      "year": "2013",
+      "journal-title": "J Chem Phys"
+    },
+    {
+      "key": "e_1_2_12_210_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "4119",
+      "DOI": "10.1039/b803727b",
+      "article-title": "Benchmarking the performance of spin\u2010component scaled CC2 in ground and electronically excited states",
+      "volume": "10",
+      "author": "Hellweg A",
+      "year": "2008",
+      "journal-title": "Phys Chem Chem Phys"
+    },
+    {
+      "key": "e_1_2_12_211_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "3185",
+      "DOI": "10.1021/acs.jctc.7b00174",
+      "article-title": "Psi4 1.1: an open\u2010source electronic structure program emphasizing automation, advanced libraries, and interoperability",
+      "volume": "13",
+      "author": "Parrish RM",
+      "year": "2017",
+      "journal-title": "J Chem Theory Comput"
+    },
+    {
+      "key": "e_1_2_12_212_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "282",
+      "DOI": "10.1002/cphc.200800718",
+      "article-title": "Scaled MP3 non\u2010covalent interaction energies agree closely with accurate CCSD(T) benchmark data",
+      "volume": "10",
+      "author": "Pito\u0148\u00e1k M",
+      "year": "2009",
+      "journal-title": "ChemPhysChem"
+    },
+    {
+      "key": "e_1_2_12_213_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "974",
+      "DOI": "10.1021/acs.jpclett.9b03652",
+      "article-title": "Is ADC(3) as accurate as CC3 for valence and Rydberg transition energies?",
+      "volume": "11",
+      "author": "Loos PF",
+      "year": "2020",
+      "journal-title": "J Phys Chem Lett"
+    },
+    {
+      "key": "e_1_2_12_214_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "242",
+      "DOI": "10.1002/wcms.82",
+      "article-title": "Molpro: a general\u2010purpose quantum chemistry program package",
+      "volume": "2",
+      "author": "Werner HJ",
+      "year": "2011",
+      "journal-title": "WIREs Comput Mol Sci"
+    },
+    {
+      "key": "e_1_2_12_215_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "297",
+      "DOI": "10.1016/S0009-2614(01)01303-3",
+      "article-title": "N\u2010electron valence state perturbation theory: a fast implementation of the strongly contracted variant",
+      "volume": "350",
+      "author": "Angeli C",
+      "year": "2001",
+      "journal-title": "Chem Phys Lett"
+    },
+    {
+      "key": "e_1_2_12_216_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "10252",
+      "DOI": "10.1063/1.1361246",
+      "article-title": "Introduction of n\u2010electron valence states for multireference perturbation theory",
+      "volume": "114",
+      "author": "Angeli C",
+      "year": "2001",
+      "journal-title": "J Chem Phys"
+    },
+    {
+      "key": "e_1_2_12_217_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "9138",
+      "DOI": "10.1063/1.1515317",
+      "article-title": "N\u2010electron valence state perturbation theory: a spinless formulation and an efficient implementation of the strongly contracted and of the partially contracted variants",
+      "volume": "117",
+      "author": "Angeli C",
+      "year": "2002",
+      "journal-title": "J Chem Phys"
+    },
+    {
+      "key": "e_1_2_12_218_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "299",
+      "DOI": "10.1016/S0009-2614(98)00252-8",
+      "article-title": "The multi\u2010state CASPT2 method",
+      "volume": "288",
+      "author": "Finley J",
+      "year": "1998",
+      "journal-title": "Chem Phys Lett"
+    },
+    {
+      "key": "e_1_2_12_219_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "081106",
+      "DOI": "10.1063/1.3633329",
+      "article-title": "Communication: extended multi\u2010state complete active space second\u2010order perturbation theory: energy and nuclear gradients",
+      "volume": "135",
+      "author": "Shiozaki T",
+      "year": "2011",
+      "journal-title": "J Chem Phys"
+    },
+    {
+      "key": "e_1_2_12_220_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "19357",
+      "DOI": "10.1021/jp962071j",
+      "article-title": "ONIOM: a multilayered integrated MO + MM method for geometry optimizations and single point energy predictions. A test for Diels\u2013Alder reactions and Pt(P(t\u2010Bu)3)2\u2009+\u2009H2 oxidative addition",
+      "volume": "100",
+      "author": "Svensson M",
+      "year": "1996",
+      "journal-title": "J Phys Chem"
+    },
+    {
+      "key": "e_1_2_12_221_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "3654",
+      "DOI": "10.1063/1.472235",
+      "article-title": "Energetics using the single point IMOMO (integrated molecular orbital\u2009+\u2009molecular orbital) calculations: choices of computational levels and model system",
+      "volume": "105",
+      "author": "Svensson M",
+      "year": "1996",
+      "journal-title": "J Chem Phys"
+    },
+    {
+      "key": "e_1_2_12_222_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "370",
+      "DOI": "10.1021/ct9005129",
+      "article-title": "Electronic transition energies: a study of the performance of a large range of single reference density functional and wave function methods on valence and Rydberg states compared to experiment",
+      "volume": "6",
+      "author": "Caricato M",
+      "year": "2010",
+      "journal-title": "J Chem Theory Comput"
+    },
+    {
+      "key": "e_1_2_12_223_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "2569",
+      "DOI": "10.1021/jp308634q",
+      "article-title": "Benchmarking for perturbative triple\u2010excitations in EE\u2010EOM\u2010CC methods",
+      "volume": "117",
+      "author": "Watson TJ",
+      "year": "2013",
+      "journal-title": "J Phys Chem A"
+    },
+    {
+      "key": "e_1_2_12_224_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "3757",
+      "DOI": "10.1021/ct500495n",
+      "article-title": "Benchmarking coupled cluster methods on valence singlet excited states",
+      "volume": "10",
+      "author": "K\u00e1nn\u00e1r D",
+      "year": "2014",
+      "journal-title": "J Chem Theory Comput"
+    },
+    {
+      "key": "e_1_2_12_225_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "202",
+      "DOI": "10.1021/acs.jctc.6b00875",
+      "article-title": "Accuracy of coupled cluster excitation energies in diffuse basis sets",
+      "volume": "13",
+      "author": "K\u00e1nn\u00e1r D",
+      "year": "2017",
+      "journal-title": "J Chem Theory Comput"
+    },
+    {
+      "key": "e_1_2_12_226_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "164125",
+      "DOI": "10.1063/1.5093606",
+      "article-title": "Similarities and differences of the Lagrange formalism and the intermediate state representation in the treatment of molecular properties",
+      "volume": "150",
+      "author": "Hodecker M",
+      "year": "2019",
+      "journal-title": "J Chem Phys"
+    },
+    {
+      "key": "e_1_2_12_227_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "154107",
+      "DOI": "10.1063/5.0024791",
+      "article-title": "Ground and excited state first\u2010order properties in many\u2010body expanded full configuration interaction theory",
+      "volume": "153",
+      "author": "Eriksen JJ",
+      "year": "2020",
+      "journal-title": "J Chem Phys"
+    },
+    {
+      "key": "e_1_2_12_228_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "416",
+      "DOI": "10.1021/acs.jctc.0c01111",
+      "article-title": "A mountaineering strategy to excited states: highly\u2010accurate oscillator strengths and dipole moments of small molecules",
+      "volume": "17",
+      "author": "Chrayteh A",
+      "year": "2021",
+      "journal-title": "J Chem Theory Comput"
+    },
+    {
+      "key": "e_1_2_12_229_1",
+      "author": "Sarkar R",
+      "year": "2021",
+      "article-title": "Benchmarking TD\u2010DFT and Wave Function Methods for Oscillator Strengths and Excited\u2010State Dipole Moments",
+      "journal-title": "Journal of Chemical Theory and Computation",
+      "DOI": "10.1021/acs.jctc.0c01228",
+      "doi-asserted-by": "crossref"
+    },
+    {
+      "key": "e_1_2_12_230_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "1534",
+      "DOI": "10.1021/acs.jctc.7b01224",
+      "article-title": "What is the key for accurate absorption and emission calculations, energy or geometry ?",
+      "volume": "14",
+      "author": "Jacquemin D",
+      "year": "2018",
+      "journal-title": "J Chem Theory Comput"
+    },
+    {
+      "key": "e_1_2_12_231_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "27735",
+      "DOI": "10.1039/C8CP05554H",
+      "article-title": "\u2018Diet GMTKN55\u2019 offers accelerated benchmarking through a representative subset approach",
+      "volume": "20",
+      "author": "Gould T",
+      "year": "2018",
+      "journal-title": "Phys Chem Chem Phys"
+    }
+  ],
+  "container-title": [
+    "WIREs Computational Molecular Science"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+    {
+      "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/wcms.1517",
+      "content-type": "application/pdf",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    },
+    {
+      "URL": "https://onlinelibrary.wiley.com/doi/full-xml/10.1002/wcms.1517",
+      "content-type": "application/xml",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    },
+    {
+      "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/wcms.1517",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2021,
+        2,
+        20
+      ]
+    ],
+    "date-time": "2021-02-20T10:08:43Z",
+    "timestamp": 1613815723000
+  },
+  "score": 1.0,
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2021,
+        2,
+        17
+      ]
+    ]
+  },
+  "references-count": 230,
+  "alternative-id": [
+    "10.1002/wcms.1517"
+  ],
+  "URL": "http://dx.doi.org/10.1002/wcms.1517",
+  "archive": [
+    "Portico"
+  ],
+  "relation": {
+    "cites": []
+  },
+  "ISSN": [
+    "1759-0876",
+    "1759-0884"
+  ],
+  "issn-type": [
+    {
+      "value": "1759-0876",
+      "type": "print"
+    },
+    {
+      "value": "1759-0884",
+      "type": "electronic"
+    }
+  ],
+  "subject": [
+    "Physical and Theoretical Chemistry",
+    "Materials Chemistry",
+    "Biochemistry",
+    "Computational Mathematics",
+    "Computer Science Applications"
+  ],
+  "assertion": [
+    {
+      "value": "2020-12-02",
+      "order": 0,
+      "name": "received",
+      "label": "Received",
+      "group": {
+        "name": "publication_history",
+        "label": "Publication History"
+      }
+    },
+    {
+      "value": "2021-01-07",
+      "order": 1,
+      "name": "accepted",
+      "label": "Accepted",
+      "group": {
+        "name": "publication_history",
+        "label": "Publication History"
+      }
+    },
+    {
+      "value": "2021-02-17",
+      "order": 2,
+      "name": "published",
+      "label": "Published",
+      "group": {
+        "name": "publication_history",
+        "label": "Publication History"
+      }
+    }
+  ]
 }
