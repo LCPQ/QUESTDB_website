@@ -11,7 +11,7 @@ theme = "beautifulhugo"
 [Params]
   hometitle = "QUESTDB"
   logo="img/TOC_JPCL.png"
-  subtitle = "QUantum Excited STates DataBase"
+  subtitle = "QUantum Excited STate DataBase"
 [[Params.bigimg]]
   src = "img/QUEST-home.png"
   desc = "A mountaineering strategy to excited states"
