@@ -1,33 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://lcpq.github.io/QUESTDB_website/categories/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lcpq.github.io/QUESTDB_website/dataset/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lcpq.github.io/QUESTDB_website/references/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lcpq.github.io/QUESTDB_website/subsets/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lcpq.github.io/QUESTDB_website/tags/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lcpq.github.io/QUESTDB_website/view/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://lcpq.github.io/QUESTDB_website/</loc>
   </url>
-  
 </urlset>
