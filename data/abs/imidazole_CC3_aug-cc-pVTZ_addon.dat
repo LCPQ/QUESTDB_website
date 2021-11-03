@@ -8,10 +8,11 @@
 # Initial state            Final state                        Transition                    Energies (eV)   %T1    Oscillator strength    unsafe
 #######################  #######################  ########################################  ############# ####### ##################### #############
 # Number  Spin  Symm       Number  Spin  Symm         type                                    E_abs         %T1            f            is unsafe
-  1       1     A^\prime   1       1     A^{\prime\prime} (\mathrm{R}; \pi \rightarrow 3s)        5.71          _              _            false
-  1       1     A^\prime   2       1     A^\prime     (\mathrm{V}; \pi \rightarrow \pi^\star) 6.41          _              _            false
-  1       1     A^\prime   2       1     A^{\prime\prime} (\mathrm{V}; n \rightarrow \pi^\star)   6.50          _              _            false
-  1       1     A^\prime   1       3     A^\prime     (\mathrm{V}; \pi \rightarrow \pi^\star) 4.75          _              _            false
-  1       1     A^\prime   1       3     A^{\prime\prime} (\mathrm{R}; \pi \rightarrow 3s)        5.67          _              _            false
-  1       1     A^\prime   2       3     A^\prime     (\mathrm{V}; \pi \rightarrow \pi^\star) 5.74          _              _            false
-  1       1     A^\prime   2       3     A^{\prime\prime} (\mathrm{V}; n \rightarrow \pi^\star)   6.33          _              _            false
+  1       1     A^\prime   1       1     A^{\prime\prime} (\mathrm{R};\pi \rightarrow 3s)         5.71          93.0           0.001        false
+  1       1     A^\prime   2       1     A^\prime     (\mathrm{V};\pi \rightarrow \pi^\star)  6.41          89.6           0.124        false
+  1       1     A^\prime   2       1     A^{\prime\prime} (\mathrm{V};n \rightarrow \pi^\star)    6.50          93.6           0.028        false
+  1       1     A^\prime   3       1     A^\prime     (\mathrm{R};\pi \rightarrow 3p)         6.87          88.9           0.035        true
+  1       1     A^\prime   1       3     A^\prime     (\mathrm{V};\pi \rightarrow \pi^\star)  4.75          98.3           _            false
+  1       1     A^\prime   1       3     A^{\prime\prime} (\mathrm{R};\pi \rightarrow 3s)         5.67          97.6           _            false
+  1       1     A^\prime   2       3     A^\prime     (\mathrm{V};\pi \rightarrow \pi^\star)  5.74          97.9           _            false
+  1       1     A^\prime   2       3     A^{\prime\prime} (\mathrm{V};n \rightarrow \pi^\star)    6.33          97.3           _            false

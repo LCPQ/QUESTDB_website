@@ -8,16 +8,16 @@
 # Initial state            Final state                        Transition                    Energies (eV)   %T1    Oscillator strength    unsafe
 #######################  #######################  ########################################  ############# ####### ##################### #############
 # Number  Spin  Symm       Number  Spin  Symm         type                                    E_abs         %T1            f            is unsafe
-  1       1     A_1        1       1     A_2          (\mathrm{V}; n \rightarrow \pi^\star)   3.98          91.5           _            false
+  1       1     A_1        1       1     A_2          (\mathrm{V};n \rightarrow \pi^\star)    3.98          91.5           _            false
   1       1     A_1        1       1     B_2          (\mathrm{R};n \rightarrow 3s)           7.23          91.7           0.021        false
   1       1     A_1        2       1     B_2          (\mathrm{R};n \rightarrow 3p)           8.13          92.4           0.037        false
   1       1     A_1        2       1     A_1          (\mathrm{R};n \rightarrow 3p)           8.23          91.9           0.052        false
   1       1     A_1        2       1     A_2          (\mathrm{R};n \rightarrow 3p)           8.67          91.7           _            false
-  1       1     A_1        1       1     B_1          (\mathrm{V};\sigma \rightarrow \pi^\star) 9.22          90.8           0.001        false
+  1       1     A_1        1       1     B_1          (\mathrm{V})                            9.22          90.8           0.001        false
   1       1     A_1        3       1     A_1          (\mathrm{V};\pi \rightarrow \pi^\star)  9.43          90.4           0.135        false
   1       1     A_1        1       3     A_2          (\mathrm{V};n \rightarrow \pi^\star)    3.58          98.1           _            false
   1       1     A_1        1       3     A_1          (\mathrm{V};\pi \rightarrow \pi^\star)  6.06          99.0           _            false
   1       1     A_1        1       3     B_2          (\mathrm{R};n \rightarrow 3s)           7.06          97.1           _            false
   1       1     A_1        2       3     B_2          (\mathrm{R};n \rightarrow 3p)           7.94          97.4           _            false
   1       1     A_1        2       3     A_1          (\mathrm{R};n \rightarrow 3p)           8.10          97.2           _            false
-  1       1     A_1        1       3     B_1          (\mathrm{R};n \rightarrow 3d)           8.42          97.9           _            false
+  1       1     A_1        1       3     B_1          (\mathrm{R})                            8.42          97.9           _            false

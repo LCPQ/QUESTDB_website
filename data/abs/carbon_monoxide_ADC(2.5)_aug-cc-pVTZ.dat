@@ -8,12 +8,12 @@
 # Initial state            Final state                        Transition                    Energies (eV)   %T1    Oscillator strength    unsafe
 #######################  #######################  ########################################  ############# ####### ##################### #############
 # Number  Spin  Symm       Number  Spin  Symm         type                                    E_abs         %T1            f            is unsafe
-  1       1     \Sigma^+   1       1     \Pi          (\mathrm{V};n \rightarrow \pi^\star)    8.46          _              _            false
+  1       1     \Sigma^+   1       1     \Pi          (\mathrm{V};n \rightarrow \pi^\star)    8.47          _              _            false
   1       1     \Sigma^+   1       1     \Sigma^-     (\mathrm{V};\pi \rightarrow \pi^\star)  9.88          _              _            false
   1       1     \Sigma^+   1       1     \Delta       (\mathrm{V};\pi \rightarrow \pi^\star)  10.06         _              _            false
-  1       1     \Sigma^+   2       1     \Sigma^+     (\mathrm{R})                            11.05         _              _            false
+  1       1     \Sigma^+   2       1     \Sigma^+     (\mathrm{R})                            11.06         _              _            false
   1       1     \Sigma^+   3       1     \Sigma^+     (\mathrm{R})                            11.58         _              _            false
-  1       1     \Sigma^+   2       1     \Pi          (\mathrm{R})                            11.79         _              _            false
+  1       1     \Sigma^+   2       1     \Pi          (\mathrm{R})                            11.80         _              _            false
   1       1     \Sigma^+   1       3     \Pi          (\mathrm{V};n \rightarrow \pi^\star)    6.21          _              _            false
   1       1     \Sigma^+   1       3     \Sigma^+     (\mathrm{V};\pi \rightarrow \pi^\star)  8.38          _              _            false
   1       1     \Sigma^+   1       3     \Delta       (\mathrm{V};\pi \rightarrow \pi^\star)  9.18          _              _            false

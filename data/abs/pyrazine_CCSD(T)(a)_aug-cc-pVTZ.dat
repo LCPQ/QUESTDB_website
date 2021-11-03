@@ -1,0 +1,21 @@
+# Molecule : Pyrazine
+# Comment  : 
+# code     : 
+# method   : CCSD(T)(a)*,aug-cc-pVTZ
+# geom     : CC3,aug-cc-pVTZ
+# set      : QUEST#3,0
+
+# Initial state            Final state                        Transition                    Energies (eV)   %T1    Oscillator strength    unsafe
+#######################  #######################  ########################################  ############# ####### ##################### #############
+# Number  Spin  Symm       Number  Spin  Symm         type                                    E_abs         %T1            f            is unsafe
+  1       1     A_g        1       1     B_{3u}       (\mathrm{V};n \rightarrow \pi^\star)    4.21          _              _            false
+  1       1     A_g        1       1     A_u          (\mathrm{V};n \rightarrow \pi^\star)    5.04          _              _            false
+  1       1     A_g        1       1     B_{2u}       (\mathrm{V};\pi \rightarrow \pi^\star)  5.09          _              _            false
+  1       1     A_g        1       1     B_{2g}       (\mathrm{V};n \rightarrow \pi^\star)    5.85          _              _            false
+  1       1     A_g        2       1     A_g          (\mathrm{R};n \rightarrow 3s)           6.70          _              _            false
+  1       1     A_g        1       1     B_{1g}       (\mathrm{V};n \rightarrow \pi^\star)    6.85          _              _            false
+  1       1     A_g        1       1     B_{1u}       (\mathrm{V};\pi \rightarrow \pi^\star)  6.91          _              _            false
+  1       1     A_g        2       1     B_{1g}       (\mathrm{R};\pi \rightarrow 3s)         7.22          _              _            false
+  1       1     A_g        2       1     B_{2u}       (\mathrm{R};n \rightarrow 3p)           7.31          _              _            false
+  1       1     A_g        2       1     B_{1u}       (\mathrm{R};n \rightarrow 3p)           7.50          _              _            false
+  1       1     A_g        3       1     B_{1u}       (\mathrm{V};\pi \rightarrow \pi^\star)  8.00          _              _            true

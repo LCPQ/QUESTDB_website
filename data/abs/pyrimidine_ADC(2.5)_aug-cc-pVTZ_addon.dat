@@ -8,13 +8,14 @@
 # Initial state            Final state                        Transition                    Energies (eV)   %T1    Oscillator strength    unsafe
 #######################  #######################  ########################################  ############# ####### ##################### #############
 # Number  Spin  Symm       Number  Spin  Symm         type                                    E_abs         %T1            f            is unsafe
-  1       1     A_1        1       1     B_1          (\mathrm{V}; n \rightarrow \pi^\star)   4.46          _              _            false
-  1       1     A_1        1       1     A_2          (\mathrm{V}; n \rightarrow \pi^\star)   4.89          _              _            false
-  1       1     A_1        1       1     B_2          (\mathrm{V}; \pi \rightarrow \pi^\star) 5.42          _              _            false
-  1       1     A_1        2       1     A_2          (\mathrm{V}; n \rightarrow \pi^\star)   6.00          _              _            false
-  1       1     A_1        2       1     B_1          (\mathrm{V}; n \rightarrow \pi^\star)   6.37          _              _            false
-  1       1     A_1        2       1     B_2          (\mathrm{R}; n \rightarrow 3s)          6.68          _              _            false
-  1       1     A_1        2       1     A_1          (\mathrm{V}; \pi \rightarrow \pi^\star) 6.67          _              _            false
-  1       1     A_1        1       3     B_1          (\mathrm{V}; n \rightarrow \pi^\star)   4.08          _              _            false
-  1       1     A_1        1       3     A_2          (\mathrm{V}; n \rightarrow \pi^\star)   4.66          _              _            false
-  1       1     A_1        1       3     B_2          (\mathrm{V}; \pi \rightarrow \pi^\star) 4.88          _              _            false
+  1       1     A_1        1       1     B_1          (\mathrm{V};n \rightarrow \pi^\star)    4.46          _              _            false
+  1       1     A_1        1       1     A_2          (\mathrm{V};n \rightarrow \pi^\star)    4.90          _              _            false
+  1       1     A_1        1       1     B_2          (\mathrm{V};\pi \rightarrow \pi^\star)  5.43          _              _            false
+  1       1     A_1        2       1     A_2          (\mathrm{V};n \rightarrow \pi^\star)    6.01          _              _            false
+  1       1     A_1        2       1     B_1          (\mathrm{V};n \rightarrow \pi^\star)    6.37          _              _            false
+  1       1     A_1        2       1     B_2          (\mathrm{R};n \rightarrow 3s)           6.68          _              _            false
+  1       1     A_1        2       1     A_1          (\mathrm{V};\pi \rightarrow \pi^\star)  6.68          _              _            false
+  1       1     A_1        1       3     B_1          (\mathrm{V};n \rightarrow \pi^\star)    4.09          _              _            false
+  1       1     A_1        1       3     A_1          (\mathrm{V};\pi \rightarrow \pi^\star)  4.50          _              _            true
+  1       1     A_1        1       3     A_2          (\mathrm{V};n \rightarrow \pi^\star)    4.66          _              _            false
+  1       1     A_1        1       3     B_2          (\mathrm{V};\pi \rightarrow \pi^\star)  4.89          _              _            false

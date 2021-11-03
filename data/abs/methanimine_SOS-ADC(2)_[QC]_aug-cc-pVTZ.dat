@@ -1,0 +1,12 @@
+# Molecule : Methanimine
+# Comment  : 
+# code     : 
+# method   : SOS-ADC(2) [QC],aug-cc-pVTZ
+# geom     : CC3,aug-cc-pVTZ
+# set      : QUEST#1,2
+
+# Initial state            Final state                        Transition                    Energies (eV)   %T1    Oscillator strength    unsafe
+#######################  #######################  ########################################  ############# ####### ##################### #############
+# Number  Spin  Symm       Number  Spin  Symm         type                                    E_abs         %T1            f            is unsafe
+  1       1     A^\prime   1       1     A^{\prime\prime} (\mathrm{V};n \rightarrow \pi^\star)    5.28          _              _            false
+  1       1     A^\prime   1       3     A^{\prime\prime} (\mathrm{V};n \rightarrow \pi^\star)    4.72          _              _            false

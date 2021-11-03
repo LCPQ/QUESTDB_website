@@ -1,0 +1,13 @@
+# Molecule : Cyclopentadienethione
+# Comment  : 
+# code     : 
+# method   : CCSD(T)(a)*,aug-cc-pVTZ
+# geom     : CC3,aug-cc-pVTZ
+# set      : QUEST#5,0
+
+# Initial state            Final state                        Transition                    Energies (eV)   %T1    Oscillator strength    unsafe
+#######################  #######################  ########################################  ############# ####### ##################### #############
+# Number  Spin  Symm       Number  Spin  Symm         type                                    E_abs         %T1            f            is unsafe
+  1       1     A_1        1       1     A_2          (\mathrm{V};n \rightarrow \pi^\star)    1.74          _              _            false
+  1       1     A_1        1       1     B_2          (\mathrm{V};\pi \rightarrow \pi^\star)  2.72          _              _            false
+  1       1     A_1        2       1     A_1          (\mathrm{V};\pi \rightarrow \pi^\star)  4.97          _              _            false

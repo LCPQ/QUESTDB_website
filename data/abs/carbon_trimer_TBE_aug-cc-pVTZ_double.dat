@@ -1,0 +1,12 @@
+# Molecule : Carbon trimer
+# Comment  : 
+# code     : 
+# method   : TBE,aug-cc-pVTZ
+# geom     : CC3,aug-cc-pVTZ
+# set      : QUEST#2,0
+
+# Initial state            Final state                        Transition                    Energies (eV)   %T1    Oscillator strength    unsafe
+#######################  #######################  ########################################  ############# ####### ##################### #############
+# Number  Spin  Symm       Number  Spin  Symm         type                                    E_abs         %T1            f            is unsafe
+  1       1     A_1        1       1     \Delta_g     (\mathrm{R};double)                     5.22          1.0            _            false
+  1       1     A_1        1       1     \Sigma_g^+   (\mathrm{R};double)                     5.91          1.0            _            false

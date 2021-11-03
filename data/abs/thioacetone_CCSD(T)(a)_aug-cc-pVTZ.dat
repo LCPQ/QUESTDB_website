@@ -1,0 +1,15 @@
+# Molecule : Thioacetone
+# Comment  : 
+# code     : 
+# method   : CCSD(T)(a)*,aug-cc-pVTZ
+# geom     : CC3,aug-cc-pVTZ
+# set      : QUEST#3,2
+
+# Initial state            Final state                        Transition                    Energies (eV)   %T1    Oscillator strength    unsafe
+#######################  #######################  ########################################  ############# ####### ##################### #############
+# Number  Spin  Symm       Number  Spin  Symm         type                                    E_abs         %T1            f            is unsafe
+  1       1     A_1        1       1     A_2          (\mathrm{V};n \rightarrow \pi^\star)    2.55          _              _            false
+  1       1     A_1        1       1     B_2          (\mathrm{R};n \rightarrow 3s)           5.57          _              _            false
+  1       1     A_1        2       1     A_1          (\mathrm{V};\pi \rightarrow \pi^\star)  5.92          _              _            false
+  1       1     A_1        2       1     B_2          (\mathrm{R};n \rightarrow 3p)           6.52          _              _            false
+  1       1     A_1        3       1     A_1          (\mathrm{R};n \rightarrow 3p)           6.62          _              _            false

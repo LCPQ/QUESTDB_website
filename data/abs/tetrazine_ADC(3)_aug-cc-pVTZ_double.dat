@@ -1,0 +1,13 @@
+# Molecule : Tetrazine
+# Comment  : 
+# code     : 
+# method   : ADC(3),aug-cc-pVTZ
+# geom     : CC3,aug-cc-pVTZ
+# set      : QUEST#2,0
+
+# Initial state            Final state                        Transition                    Energies (eV)   %T1    Oscillator strength    unsafe
+#######################  #######################  ########################################  ############# ####### ##################### #############
+# Number  Spin  Symm       Number  Spin  Symm         type                                    E_abs         %T1            f            is unsafe
+  1       1     A_g        2       1     A_g          (\mathrm{V};double)                     4.54          _              _            true
+  1       1     A_g        1       1     B_{3g}       (\mathrm{V};double)                     6.54          _              _            true
+  1       1     A_g        1       3     B_{3g}       (\mathrm{V};double)                     6.34          _              _            true

@@ -1,0 +1,16 @@
+# Molecule : Carbon monoxide
+# Comment  : 
+# code     : 
+# method   : CCSD(T)(a)*,aug-cc-pVTZ
+# geom     : CC3,aug-cc-pVTZ
+# set      : QUEST#1,2
+
+# Initial state            Final state                        Transition                    Energies (eV)   %T1    Oscillator strength    unsafe
+#######################  #######################  ########################################  ############# ####### ##################### #############
+# Number  Spin  Symm       Number  Spin  Symm         type                                    E_abs         %T1            f            is unsafe
+  1       1     \Sigma^+   1       1     \Pi          (\mathrm{V};n \rightarrow \pi^\star)    8.51          _              _            false
+  1       1     \Sigma^+   1       1     \Sigma^-     (\mathrm{V};\pi \rightarrow \pi^\star)  9.98          _              _            false
+  1       1     \Sigma^+   1       1     \Delta       (\mathrm{V};\pi \rightarrow \pi^\star)  10.12         _              _            false
+  1       1     \Sigma^+   2       1     \Sigma^+     (\mathrm{R})                            10.99         _              _            false
+  1       1     \Sigma^+   3       1     \Sigma^+     (\mathrm{R})                            11.52         _              _            false
+  1       1     \Sigma^+   2       1     \Pi          (\mathrm{R})                            11.73         _              _            false

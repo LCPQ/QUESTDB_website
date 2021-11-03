@@ -8,11 +8,11 @@
 # Initial state            Final state                        Transition                    Energies (eV)   %T1    Oscillator strength    unsafe
 #######################  #######################  ########################################  ############# ####### ##################### #############
 # Number  Spin  Symm       Number  Spin  Symm         type                                    E_abs         %T1            f            is unsafe
-  1       1     A_{1g}     1       1     B_{2u}       (\mathrm{V}; \pi \rightarrow \pi^\star) 5.01          _              _            false
-  1       1     A_{1g}     1       1     B_{1u}       (\mathrm{V}; \pi \rightarrow \pi^\star) 6.24          _              _            false
-  1       1     A_{1g}     1       1     E_{1g}       (\mathrm{R}; \pi \rightarrow 3s)        6.38          _              _            false
-  1       1     A_{1g}     1       1     A_{2u}       (\mathrm{R}; \pi \rightarrow 3p)        6.92          _              _            false
-  1       1     A_{1g}     1       1     E_{2u}       (\mathrm{R}; \pi \rightarrow 3p)        7.00          _              _            false
-  1       1     A_{1g}     1       3     B_{1u}       (\mathrm{V}; \pi \rightarrow \pi^\star) 3.94          _              _            false
-  1       1     A_{1g}     1       3     E_{1u}       (\mathrm{V}; \pi \rightarrow \pi^\star) 4.60          _              _            false
-  1       1     A_{1g}     1       3     B_{2u}       (\mathrm{V}; \pi \rightarrow \pi^\star) 5.51          _              _            false
+  1       1     A_{1g}     1       1     B_{2u}       (\mathrm{V};\pi \rightarrow \pi^\star)  5.01          _              _            false
+  1       1     A_{1g}     1       1     B_{1u}       (\mathrm{V};\pi \rightarrow \pi^\star)  6.24          _              _            false
+  1       1     A_{1g}     1       1     E_{1g}       (\mathrm{R};\pi \rightarrow 3s)         6.38          _              _            false
+  1       1     A_{1g}     1       1     A_{2u}       (\mathrm{R};\pi \rightarrow 3p)         6.92          _              _            false
+  1       1     A_{1g}     1       1     E_{2u}       (\mathrm{R};\pi \rightarrow 3p)         7.00          _              _            false
+  1       1     A_{1g}     1       3     B_{1u}       (\mathrm{V};\pi \rightarrow \pi^\star)  3.94          _              _            false
+  1       1     A_{1g}     1       3     E_{1u}       (\mathrm{V};\pi \rightarrow \pi^\star)  4.60          _              _            false
+  1       1     A_{1g}     1       3     B_{2u}       (\mathrm{V};\pi \rightarrow \pi^\star)  5.51          _              _            false

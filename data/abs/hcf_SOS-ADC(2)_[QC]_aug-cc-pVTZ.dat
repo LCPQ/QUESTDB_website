@@ -1,0 +1,11 @@
+# Molecule : \ce{HCF}
+# Comment  : 
+# code     : 
+# method   : SOS-ADC(2) [QC],aug-cc-pVTZ
+# geom     : CC3,aug-cc-pVTZ
+# set      : QUEST#4,1
+
+# Initial state            Final state                        Transition                    Energies (eV)   %T1    Oscillator strength    unsafe
+#######################  #######################  ########################################  ############# ####### ##################### #############
+# Number  Spin  Symm       Number  Spin  Symm         type                                    E_abs         %T1            f            is unsafe
+  1       1     A^\prime   1       1     A^{\prime\prime} (\mathrm{V};\sigma \rightarrow \pi^\star) 2.38          _              _            false

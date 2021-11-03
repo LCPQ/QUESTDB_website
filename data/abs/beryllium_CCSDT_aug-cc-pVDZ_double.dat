@@ -8,4 +8,4 @@
 # Initial state            Final state                        Transition                    Energies (eV)   %T1    Oscillator strength    unsafe
 #######################  #######################  ########################################  ############# ####### ##################### #############
 # Number  Spin  Symm       Number  Spin  Symm         type                                    E_abs         %T1            f            is unsafe
-  1       1     S          1       1     D            (2s,2s \rightarrow 2p,2p)               7.22          _              _            false
+  1       1     S          1       1     D            (\mathrm{R};double)                     7.22          _              _            false

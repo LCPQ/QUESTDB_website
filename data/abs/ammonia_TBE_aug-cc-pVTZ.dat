@@ -11,5 +11,5 @@
   1       1     A_1        1       1     A_2          (\mathrm{R};n \rightarrow 3s)           6.59          93.5           0.086        false
   1       1     A_1        1       1     E            (\mathrm{R};n \rightarrow 3p)           8.16          93.7           0.006        false
   1       1     A_1        2       1     A_1          (\mathrm{R};n \rightarrow 3p)           9.33          94.0           0.003        false
-  1       1     A_1        2       1     A_2          (\mathrm{R};n \rightarrow 4s)           9.96          93.6           0.008        false
+  1       1     A_1        2       1     A_2          (\mathrm{R};n \rightarrow 3s)           9.96          93.6           0.008        false
   1       1     A_1        1       3     A_2          (\mathrm{R};n \rightarrow 3s)           6.31          98.2           _            false

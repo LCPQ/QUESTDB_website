@@ -8,12 +8,12 @@
 # Initial state            Final state                        Transition                    Energies (eV)   %T1    Oscillator strength    unsafe
 #######################  #######################  ########################################  ############# ####### ##################### #############
 # Number  Spin  Symm       Number  Spin  Symm         type                                    E_abs         %T1            f            is unsafe
-  1       1     A_g        1       1     B_u          (\mathrm{V}; \pi \rightarrow \pi^\star) 6.22          _              _            false
-  1       1     A_g        1       1     B_g          (\mathrm{R}; \pi \rightarrow 3s)        6.33          _              _            false
-  1       1     A_g        2       1     A_g          (\mathrm{V}; \pi \rightarrow \pi^\star) 6.67          _              _            false
-  1       1     A_g        1       1     A_u          (\mathrm{R}; \pi \rightarrow 3p)        6.64          _              _            false
-  1       1     A_g        2       1     A_u          (\mathrm{R}; \pi \rightarrow 3p)        6.80          _              _            false
-  1       1     A_g        2       1     B_u          (\mathrm{R}; \pi \rightarrow 3p)        7.68          _              _            false
-  1       1     A_g        1       3     B_u          (\mathrm{V}; \pi \rightarrow \pi^\star) 3.36          _              _            false
-  1       1     A_g        1       3     A_g          (\mathrm{V}; \pi \rightarrow \pi^\star) 5.20          _              _            false
-  1       1     A_g        1       3     B_g          (\mathrm{R}; \pi \rightarrow 3s)        6.28          _              _            false
+  1       1     A_g        1       1     B_u          (\mathrm{V};\pi \rightarrow \pi^\star)  6.22          93.3           0.664        false
+  1       1     A_g        1       1     B_g          (\mathrm{R};\pi \rightarrow 3s)         6.33          94.1           _            false
+  1       1     A_g        2       1     A_g          (\mathrm{V};\pi \rightarrow \pi^\star)  6.67          75.1           _            false
+  1       1     A_g        1       1     A_u          (\mathrm{R};\pi \rightarrow 3p)         6.64          94.1           0.001        false
+  1       1     A_g        2       1     A_u          (\mathrm{R};\pi \rightarrow 3p)         6.80          94.1           0.049        false
+  1       1     A_g        2       1     B_u          (\mathrm{R};\pi \rightarrow 3p)         7.68          93.8           0.055        false
+  1       1     A_g        1       3     B_u          (\mathrm{V};\pi \rightarrow \pi^\star)  3.36          98.4           _            false
+  1       1     A_g        1       3     A_g          (\mathrm{V};\pi \rightarrow \pi^\star)  5.20          98.7           _            false
+  1       1     A_g        1       3     B_g          (\mathrm{R};\pi \rightarrow 3s)         6.28          97.9           _            false

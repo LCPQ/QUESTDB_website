@@ -8,7 +8,7 @@
 # Initial state            Final state                        Transition                    Energies (eV)   %T1    Oscillator strength    unsafe
 #######################  #######################  ########################################  ############# ####### ##################### #############
 # Number  Spin  Symm       Number  Spin  Symm         type                                    E_abs         %T1            f            is unsafe
-  1       1     \Sigma^+   1       1     \Sigma^-     (\mathrm{V}; \pi \rightarrow \pi^\star) 5.68          _              _            false
-  1       1     \Sigma^+   1       1     \Delta       (\mathrm{V}; \pi \rightarrow \pi^\star) 5.95          _              _            false
-  1       1     \Sigma^+   1       3     \Sigma^+     (\mathrm{V}; \pi \rightarrow \pi^\star) 4.44          _              _            false
-  1       1     \Sigma^+   1       3     \Delta       (\mathrm{V}; \pi \rightarrow \pi^\star) 5.13          _              _            false
+  1       1     \Sigma^+   1       1     \Sigma^-     (\mathrm{V};\pi \rightarrow \pi^\star)  5.68          _              _            false
+  1       1     \Sigma^+   1       1     \Delta       (\mathrm{V};\pi \rightarrow \pi^\star)  5.95          _              _            false
+  1       1     \Sigma^+   1       3     \Sigma^+     (\mathrm{V};\pi \rightarrow \pi^\star)  4.44          _              _            false
+  1       1     \Sigma^+   1       3     \Delta       (\mathrm{V};\pi \rightarrow \pi^\star)  5.13          _              _            false

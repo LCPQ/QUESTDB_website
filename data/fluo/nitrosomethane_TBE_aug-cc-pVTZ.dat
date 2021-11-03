@@ -8,4 +8,4 @@
 # Initial state            Final state                        Transition                    Energies (eV)   %T1    Oscillator strength    unsafe
 #######################  #######################  ########################################  ############# ####### ##################### #############
 # Number  Spin  Symm       Number  Spin  Symm         type                                    E_fluo        %T1            f            is unsafe
-  1       1     A^\prime   2       1     A^{\prime\prime} (\mathrm{V};n \rightarrow \pi^\star)    1.67          92.7           _            false
+  1       1     A^\prime   2       1     A^{\prime\prime} (\mathrm{V};n \rightarrow \pi^\star)    1.67          92.7           0.000        false

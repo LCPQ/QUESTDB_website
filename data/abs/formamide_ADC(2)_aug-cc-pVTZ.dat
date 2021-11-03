@@ -9,8 +9,5 @@
 #######################  #######################  ########################################  ############# ####### ##################### #############
 # Number  Spin  Symm       Number  Spin  Symm         type                                    E_abs         %T1            f            is unsafe
   1       1     A^\prime   1       1     A^{\prime\prime} (\mathrm{V};n \rightarrow \pi^\star)    5.45          _              _            false
-  1       1     A^\prime   2       1     A^\prime     (\mathrm{R};n \rightarrow 3s)           6.26          _              _            true
-  1       1     A^\prime   3       1     A^\prime     (\mathrm{V};\pi \rightarrow \pi^\star)  7.39          _              _            true
-  1       1     A^\prime   4       1     A^\prime     (\mathrm{R};n \rightarrow 3p)           6.83          _              _            true
   1       1     A^\prime   1       3     A^{\prime\prime} (\mathrm{V};n \rightarrow \pi^\star)    5.15          _              _            false
   1       1     A^\prime   1       3     A^\prime     (\mathrm{V};\pi \rightarrow \pi^\star)  5.88          _              _            false

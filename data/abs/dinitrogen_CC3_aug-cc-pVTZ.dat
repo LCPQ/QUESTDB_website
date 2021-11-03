@@ -8,14 +8,14 @@
 # Initial state            Final state                        Transition                    Energies (eV)   %T1    Oscillator strength    unsafe
 #######################  #######################  ########################################  ############# ####### ##################### #############
 # Number  Spin  Symm       Number  Spin  Symm         type                                    E_abs         %T1            f            is unsafe
-  1       1     \Sigma_g   1       1     \Pi_g        (\mathrm{V};n \rightarrow \pi^\star)    9.34          _              _            false
-  1       1     \Sigma_g   1       1     \Sigma_u^-   (\mathrm{V};\pi \rightarrow \pi^\star)  9.88          _              _            false
-  1       1     \Sigma_g   1       1     \Delta_u     (\mathrm{V};\pi \rightarrow \pi^\star)  10.29         _              _            false
-  1       1     \Sigma_g   1       1     \Sigma_g^+   (\mathrm{R})                            13.01         _              _            false
-  1       1     \Sigma_g   1       1     \Pi_u        (\mathrm{R})                            13.22         _              _            false
-  1       1     \Sigma_g   1       1     \Sigma_u^+   (\mathrm{R})                            13.12         _              _            false
-  1       1     \Sigma_g   2       1     \Pi_u        (\mathrm{R})                            13.49         _              _            false
-  1       1     \Sigma_g   1       3     \Sigma_u^+   (\mathrm{V};\pi \rightarrow \pi^\star)  7.68          _              _            false
-  1       1     \Sigma_g   1       3     \Pi_g        (\mathrm{V};n \rightarrow \pi^\star)    8.04          _              _            false
-  1       1     \Sigma_g   1       3     \Delta_u     (\mathrm{V};\pi \rightarrow \pi^\star)  8.87          _              _            false
-  1       1     \Sigma_g   1       3     \Sigma_u^-   (\mathrm{V};\pi \rightarrow \pi^\star)  9.68          _              _            false
+  1       1     \Sigma_g   1       1     \Pi_g        (\mathrm{V};n \rightarrow \pi^\star)    9.34          92.6           _            false
+  1       1     \Sigma_g   1       1     \Sigma_u^-   (\mathrm{V};\pi \rightarrow \pi^\star)  9.88          97.2           _            false
+  1       1     \Sigma_g   1       1     \Delta_u     (\mathrm{V};\pi \rightarrow \pi^\star)  10.29         95.9           0.000        false
+  1       1     \Sigma_g   1       1     \Sigma_g^+   (\mathrm{R})                            13.01         92.2           _            false
+  1       1     \Sigma_g   1       1     \Pi_u        (\mathrm{R})                            13.22         82.9           0.458        false
+  1       1     \Sigma_g   1       1     \Sigma_u^+   (\mathrm{R})                            13.12         92.8           0.296        false
+  1       1     \Sigma_g   2       1     \Pi_u        (\mathrm{R})                            13.49         87.4           0.000        false
+  1       1     \Sigma_g   1       3     \Sigma_u^+   (\mathrm{V};\pi \rightarrow \pi^\star)  7.68          99.3           _            false
+  1       1     \Sigma_g   1       3     \Pi_g        (\mathrm{V};n \rightarrow \pi^\star)    8.04          98.4           _            false
+  1       1     \Sigma_g   1       3     \Delta_u     (\mathrm{V};\pi \rightarrow \pi^\star)  8.87          99.3           _            false
+  1       1     \Sigma_g   1       3     \Sigma_u^-   (\mathrm{V};\pi \rightarrow \pi^\star)  9.68          98.8           _            false

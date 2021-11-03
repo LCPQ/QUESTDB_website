@@ -8,16 +8,16 @@
 # Initial state            Final state                        Transition                    Energies (eV)   %T1    Oscillator strength    unsafe
 #######################  #######################  ########################################  ############# ####### ##################### #############
 # Number  Spin  Symm       Number  Spin  Symm         type                                    E_abs         %T1            f            is unsafe
-  1       1     A_1^\prime 1       1     A_1^{\prime\prime} (\mathrm{V}; n \rightarrow \pi^\star)   4.58          _              _            false
-  1       1     A_1^\prime 1       1     A_2^{\prime\prime} (\mathrm{V}; n \rightarrow \pi^\star)   4.69          _              _            false
-  1       1     A_1^\prime 1       1     E^{\prime\prime} (\mathrm{V}; n \rightarrow \pi^\star)   4.66          _              _            false
-  1       1     A_1^\prime 1       1     A_2^\prime   (\mathrm{V}; \pi \rightarrow \pi^\star) 5.83          _              _            false
-  1       1     A_1^\prime 2       1     A_1^\prime   (\mathrm{V}; \pi \rightarrow \pi^\star) 7.18          _              _            false
-  1       1     A_1^\prime 1       1     E^\prime     (\mathrm{R}; n \rightarrow 3s)          6.89          _              _            false
-  1       1     A_1^\prime 2       1     E^\prime     (\mathrm{V}; \pi \rightarrow \pi^\star) 7.65          _              _            false
-  1       1     A_1^\prime 1       3     A_2^{\prime\prime} (\mathrm{V}; n \rightarrow \pi^\star)   4.29          _              _            false
-  1       1     A_1^\prime 1       3     E^{\prime\prime} (\mathrm{V}; n \rightarrow \pi^\star)   4.42          _              _            false
-  1       1     A_1^\prime 1       3     A_1^{\prime\prime} (\mathrm{V}; n \rightarrow \pi^\star)   4.59          _              _            false
-  1       1     A_1^\prime 1       3     A_1^\prime   (\mathrm{V}; \pi \rightarrow \pi^\star) 5.10          _              _            false
-  1       1     A_1^\prime 1       3     E^\prime     (\mathrm{V}; \pi \rightarrow \pi^\star) 5.82          _              _            false
-  1       1     A_1^\prime 1       3     A_2^\prime   (\mathrm{V}; \pi \rightarrow \pi^\star) 6.63          _              _            false
+  1       1     A_1^\prime 1       1     A_1^{\prime\prime} (\mathrm{V};n \rightarrow \pi^\star)    4.58          _              _            false
+  1       1     A_1^\prime 1       1     A_2^{\prime\prime} (\mathrm{V};n \rightarrow \pi^\star)    4.69          _              _            false
+  1       1     A_1^\prime 1       1     E^{\prime\prime} (\mathrm{V};n \rightarrow \pi^\star)    4.66          _              _            false
+  1       1     A_1^\prime 1       1     A_2^\prime   (\mathrm{V};\pi \rightarrow \pi^\star)  5.83          _              _            false
+  1       1     A_1^\prime 2       1     A_1^\prime   (\mathrm{V};\pi \rightarrow \pi^\star)  7.18          _              _            false
+  1       1     A_1^\prime 1       1     E^\prime     (\mathrm{R};n \rightarrow 3s)           6.89          _              _            false
+  1       1     A_1^\prime 2       1     E^\prime     (\mathrm{V};\pi \rightarrow \pi^\star)  7.65          _              _            false
+  1       1     A_1^\prime 1       3     A_2^{\prime\prime} (\mathrm{V};n \rightarrow \pi^\star)    4.29          _              _            false
+  1       1     A_1^\prime 1       3     E^{\prime\prime} (\mathrm{V};n \rightarrow \pi^\star)    4.42          _              _            false
+  1       1     A_1^\prime 1       3     A_1^{\prime\prime} (\mathrm{V};n \rightarrow \pi^\star)    4.59          _              _            false
+  1       1     A_1^\prime 1       3     A_1^\prime   (\mathrm{V};\pi \rightarrow \pi^\star)  5.10          _              _            false
+  1       1     A_1^\prime 1       3     E^\prime     (\mathrm{V};\pi \rightarrow \pi^\star)  5.82          _              _            false
+  1       1     A_1^\prime 1       3     A_2^\prime   (\mathrm{V};\pi \rightarrow \pi^\star)  6.63          _              _            false

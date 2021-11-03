@@ -1,0 +1,15 @@
+# Molecule : Ammonia
+# Comment  : 
+# code     : 
+# method   : SOS-ADC(2) [QC],aug-cc-pVTZ
+# geom     : CC3,aug-cc-pVTZ
+# set      : QUEST#1,2
+
+# Initial state            Final state                        Transition                    Energies (eV)   %T1    Oscillator strength    unsafe
+#######################  #######################  ########################################  ############# ####### ##################### #############
+# Number  Spin  Symm       Number  Spin  Symm         type                                    E_abs         %T1            f            is unsafe
+  1       1     A_1        1       1     A_2          (\mathrm{R};n \rightarrow 3s)           6.42          _              _            false
+  1       1     A_1        1       1     E            (\mathrm{R};n \rightarrow 3p)           7.93          _              _            false
+  1       1     A_1        2       1     A_1          (\mathrm{R};n \rightarrow 3p)           9.05          _              _            false
+  1       1     A_1        2       1     A_2          (\mathrm{R};n \rightarrow 3s)           9.71          _              _            false
+  1       1     A_1        1       3     A_2          (\mathrm{R};n \rightarrow 3s)           6.23          _              _            false

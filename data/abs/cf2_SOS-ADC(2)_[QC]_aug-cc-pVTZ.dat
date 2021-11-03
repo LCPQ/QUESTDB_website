@@ -1,0 +1,12 @@
+# Molecule : \ce{CF2}
+# Comment  : 
+# code     : 
+# method   : SOS-ADC(2) [QC],aug-cc-pVTZ
+# geom     : CC3,aug-cc-pVTZ
+# set      : QUEST#4,1
+
+# Initial state            Final state                        Transition                    Energies (eV)   %T1    Oscillator strength    unsafe
+#######################  #######################  ########################################  ############# ####### ##################### #############
+# Number  Spin  Symm       Number  Spin  Symm         type                                    E_abs         %T1            f            is unsafe
+  1       1     A_1        1       1     B_1          (\mathrm{V};\sigma \rightarrow \pi^\star) 4.89          _              _            false
+  1       1     A_1        1       3     B_1          (\mathrm{V};\sigma \rightarrow \pi^\star) 2.64          _              _            false

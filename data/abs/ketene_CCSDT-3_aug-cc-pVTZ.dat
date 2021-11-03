@@ -10,4 +10,5 @@
 # Number  Spin  Symm       Number  Spin  Symm         type                                    E_abs         %T1            f            is unsafe
   1       1     A_1        1       1     A_2          (\mathrm{V};\pi \rightarrow \pi^\star)  3.90          _              _            false
   1       1     A_1        1       1     B_1          (\mathrm{R};n \rightarrow 3s)           5.99          _              _            false
+  1       1     A_1        2       1     A_1          (\mathrm{V};\pi \rightarrow \pi^\star)  7.27          _              _            false
   1       1     A_1        2       1     A_2          (\mathrm{R};\pi \rightarrow 3p)         7.20          _              _            false

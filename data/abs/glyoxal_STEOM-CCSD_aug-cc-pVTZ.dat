@@ -8,10 +8,10 @@
 # Initial state            Final state                        Transition                    Energies (eV)   %T1    Oscillator strength    unsafe
 #######################  #######################  ########################################  ############# ####### ##################### #############
 # Number  Spin  Symm       Number  Spin  Symm         type                                    E_abs         %T1            f            is unsafe
-  1       1     A_g        1       1     A_u          (\mathrm{V}; n \rightarrow \pi^\star)   2.86          _              _            false
-  1       1     A_g        1       1     B_g          (\mathrm{V}; n \rightarrow \pi^\star)   4.32          _              _            false
-  1       1     A_g        1       1     B_u          (\mathrm{R}; n \rightarrow 3p)          7.94          _              _            false
-  1       1     A_g        1       3     A_u          (\mathrm{V}; n \rightarrow \pi^\star)   2.44          _              _            false
-  1       1     A_g        1       3     B_g          (\mathrm{V}; n \rightarrow \pi^\star)   3.88          _              _            false
-  1       1     A_g        1       3     B_u          (\mathrm{V}; \pi \rightarrow \pi^\star) 4.92          _              _            false
-  1       1     A_g        1       3     A_g          (\mathrm{V}; \pi \rightarrow \pi^\star) 6.13          _              _            false
+  1       1     A_g        1       1     A_u          (\mathrm{V};n \rightarrow \pi^\star)    2.86          _              _            false
+  1       1     A_g        1       1     B_g          (\mathrm{V};n \rightarrow \pi^\star)    4.32          _              _            false
+  1       1     A_g        1       1     B_u          (\mathrm{R};n \rightarrow 3p)           7.94          _              _            false
+  1       1     A_g        1       3     A_u          (\mathrm{V};n \rightarrow \pi^\star)    2.44          _              _            false
+  1       1     A_g        1       3     B_g          (\mathrm{V};n \rightarrow \pi^\star)    3.88          _              _            false
+  1       1     A_g        1       3     B_u          (\mathrm{V};\pi \rightarrow \pi^\star)  4.92          _              _            false
+  1       1     A_g        1       3     A_g          (\mathrm{V};\pi \rightarrow \pi^\star)  6.13          _              _            false
