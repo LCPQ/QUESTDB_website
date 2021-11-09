@@ -56,7 +56,7 @@ class fromXLSToLaTeXHandler(formatHandlerBase):
     else:
       return resultstr
 
-  def readFromTable(self,table):
+  def _readFromTableCore(self,table):
     datalist=list()
     subtablesRange=getSubtablesRange(table,firstindex=1,column=1)
     for myrange in subtablesRange:
@@ -65,7 +65,7 @@ class fromXLSToLaTeXHandler(formatHandlerBase):
       initialState=self.TexOps.initialStates[mymolecule]
       for col in itertools.chain(range(8,11), range(14,np.size(table,1))):
         col=table[:,col]
-        basis="aug-cc-pVTZ"
+        basis=self.TexOps.defaultBasis
         mymethcell=list(col[0])
         if len(mymethcell)==0:
           continue

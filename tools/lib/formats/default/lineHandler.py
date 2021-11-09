@@ -5,7 +5,7 @@ from ...utils import getValFromCell
 import numpy as np
 @formatName("line")
 class lineHandler(formatHandlerBase):
-  def readFromTable(self,table):
+  def _readFromTableCore(self,table):
     datalist=list()
     for col in range(1,np.size(table,1)):
       col=table[:,col]

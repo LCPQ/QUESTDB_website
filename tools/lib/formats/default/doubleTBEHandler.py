@@ -7,7 +7,7 @@ from TexSoup import TexSoup
 import re
 @formatName("doubleTBE")
 class doubleTBEHandler(formatHandlerBase):
-  def readFromTable(self,table):
+  def _readFromTableCore(self,table):
     datalist=list()
     subtablesMol=getSubtablesRange(table)
     for rangeMol in subtablesMol:

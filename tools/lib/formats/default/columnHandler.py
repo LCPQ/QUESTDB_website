@@ -5,7 +5,7 @@ from ...utils import getValFromCell
 import numpy as np
 @formatName("column")
 class columnHandler(formatHandlerBase):
-  def readFromTable(self,table):
+  def _readFromTableCore(self,table):
     datalist=list()
     subtablesRange=getSubtablesRange(table)
     for myrange in subtablesRange:

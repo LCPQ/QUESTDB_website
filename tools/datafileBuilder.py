@@ -28,7 +28,7 @@ elif args.file!=None:
   else:
     texOps=dfbOptions()
   commands=[LaTeX.newCommand(cmd) for cmd in soup.find_all("newcommand")]
-  dat=LaTeX.tabularToData(soup.tabular,commands)
+  dat=LaTeX.tabularToData(soup.tabular,commands,texOps.excludeColumns)
   scriptpath=Path(sys.argv[0]).resolve()
   datapath=scriptpath.parents[1]/"static"/"data"
   if args.debug:

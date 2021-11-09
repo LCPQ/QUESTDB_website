@@ -8,7 +8,7 @@ import numpy as np
 import json
 @formatName("exoticColumn")
 class exoticColumnHandler(formatHandlerBase):
-  def readFromTable(self,table):
+  def _readFromTableCore(self,table):
     datalist=list()
     subtablesRange=getSubtablesRange(table)
     for myrange in subtablesRange:

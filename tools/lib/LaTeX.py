@@ -4,6 +4,7 @@ from .utils import *
 import itertools
 from enum import Enum
 from abc import ABCMeta
+
 class commandBase(metaclass=ABCMeta):
   def __init__(self,source,supportedTexType):
     if not (source.name==supportedTexType):
@@ -15,7 +16,6 @@ class commandBase(metaclass=ABCMeta):
 
   def __repr__(self):
     return self.source.__repr__()
-
 class newCommand(commandBase):
   def __init__(self,source):
     super(newCommand, self).__init__(source,"newcommand")
@@ -96,7 +96,7 @@ class multiColumn(commandBase):
   @property
   def contents(self):
     return nodify(list(self.source.args[2].contents))
-def tabularToData(table,commands=None):
+def tabularToData(table,commands=None,excludeColumn=set()):
   if table.name=="tabular":
     ctable=str(table)
     ctable=ctable.split("\n")
@@ -136,6 +136,7 @@ def tabularToData(table,commands=None):
       raise ValueError("This tabular is not supported because lines have not the same column numbers for each row the coulumns numbers are {}".format(lens))
     import numpy as np
     table=np.array(lnewtable,TexNode)
+    table=np.delete(table,list(excludeColumn),1)
     return table
   else:
     raise ValueError("Only tabular LaTeX environment is supported")

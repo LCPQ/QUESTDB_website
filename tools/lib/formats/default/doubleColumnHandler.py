@@ -8,7 +8,7 @@ import numpy as np
 from ...utils import getValFromCell
 @formatName("doubleColumn")
 class doubleColumnHandler(formatHandlerBase):
-  def readFromTable(self,table):
+  def _readFromTableCore(self,table):
     datalist=list()
     datacls=dict()
     subtablesMol=getSubtablesRange(table)
