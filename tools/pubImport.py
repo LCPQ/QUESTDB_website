@@ -17,8 +17,6 @@ publipath=scriptpath.parents[1]/"static"/"data"/"publis"
 result=crossref_commons.retrieval.get_publication_as_json(args.DOI)
 mydir=publipath.joinpath(*re.split("/|\.",args.DOI))
 metadata=mydir/"metadata.json"
-abstract=mydir/"abstract.html"
-picture=mydir/"picture.jpeg"
 if not mydir.exists():
   os.makedirs(str(mydir))
 with open(str(metadata),"w") as f:
@@ -27,5 +25,5 @@ if args.abstract!=None:
   abstract=mydir/"abstract.html"
   copyfile(args.abstract,abstract)
 if args.picture!=None:
-  picture=mydir/"picture.html"
+  picture=mydir/"picture.jpeg"
   copyfile(args.picture,picture)
