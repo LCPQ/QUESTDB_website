@@ -210,8 +210,7 @@ class dataFileBase(object):
     if not subpath.exists():
       os.makedirs(str(subpath))
     molsoup=TexSoup(self.molecule)
-    molcomp=list(molsoup.contents)[0]
-    molfilename=self.molecule if isinstance(molcomp,str) else molcomp.args[0].value
+    molfilename="".join(molsoup.text).replace("\\","")
     molfilename=molfilename.lower()
     fileNameComp=[molfilename,self.method.name]
     if self.method.basis:

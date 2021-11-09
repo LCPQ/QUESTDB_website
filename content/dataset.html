@@ -31,6 +31,9 @@ draft: false
 <script src="/js/GeometriesLoader.js"></script>
 <script src="/js/GeometryParseMetadataExtension.js"></script>
 <script src="/js/tableToCSV.js"></script>
+<script src="/js/texparser.js"></script>
+<script src="/js/unicodetable.js"></script>
+<script src="/js/MoleculeFormater.js"></script>
 <script>
   function adjustSticky() {
     const height = $("nav").height()
@@ -320,7 +323,7 @@ draft: false
             return "Unnamed set"
           }
         case "molecule":
-          return mhchemCE.extract(value)
+          return moleculeFormater.toUnicode(value)
           break;
         default:
           return value.toString()
@@ -642,7 +645,7 @@ draft: false
             Reflect.setPrototypeOf(ex[3], VertExcitationKind.prototype)
             var tr = $("<tr/>")
             if (printmol) {
-              $("<th/>", { scope: "row", rowspan: moldat.size }).text((mhchemCE.test(molecule) ? MathJaxUtils.getMathJaxString(molecule.toString()) : molecule)).appendTo(tr)
+              $("<th/>", { scope: "row", rowspan: moldat.size }).text(moleculeFormater.toWebLatex(molecule)).appendTo(tr)
               printmol = false
             }
             var Vertkindtext = ""
