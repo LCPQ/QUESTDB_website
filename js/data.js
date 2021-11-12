@@ -1,13 +1,14 @@
 class excitationTypes {
   static get Valence() { return new excitationType(1, new description("Valence")) }
   static get Rydberg() { return new excitationType(1 << 1, new description("Rydberg")) }
-  static get PiPis() { return new excitationType(1 << 2, new description(String.raw`\pi \rightarrow \pi^\star`, true)) }
-  static get nPis() { return new excitationType(1 << 3, new description(String.raw`n \rightarrow \pi^\star`, true)) }
-  static get Single() { return new excitationType(1 << 4, new description("Single")) }
-  static get Double() { return new excitationType(1 << 5, new description("Double")) }
-  static get SingletSinglet() { return new excitationType(1 << 6, new description(String.raw`\mathrm{Singlet} \rightarrow \mathrm{Singlet}`, true)) }
-  static get SingletTriplet() { return new excitationType(1 << 7, new description(String.raw`\mathrm{Singlet} \rightarrow \mathrm{Triplet}`, true)) }
-  static get DoubletDoublet() { return new excitationType(1 << 8, new description(String.raw`\mathrm{Doublet} \rightarrow \mathrm{Doublet}`, true)) }
+  static get CT() { return new excitationType(1 << 2, new description("CT")) }
+  static get PiPis() { return new excitationType(1 << 3, new description(String.raw`\pi \rightarrow \pi^\star`, true)) }
+  static get nPis() { return new excitationType(1 << 4, new description(String.raw`n \rightarrow \pi^\star`, true)) }
+  static get Single() { return new excitationType(1 << 5, new description("Single")) }
+  static get Double() { return new excitationType(1 << 6, new description("Double")) }
+  static get SingletSinglet() { return new excitationType(1 << 7, new description(String.raw`\mathrm{Singlet} \rightarrow \mathrm{Singlet}`, true)) }
+  static get SingletTriplet() { return new excitationType(1 << 8, new description(String.raw`\mathrm{Singlet} \rightarrow \mathrm{Triplet}`, true)) }
+  static get DoubletDoublet() { return new excitationType(1 << 9, new description(String.raw`\mathrm{Doublet} \rightarrow \mathrm{Doublet}`, true)) }
   // Max bit shifts is 31 because int are int32 So 1 << 31 are -2147483648
   static get Others() { return new excitationType(1 << 31, new description("Others")) }
   static get All() { return EnumUltils.getAll(this, excitationType) }
@@ -185,6 +186,8 @@ class excitationBase {
           this.type.Value = this.type | excitationTypes.Rydberg
         } else if (ty.includes(String.raw`\mathrm{V}`)) {
           this.type.Value = this.type | excitationTypes.Valence
+        } else if (ty.includes(String.raw`\mathrm{CT}`)) {
+          this.type.Value = this.type | excitationTypes.CT
         } else if (ty.toLowerCase()===excitationTypes.Double.description.string.toLowerCase()){
           this.type.Value = this.type | excitationTypes.Double
         }
