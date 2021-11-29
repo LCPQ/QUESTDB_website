@@ -807,7 +807,7 @@ draft: false
         <label for="mol_select" class="required">Molecule</label>
         <button class="selectButton" type="button" onclick="selectSelectAll_click(event)">Select all</button>
         <select multiple id="mol_select" required name="molecule" onchange="moleculeSelectionChanged(event)"></select>
-        <button id="btn_export_geoms" class="selectButton" type="button" disabled onclick="exportGeoms()">Export geometries</button>
+        <button id="btn_export_geoms" class="selectButton" type="button" disabled onclick="exportGeoms()" title="Export the above geometries as a ZIP archive">Export geometries</button>
       </div>
       <br />
       <div style="display: inline-block;">
@@ -903,7 +903,7 @@ draft: false
 <section id="data">
 </section>
 <section>
-  <button onclick="OnExportTable(event)">Export as CSV</button>
+  <button onclick="OnExportTable(event)" title="Export the table below as a CSV file">Export table</button>
   <table id="stat_table" class="datatable">
     <thead class="sticky">
       <th scope="col">Method</th>
