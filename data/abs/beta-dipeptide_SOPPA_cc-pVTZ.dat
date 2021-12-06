@@ -1,0 +1,12 @@
+# Molecule : $\beta$-Dipeptide
+# Comment  : 
+# code     : 
+# method   : SOPPA,cc-pVTZ
+# geom     : MP2,6-31G*
+# set      : QUEST#6,0
+
+# Initial state            Final state                        Transition                    Energies (eV)   %T1    Oscillator strength    unsafe
+#######################  #######################  ########################################  ############# ####### ##################### #############
+# Number  Spin  Symm       Number  Spin  Symm         type                                    E_abs         %T1            f            is unsafe
+  1       1     A^\prime   7       1     A^\prime     (\mathrm{CT})                           7.96          _              _            false
+  1       1     A^\prime   10      1     A^{\prime\prime} (\mathrm{CT})                           8.16          _              _            false

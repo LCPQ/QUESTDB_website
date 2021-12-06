@@ -1,0 +1,11 @@
+# Molecule : Aniline
+# Comment  : 
+# code     : 
+# method   : CC3,cc-pVTZ
+# geom     : CC3,cc-pVTZ
+# set      : QUEST#6,0
+
+# Initial state            Final state                        Transition                    Energies (eV)   %T1    Oscillator strength    unsafe
+#######################  #######################  ########################################  ############# ####### ##################### #############
+# Number  Spin  Symm       Number  Spin  Symm         type                                    E_abs         %T1            f            is unsafe
+  1       1     A_1        2       1     A_1          (\mathrm{CT})                           5.86          _              _            false

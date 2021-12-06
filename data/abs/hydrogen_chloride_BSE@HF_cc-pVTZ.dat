@@ -1,0 +1,11 @@
+# Molecule : Hydrogen Chloride
+# Comment  : 
+# code     : 
+# method   : BSE@HF,cc-pVTZ
+# geom     : CC3,aug-cc-pVTZ
+# set      : QUEST#6,0
+
+# Initial state            Final state                        Transition                    Energies (eV)   %T1    Oscillator strength    unsafe
+#######################  #######################  ########################################  ############# ####### ##################### #############
+# Number  Spin  Symm       Number  Spin  Symm         type                                    E_abs         %T1            f            is unsafe
+  1       1     A_1        1       1     \Pi          (\mathrm{CT})                           8.41          _              _            false

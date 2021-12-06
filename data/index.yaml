@@ -14,6 +14,11 @@ sets:
     - 10.1002/wcms.1517
   QUEST#5:
     - 10.1002/wcms.1517
+  QUEST#6:
+    - 10.1021/acs.jctc.1c00226
+  QUEST#7:
+    - 10.1021/acs.jpca.1c08524
 others:
+  - 10.1063/5.0063751
 reviews:
   - 10.1021/acs.jpclett.0c00014

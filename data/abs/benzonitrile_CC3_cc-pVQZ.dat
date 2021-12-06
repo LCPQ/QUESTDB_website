@@ -1,0 +1,11 @@
+# Molecule : Benzonitrile
+# Comment  : 
+# code     : 
+# method   : CC3,cc-pVQZ
+# geom     : CC3,aug-cc-pVQZ
+# set      : QUEST#6,0
+
+# Initial state            Final state                        Transition                    Energies (eV)   %T1    Oscillator strength    unsafe
+#######################  #######################  ########################################  ############# ####### ##################### #############
+# Number  Spin  Symm       Number  Spin  Symm         type                                    E_abs         %T1            f            is unsafe
+  1       1     A_1        1       1     A_2          (\mathrm{CT})                           7.08          _              _            false

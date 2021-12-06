@@ -1,0 +1,12 @@
+# Molecule : Phthalazine
+# Comment  : 
+# code     : 
+# method   : ADC(3),cc-pVTZ
+# geom     : CC3,cc-pVTZ
+# set      : QUEST#6,0
+
+# Initial state            Final state                        Transition                    Energies (eV)   %T1    Oscillator strength    unsafe
+#######################  #######################  ########################################  ############# ####### ##################### #############
+# Number  Spin  Symm       Number  Spin  Symm         type                                    E_abs         %T1            f            is unsafe
+  1       1     A_1        1       1     A_2          (\mathrm{CT})                           4.19          _              _            false
+  1       1     A_1        1       1     B_1          (\mathrm{CT})                           4.49          _              _            false

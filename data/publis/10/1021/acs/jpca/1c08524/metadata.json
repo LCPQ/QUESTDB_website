@@ -1,0 +1,949 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2021,
+        12,
+        3
+      ]
+    ],
+    "date-time": "2021-12-03T13:41:50Z",
+    "timestamp": 1638538910624
+  },
+  "reference-count": 154,
+  "publisher": "American Chemical Society (ACS)",
+  "issue": "47",
+  "funder": [
+    {
+      "DOI": "10.13039/100010663",
+      "name": "H2020 European Research Council",
+      "doi-asserted-by": "publisher",
+      "award": [
+        "863481"
+      ]
+    }
+  ],
+  "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+  },
+  "short-container-title": [
+    "J. Phys. Chem. A"
+  ],
+  "published-print": {
+    "date-parts": [
+      [
+        2021,
+        12,
+        2
+      ]
+    ]
+  },
+  "DOI": "10.1021/acs.jpca.1c08524",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2021,
+        11,
+        18
+      ]
+    ],
+    "date-time": "2021-11-18T16:50:45Z",
+    "timestamp": 1637254245000
+  },
+  "page": "10174-10188",
+  "source": "Crossref",
+  "is-referenced-by-count": 0,
+  "title": [
+    "A Mountaineering Strategy to Excited States: Highly Accurate Energies and Benchmarks for Bicyclic Systems"
+  ],
+  "prefix": "10.1021",
+  "volume": "125",
+  "author": [
+    {
+      "ORCID": "http://orcid.org/0000-0003-0598-7425",
+      "authenticated-orcid": true,
+      "given": "Pierre-Fran\u00e7ois",
+      "family": "Loos",
+      "sequence": "first",
+      "affiliation": [
+        {
+          "name": "Laboratoire de Chimie et Physique Quantiques, Universit\u00e9 de Toulouse, CNRS, UPS, F-31062, Toulouse, France"
+        }
+      ]
+    },
+    {
+      "ORCID": "http://orcid.org/0000-0002-4217-0708",
+      "authenticated-orcid": true,
+      "given": "Denis",
+      "family": "Jacquemin",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Universit\u00e9 de Nantes, CNRS, CEISAM UMR 6230, F-44000 Nantes, France"
+        }
+      ]
+    }
+  ],
+  "member": "316",
+  "published-online": {
+    "date-parts": [
+      [
+        2021,
+        11,
+        18
+      ]
+    ]
+  },
+  "reference": [
+    {
+      "key": "ref1/cit1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1063/1.456415"
+    },
+    {
+      "key": "ref2/cit2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1063/1.460205"
+    },
+    {
+      "key": "ref3/cit3",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1063/1.473182"
+    },
+    {
+      "key": "ref4/cit4",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1063/1.477422"
+    },
+    {
+      "key": "ref5/cit5",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1063/1.2436888"
+    },
+    {
+      "key": "ref6/cit6",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1103/PhysRevLett.115.036402"
+    },
+    {
+      "key": "ref7/cit7",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1063/1.3697846"
+    },
+    {
+      "key": "ref8/cit8",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1063/5.0026324"
+    },
+    {
+      "key": "ref9/cit9",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1063/5.0018577"
+    },
+    {
+      "key": "ref10/cit10",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1039/B600027D"
+    },
+    {
+      "key": "ref11/cit11",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1021/ct2002946"
+    },
+    {
+      "key": "ref12/cit12",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1063/1.1811608"
+    },
+    {
+      "key": "ref13/cit13",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1021/acs.jctc.5b00453"
+    },
+    {
+      "key": "ref14/cit14",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1038/s41597-020-0385-y"
+    },
+    {
+      "key": "ref15/cit15",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1021/ct900489g"
+    },
+    {
+      "key": "ref16/cit16",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1039/c0cp02984j"
+    },
+    {
+      "key": "ref17/cit17",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1039/C7CP04913G"
+    },
+    {
+      "key": "ref18/cit18",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1021/jp511432m"
+    },
+    {
+      "key": "ref19/cit19",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1021/acs.jctc.6b00520"
+    },
+    {
+      "key": "ref20/cit20",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1021/acs.jctc.7b00279"
+    },
+    {
+      "key": "ref21/cit21",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1021/acs.jctc.8b00406"
+    },
+    {
+      "key": "ref22/cit22",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1021/acs.jctc.8b01205"
+    },
+    {
+      "key": "ref23/cit23",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1021/acs.jctc.9b01216"
+    },
+    {
+      "key": "ref24/cit24",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1021/acs.jctc.0c00227"
+    },
+    {
+      "key": "ref25/cit25",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1021/acs.jctc.1c00226"
+    },
+    {
+      "key": "ref26/cit26",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1063/1.2889385"
+    },
+    {
+      "key": "ref27/cit27",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1080/00268970903549047"
+    },
+    {
+      "key": "ref28/cit28",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1063/1.3499598"
+    },
+    {
+      "key": "ref29/cit29",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1002/wcms.1517"
+    },
+    {
+      "key": "ref30/cit30",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1063/1.1679199"
+    },
+    {
+      "key": "ref31/cit31",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1139/cjc-2013-0017"
+    },
+    {
+      "key": "ref32/cit32",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1063/1.4905528"
+    },
+    {
+      "key": "ref33/cit33",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1063/1.4992127"
+    },
+    {
+      "key": "ref34/cit34",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1063/1.5044503"
+    },
+    {
+      "key": "ref35/cit35",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1021/acs.jctc.9b00176"
+    },
+    {
+      "key": "ref36/cit36",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1103/RevModPhys.79.291"
+    },
+    {
+      "key": "ref37/cit37",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/BF01117419"
+    },
+    {
+      "key": "ref38/cit38",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1063/1.452353"
+    },
+    {
+      "key": "ref39/cit39",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/0009-2614(88)80110-6"
+    },
+    {
+      "key": "ref40/cit40",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1063/1.1416173"
+    },
+    {
+      "key": "ref41/cit41",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1063/1.1378323"
+    },
+    {
+      "key": "ref42/cit42",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/S0009-2614(01)01010-7"
+    },
+    {
+      "key": "ref43/cit43",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1063/1.470315"
+    },
+    {
+      "key": "ref44/cit44",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/0009-2614(95)00914-P"
+    },
+    {
+      "key": "ref45/cit45",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1021/acs.jpclett.0c00014"
+    },
+    {
+      "key": "ref46/cit46",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1021/acs.jpclett.9b03652"
+    },
+    {
+      "key": "ref47/cit47",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1063/5.0055994"
+    },
+    {
+      "key": "ref48/cit48",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1021/acs.jctc.9b00013"
+    },
+    {
+      "key": "ref49/cit49",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1021/acs.jctc.1c00535"
+    },
+    {
+      "key": "ref50/cit50",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1021/acs.jctc.0c01135"
+    },
+    {
+      "key": "ref51/cit51",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1021/acs.jctc.1c00422"
+    },
+    {
+      "key": "ref52/cit52",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1063/5.0063751"
+    },
+    {
+      "key": "ref53/cit53",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1021/acs.jpclett.1c00744"
+    },
+    {
+      "key": "ref54/cit54",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1063/5.0004837"
+    },
+    {
+      "key": "ref55/cit55",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1063/1.443164"
+    },
+    {
+      "key": "ref56/cit56",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1063/1.452039"
+    },
+    {
+      "key": "ref57/cit57",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1063/1.458815"
+    },
+    {
+      "key": "ref58/cit58",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1063/1.464746"
+    },
+    {
+      "key": "ref59/cit59",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1063/1.465552"
+    },
+    {
+      "key": "ref60/cit60",
+      "unstructured": "Frisch, M. J.; Trucks, G. W.; Schlegel, H. B.; Scuseria, G. E.; Robb, M. A.; Cheeseman, J. R.; Scalmani, G.; Barone, V.; Petersson, G. A.; Nakatsuji, H.  Gaussian 16, Rev. A.03; Gaussian Inc.: Wallingford. CT, 2016."
+    },
+    {
+      "key": "ref61/cit61",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1063/5.0055522"
+    },
+    {
+      "key": "ref62/cit62",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/S0301-0104(96)00303-5"
+    },
+    {
+      "key": "ref63/cit63",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1002/wcms.1206"
+    },
+    {
+      "key": "ref64/cit64",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.cplett.2004.06.011"
+    },
+    {
+      "key": "ref65/cit65",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1063/1.4885819"
+    },
+    {
+      "key": "ref66/cit66",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1063/1.4885820"
+    },
+    {
+      "key": "ref67/cit67",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1021/ct200308m"
+    },
+    {
+      "key": "ref68/cit68",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.ccr.2015.03.027"
+    },
+    {
+      "key": "ref69/cit69",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1002/wcms.1172"
+    },
+    {
+      "key": "ref70/cit70",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/0009-2614(94)00070-0"
+    },
+    {
+      "key": "ref71/cit71",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/0009-2614(95)01111-L"
+    },
+    {
+      "key": "ref72/cit72",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1063/1.469817"
+    },
+    {
+      "key": "ref73/cit73",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/0009-2614(95)00841-Q"
+    },
+    {
+      "key": "ref74/cit74",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1063/1.1290013"
+    },
+    {
+      "key": "ref75/cit75",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1063/1.474000"
+    },
+    {
+      "key": "ref76/cit76",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1080/00268976.2013.847216"
+    },
+    {
+      "key": "ref77/cit77",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1021/acs.jctc.7b00802"
+    },
+    {
+      "key": "ref78/cit78",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1063/1.4962910"
+    },
+    {
+      "key": "ref79/cit79",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1063/1.472007"
+    },
+    {
+      "key": "ref80/cit80",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/0009-2614(96)00708-7"
+    },
+    {
+      "key": "ref81/cit81",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1021/ct1002016"
+    },
+    {
+      "key": "ref82/cit82",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1063/1.1504708"
+    },
+    {
+      "key": "ref83/cit83",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1063/1.4892418"
+    },
+    {
+      "key": "ref84/cit84",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1002/wcms.81"
+    },
+    {
+      "key": "ref85/cit85",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1039/b803727b"
+    },
+    {
+      "key": "ref86/cit86",
+      "unstructured": "TURBOMOLE, V7.3 2018, a development\nof University of Karlsruhe and Forschungszentrum Karlsruhe GmbH, 1989\u20132007, TURBOMOLE GmbH, since 2007; available from http://www.turbomole.com (accessed\n13 June 2016)."
+    },
+    {
+      "key": "ref87/cit87",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1063/1.4776675"
+    },
+    {
+      "key": "ref88/cit88",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1063/1.1642595"
+    },
+    {
+      "key": "ref89/cit89",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1063/1.1631914"
+    },
+    {
+      "key": "ref90/cit90",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1021/jp9037123"
+    },
+    {
+      "key": "ref91/cit91",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.chemphys.2012.08.003"
+    },
+    {
+      "key": "ref92/cit92",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1063/1.4808014"
+    },
+    {
+      "key": "ref93/cit93",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1039/C5CP01826A"
+    },
+    {
+      "key": "ref94/cit94",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1021/acs.jpca.0c05205"
+    },
+    {
+      "key": "ref95/cit95",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1063/1.435563"
+    },
+    {
+      "key": "ref96/cit96",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1063/1.436981"
+    },
+    {
+      "key": "ref97/cit97",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/0301-0104(83)85076-9"
+    },
+    {
+      "key": "ref98/cit98",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1063/1.2913167"
+    },
+    {
+      "key": "ref99/cit99",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1002/wcms.1260"
+    },
+    {
+      "key": "ref100/cit100",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1021/ct200101x"
+    },
+    {
+      "key": "ref101/cit101",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/0584-8539(69)80088-7"
+    },
+    {
+      "key": "ref102/cit102",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1021/acs.jctc.6b00245"
+    },
+    {
+      "key": "ref103/cit103",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1103/PhysRevB.84.075144"
+    },
+    {
+      "key": "ref104/cit104",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/0301-0104(78)80015-9"
+    },
+    {
+      "key": "ref105/cit105",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1021/jo201878k"
+    },
+    {
+      "key": "ref106/cit106",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1021/ar2002446"
+    },
+    {
+      "key": "ref107/cit107",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1021/acs.jctc.0c00154"
+    },
+    {
+      "key": "ref108/cit108",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.cplett.2009.03.066"
+    },
+    {
+      "key": "ref109/cit109",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1021/jp2079296"
+    },
+    {
+      "key": "ref110/cit110",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1021/ct500655k"
+    },
+    {
+      "key": "ref111/cit111",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/0022-2852(71)90061-0"
+    },
+    {
+      "key": "ref112/cit112",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/0022-2852(75)90271-4"
+    },
+    {
+      "key": "ref113/cit113",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1021/ct5001507"
+    },
+    {
+      "key": "ref114/cit114",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1021/acs.jctc.5b00108"
+    },
+    {
+      "key": "ref115/cit115",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1002/adom.201400559"
+    },
+    {
+      "key": "ref116/cit116",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.molstruc.2008.09.022"
+    },
+    {
+      "key": "ref117/cit117",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1002/adma.200801650"
+    },
+    {
+      "key": "ref118/cit118",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1002/chem.201804325"
+    },
+    {
+      "key": "ref119/cit119",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1021/jz5022087"
+    },
+    {
+      "key": "ref120/cit120",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1039/C2CS35346F"
+    },
+    {
+      "key": "ref121/cit121",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1039/C6NJ00726K"
+    },
+    {
+      "key": "ref122/cit122",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1021/jp511061t"
+    },
+    {
+      "key": "ref123/cit123",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1021/ja00481a009"
+    },
+    {
+      "key": "ref124/cit124",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1063/1.1674292"
+    },
+    {
+      "key": "ref125/cit125",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/0022-2852(88)90343-8"
+    },
+    {
+      "key": "ref126/cit126",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1063/1.3127245"
+    },
+    {
+      "key": "ref127/cit127",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1039/C7CP02022H"
+    },
+    {
+      "key": "ref128/cit128",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1063/1.1673852"
+    },
+    {
+      "key": "ref129/cit129",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1039/a803992e"
+    },
+    {
+      "key": "ref130/cit130",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1246/bcsj.80.1"
+    },
+    {
+      "key": "ref131/cit131",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1021/jp013634g"
+    },
+    {
+      "key": "ref132/cit132",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/0022-2860(93)07873-U"
+    },
+    {
+      "key": "ref133/cit133",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1021/ja00460a011"
+    },
+    {
+      "key": "ref134/cit134",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1021/ja00738a028"
+    },
+    {
+      "key": "ref135/cit135",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1021/jo00424a048"
+    },
+    {
+      "key": "ref136/cit136",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/S0009-2614(01)01484-1"
+    },
+    {
+      "key": "ref137/cit137",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1063/1.3271347"
+    },
+    {
+      "key": "ref138/cit138",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1063/1.3418614"
+    },
+    {
+      "key": "ref139/cit139",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1021/acs.jctc.5b00619"
+    },
+    {
+      "key": "ref140/cit140",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/S0065-3276(05)50003-0"
+    },
+    {
+      "key": "ref141/cit141",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1021/acs.jctc.7b01224"
+    },
+    {
+      "key": "ref142/cit142",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1039/C2CP42694C"
+    },
+    {
+      "key": "ref143/cit143",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1021/acs.jctc.6b00875"
+    },
+    {
+      "key": "ref144/cit144",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1021/acs.jctc.9b01065"
+    },
+    {
+      "key": "ref145/cit145",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1021/ct9005129"
+    },
+    {
+      "key": "ref146/cit146",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1021/jp308634q"
+    },
+    {
+      "key": "ref147/cit147",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1021/ct500495n"
+    },
+    {
+      "key": "ref148/cit148",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/0009-2614(95)01329-6"
+    },
+    {
+      "key": "ref149/cit149",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1021/acs.jctc.6b00723"
+    },
+    {
+      "key": "ref150/cit150",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1063/1.5128795"
+    },
+    {
+      "key": "ref151/cit151",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1021/acs.jctc.1c00348"
+    },
+    {
+      "key": "ref152/cit152",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1002/chir.22200"
+    },
+    {
+      "key": "ref153/cit153",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1021/ct400450k"
+    },
+    {
+      "key": "ref154/cit154",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1021/acs.jctc.8b00488"
+    }
+  ],
+  "container-title": [
+    "The Journal of Physical Chemistry A"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+    {
+      "URL": "https://pubs.acs.org/doi/pdf/10.1021/acs.jpca.1c08524",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2021,
+        12,
+        2
+      ]
+    ],
+    "date-time": "2021-12-02T09:07:20Z",
+    "timestamp": 1638436040000
+  },
+  "score": 1,
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2021,
+        11,
+        18
+      ]
+    ]
+  },
+  "references-count": 154,
+  "journal-issue": {
+    "issue": "47",
+    "published-print": {
+      "date-parts": [
+        [
+          2021,
+          12,
+          2
+        ]
+      ]
+    }
+  },
+  "alternative-id": [
+    "10.1021/acs.jpca.1c08524"
+  ],
+  "URL": "http://dx.doi.org/10.1021/acs.jpca.1c08524",
+  "relation": {},
+  "ISSN": [
+    "1089-5639",
+    "1520-5215"
+  ],
+  "issn-type": [
+    {
+      "value": "1089-5639",
+      "type": "print"
+    },
+    {
+      "value": "1520-5215",
+      "type": "electronic"
+    }
+  ],
+  "subject": [
+    "Physical and Theoretical Chemistry"
+  ],
+  "published": {
+    "date-parts": [
+      [
+        2021,
+        11,
+        18
+      ]
+    ]
+  }
+}

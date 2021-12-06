@@ -1,0 +1,12 @@
+# Molecule : Dimethylaniline
+# Comment  : 
+# code     : 
+# method   : ADC(2),cc-pVTZ
+# geom     : CCSD(T),cc-pVTZ
+# set      : QUEST#6,0
+
+# Initial state            Final state                        Transition                    Energies (eV)   %T1    Oscillator strength    unsafe
+#######################  #######################  ########################################  ############# ####### ##################### #############
+# Number  Spin  Symm       Number  Spin  Symm         type                                    E_abs         %T1            f            is unsafe
+  1       1     A_1        1       1     B_2          (\mathrm{CT})                           4.47          _              _            false
+  1       1     A_1        2       1     A_1          (\mathrm{CT})                           5.35          _              _            false

@@ -1,0 +1,11 @@
+# Molecule : Dipeptide
+# Comment  : 
+# code     : 
+# method   : CC3,cc-pVQZ
+# geom     : MP2,6-31G*
+# set      : QUEST#6,0
+
+# Initial state            Final state                        Transition                    Energies (eV)   %T1    Oscillator strength    unsafe
+#######################  #######################  ########################################  ############# ####### ##################### #############
+# Number  Spin  Symm       Number  Spin  Symm         type                                    E_abs         %T1            f            is unsafe
+  1       1     A^\prime   7       1     A^{\prime\prime} (\mathrm{CT})                           8.04          _              _            false

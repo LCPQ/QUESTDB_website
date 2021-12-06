@@ -1,0 +1,683 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2021,
+        11,
+        18
+      ]
+    ],
+    "date-time": "2021-11-18T17:10:49Z",
+    "timestamp": 1637255449282
+  },
+  "reference-count": 95,
+  "publisher": "AIP Publishing",
+  "issue": "12",
+  "funder": [
+    {
+      "DOI": "10.13039/501100001659",
+      "name": "Deutsche Forschungsgemeinschaft",
+      "doi-asserted-by": "publisher",
+      "award": [
+        "EXC 2008/1-390540038 - UniSysCat"
+      ]
+    }
+  ],
+  "content-domain": {
+    "domain": [
+      "aip.scitation.org"
+    ],
+    "crossmark-restriction": true
+  },
+  "short-container-title": [
+    "J. Chem. Phys."
+  ],
+  "published-print": {
+    "date-parts": [
+      [
+        2021,
+        9,
+        28
+      ]
+    ]
+  },
+  "DOI": "10.1063/5.0063751",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2021,
+        9,
+        24
+      ]
+    ],
+    "date-time": "2021-09-24T10:00:54Z",
+    "timestamp": 1632477654000
+  },
+  "page": "124108",
+  "update-policy": "http://dx.doi.org/10.1063/aip-crossmark-policy-page",
+  "source": "Crossref",
+  "is-referenced-by-count": 1,
+  "title": [
+    "Assessment of hybrid functionals for singlet and triplet excitations: Why do some local hybrid functionals perform so well for triplet excitation energies?"
+  ],
+  "prefix": "10.1063",
+  "volume": "155",
+  "author": [
+    {
+      "ORCID": "http://orcid.org/0000-0002-7160-2581",
+      "authenticated-orcid": false,
+      "given": "Robin",
+      "family": "Grotjahn",
+      "sequence": "first",
+      "affiliation": [
+        {
+          "name": "Technische Universit\u00e4t Berlin, Institut f\u00fcr Chemie, Theoretische Chemie/Quantenchemie, Sekr. C7, Stra\u00dfe des 17. Juni 135, 10623 Berlin, Germany"
+        }
+      ]
+    },
+    {
+      "ORCID": "http://orcid.org/0000-0003-1582-2819",
+      "authenticated-orcid": false,
+      "given": "Martin",
+      "family": "Kaupp",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Technische Universit\u00e4t Berlin, Institut f\u00fcr Chemie, Theoretische Chemie/Quantenchemie, Sekr. C7, Stra\u00dfe des 17. Juni 135, 10623 Berlin, Germany"
+        }
+      ]
+    }
+  ],
+  "member": "317",
+  "reference": [
+    {
+      "key": "c1/c1_1",
+      "doi-asserted-by": "crossref",
+      "unstructured": "M. E. Casida, in Recent Advances in Density Functional Methods, edited by D. P. Chong (World Scientific, Singapore, 1995), Vol. 1, Chap. 5, pp. 155\u2013192.",
+      "DOI": "10.1142/9789812830586_0005"
+    },
+    {
+      "key": "c2/c2_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1021/cr0505627"
+    },
+    {
+      "key": "c3/c3_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1146/annurev-physchem-032511-143803"
+    },
+    {
+      "key": "c4/c4_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1002/cphc.201100200"
+    },
+    {
+      "key": "c5/c5_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1039/c2cs35394f"
+    },
+    {
+      "key": "c6/c6_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/s002140100250"
+    },
+    {
+      "key": "c7/c7_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1063/1.2770700"
+    },
+    {
+      "key": "c8/c8_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1063/1.2831900"
+    },
+    {
+      "key": "c9/c9_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1039/b912718f"
+    },
+    {
+      "key": "c10/c10_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1021/ct900298e"
+    },
+    {
+      "key": "c11/c11_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1039/c4ra09494h"
+    },
+    {
+      "key": "c12/c12_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1021/acs.jctc.6b00245"
+    },
+    {
+      "key": "c13/c13_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1021/acs.jctc.1c00226"
+    },
+    {
+      "key": "c14/c14_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1063/1.1508368"
+    },
+    {
+      "key": "c15/c15_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1021/jp047289h"
+    },
+    {
+      "key": "c16/c16_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1021/ct200272b"
+    },
+    {
+      "key": "c17/c17_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1021/ct300326f"
+    },
+    {
+      "key": "c18/c18_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1021/acs.jctc.5b00619"
+    },
+    {
+      "key": "c19/c19_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1021/acs.jctc.9b00446"
+    },
+    {
+      "key": "c20/c20_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1002/wcms.1260"
+    },
+    {
+      "key": "c21/c21_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1002/qua.24438"
+    },
+    {
+      "key": "c22/c22_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1063/1.2889385"
+    },
+    {
+      "key": "c23/c23_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1063/1.2973541"
+    },
+    {
+      "key": "c24/c24_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1063/1.4941919"
+    },
+    {
+      "key": "c25/c25_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1021/jp066479k"
+    },
+    {
+      "key": "c26/c26_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1021/ct100005d"
+    },
+    {
+      "key": "c27/c27_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1021/acs.jctc.7b00699"
+    },
+    {
+      "key": "c28/c28_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1021/acs.jctc.0c00520"
+    },
+    {
+      "key": "c29/c29_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1002/wcms.1517"
+    },
+    {
+      "key": "c30/c30_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1039/c3cp53806k"
+    },
+    {
+      "key": "c31/c31_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1021/acs.chemrev.7b00060"
+    },
+    {
+      "key": "c32/c32_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1021/cr1002613"
+    },
+    {
+      "key": "c33/c33_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1021/acs.chemrev.7b00601"
+    },
+    {
+      "key": "c34/c34_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1063/1.3558906"
+    },
+    {
+      "key": "c35/c35_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1021/acs.jctc.5b00431"
+    },
+    {
+      "key": "c36/c36_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1002/wcms.83"
+    },
+    {
+      "key": "c37/c37_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1021/jp500869r"
+    },
+    {
+      "key": "c38/c38_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1021/ct200651r"
+    },
+    {
+      "key": "c39/c39_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/s0009-2614(99)01149-5"
+    },
+    {
+      "key": "c40/c40_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1021/jp308662x"
+    },
+    {
+      "key": "c41/c41_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1063/1.2772854"
+    },
+    {
+      "key": "c42/c42_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1021/acs.jctc.9b00013"
+    },
+    {
+      "key": "c43/c43_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1063/5.0018354"
+    },
+    {
+      "key": "c44/c44_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1021/acs.jctc.1c00535"
+    },
+    {
+      "key": "c45/c45_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1071/ch20093"
+    },
+    {
+      "key": "c46/c46_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/s00214-007-0310-x"
+    },
+    {
+      "key": "c47/c47_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1039/c6sc00705h"
+    },
+    {
+      "key": "c48/c48_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1039/c9ee01508f"
+    },
+    {
+      "key": "c49/c49_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1063/1.1528936"
+    },
+    {
+      "key": "c50/c50_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1002/wcms.1378"
+    },
+    {
+      "key": "c51/c51_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1039/d0cs01074j"
+    },
+    {
+      "key": "c52/c52_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1063/1.2429058"
+    },
+    {
+      "key": "c53/c53_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1080/00268976.2016.1139209"
+    },
+    {
+      "key": "c54/c54_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1021/acs.jctc.0c00498"
+    },
+    {
+      "key": "c55/c55_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1039/c7cp04913g"
+    },
+    {
+      "key": "c56/c56_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1021/acs.jctc.8b00289"
+    },
+    {
+      "key": "c57/c57_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1021/acs.jctc.9b00944"
+    },
+    {
+      "key": "c58/c58_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1021/acs.jpca.1c01135"
+    },
+    {
+      "key": "c59/c59_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1021/acs.jctc.1c00203"
+    },
+    {
+      "key": "c60/c60_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1021/acs.jpca.0c06897"
+    },
+    {
+      "key": "c61/c61_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1021/acs.jctc.1c00167"
+    },
+    {
+      "key": "c62/c62_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1021/acs.jctc.5b00624"
+    },
+    {
+      "key": "c63/c63_1",
+      "unstructured": "TURBOMOLE V7.5 2020, a development of University of Karlsruhe and Forschungszentrum Karlsruhe GmbH, 1989\u20132007, TURBOMOLE GmbH, since 2007; available at http://www.turbomole.com."
+    },
+    {
+      "key": "c64/c64_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1063/5.0004635"
+    },
+    {
+      "key": "c65/c65_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1063/1.3672080"
+    },
+    {
+      "key": "c66/c66_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1080/00268976.2020.1755064"
+    },
+    {
+      "key": "c67/c67_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1021/acs.jctc.9b00659"
+    },
+    {
+      "key": "c68/c68_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1021/acs.jpca.1c05101"
+    },
+    {
+      "key": "c69/c69_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1063/1.4896302"
+    },
+    {
+      "key": "c70/c70_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1103/physreva.78.052513"
+    },
+    {
+      "key": "c71/c71_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1021/acs.jctc.8b00406"
+    },
+    {
+      "key": "c72/c72_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1021/acs.jctc.9b01216"
+    },
+    {
+      "key": "c73/c73_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1021/acs.jpclett.0c00014"
+    },
+    {
+      "key": "c74/c74_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1021/acs.jctc.0c00227"
+    },
+    {
+      "key": "c75/c75_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.cplett.2007.04.020"
+    },
+    {
+      "key": "c76/c76_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1063/1.4901238"
+    },
+    {
+      "key": "c77/c77_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1039/c6cp00990e"
+    },
+    {
+      "key": "c78/c78_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1021/jp903233q"
+    },
+    {
+      "key": "c79/c79_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1063/1.1844493"
+    },
+    {
+      "key": "c80/c80_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1063/1.4865942"
+    },
+    {
+      "key": "c81/c81_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1063/1.456153"
+    },
+    {
+      "key": "c82/c82_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1063/1.464303"
+    },
+    {
+      "key": "c83/c83_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1063/1.462569"
+    },
+    {
+      "key": "c84/c84_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1103/physreva.38.3098"
+    },
+    {
+      "key": "c85/c85_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1103/physrevb.37.785"
+    },
+    {
+      "key": "c86/c86_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1063/1.464913"
+    },
+    {
+      "key": "c87/c87_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/0009-2614(89)87234-3"
+    },
+    {
+      "key": "c88/c88_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1103/physrevlett.77.3865"
+    },
+    {
+      "key": "c89/c89_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1063/1.478522"
+    },
+    {
+      "key": "c90/c90_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.cplett.2004.06.011"
+    },
+    {
+      "key": "c91/c91_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1039/b810189b"
+    },
+    {
+      "key": "c92/c92_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1063/1.4759080"
+    },
+    {
+      "key": "c93/c93_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1021/ct400649r"
+    },
+    {
+      "key": "c94/c94_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1021/ar500447q"
+    },
+    {
+      "key": "c95/c95_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1021/acs.jpca.0c06939"
+    }
+  ],
+  "container-title": [
+    "The Journal of Chemical Physics"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+    {
+      "URL": "https://aip.scitation.org/doi/pdf/10.1063/5.0063751",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2021,
+        9,
+        24
+      ]
+    ],
+    "date-time": "2021-09-24T10:01:01Z",
+    "timestamp": 1632477661000
+  },
+  "score": 1,
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2021,
+        9,
+        28
+      ]
+    ]
+  },
+  "references-count": 95,
+  "journal-issue": {
+    "issue": "12",
+    "published-print": {
+      "date-parts": [
+        [
+          2021,
+          9,
+          28
+        ]
+      ]
+    }
+  },
+  "alternative-id": [
+    "10.1063/5.0063751"
+  ],
+  "URL": "http://dx.doi.org/10.1063/5.0063751",
+  "relation": {},
+  "ISSN": [
+    "0021-9606",
+    "1089-7690"
+  ],
+  "issn-type": [
+    {
+      "value": "0021-9606",
+      "type": "print"
+    },
+    {
+      "value": "1089-7690",
+      "type": "electronic"
+    }
+  ],
+  "subject": [
+    "Physical and Theoretical Chemistry",
+    "General Physics and Astronomy"
+  ],
+  "published": {
+    "date-parts": [
+      [
+        2021,
+        9,
+        28
+      ]
+    ]
+  },
+  "assertion": [
+    {
+      "value": "2021-07-16",
+      "order": 0,
+      "name": "received",
+      "label": "Received",
+      "group": {
+        "name": "publication_history",
+        "label": "Publication History"
+      }
+    },
+    {
+      "value": "2021-09-02",
+      "order": 2,
+      "name": "accepted",
+      "label": "Accepted",
+      "group": {
+        "name": "publication_history",
+        "label": "Publication History"
+      }
+    },
+    {
+      "value": "2021-09-24",
+      "order": 3,
+      "name": "published",
+      "label": "Published",
+      "group": {
+        "name": "publication_history",
+        "label": "Publication History"
+      }
+    }
+  ]
+}
