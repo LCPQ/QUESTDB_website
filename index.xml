@@ -23,8 +23,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>mveril@irsamc.ups-tlse.fr (M. Véril)</author>
       <guid>https://lcpq.github.io/QUESTDB_website/faq/</guid>
-      <description>How to export geometry data? You need to use the Export geometries button below the geometry select box. This button allows to export geometries as a ZIP file containing all the selected molecular geometries in xyz format.
-How to export values? Above each table there is an Export table button which allows to export the data of the chosen table as CSV file.</description>
+      <description>How to export molecular geometries? You need to use the Export geometries button below the geometry select box in the DATASET section. This button allows to export geometries as a ZIP file containing all the selected molecular geometries in xyz format.
+ How to export values of excitation energies? In the DATASET section, above each table there is an Export table button which allows to export the data of the chosen table as CSV file.</description>
     </item>
     
     <item>
