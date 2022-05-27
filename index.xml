@@ -51,7 +51,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>mveril@irsamc.ups-tlse.fr (M. Véril)</author>
       <guid>https://lcpq.github.io/QUESTDB_website/view/</guid>
-      <description>window.onload = async function () { if (typeof (navigator.clipboard) == &#39;undefined&#39; || typeof (navigator.clipboard.writeText) === &#39;undefined&#39;) { btn_clip = document.getElementById(&#34;btn_clip&#34;); btn_clip.disabled = true; var browsers = {}; browsers[&#34;Chromium&#34;] = &#34;https://chromium.woolyss.com/download&#34;; browsers[&#34;Firefox&#34;] = &#34;https://www.mozilla.org/fr/firefox&#34;; var recomstring = &#34;We recommend to use Firefox or a Chromium based browser like Google Chrome&#34;.; btn_clip.title = &#39;This feature is not supported in this browser.\n&#39; + recomsting; var mystr = &#39;navigator.clipboard.writeText() not supported in this browser\n&#39; + recomsting; for (var key in browsers) { mystr += &#34;</description>
+      <description>window.onload = async function () { if (typeof (navigator.clipboard) == &#39;undefined&#39; || typeof (navigator.clipboard.writeText) === &#39;undefined&#39;) { btn_clip = document.getElementById(&#34;btn_clip&#34;); btn_clip.disabled = true; var browsers = {}; browsers[&#34;Chromium&#34;] = &#34;https://chromium.woolyss.com/download&#34;; browsers[&#34;Firefox&#34;] = &#34;https://www.mozilla.org/fr/firefox&#34;; var recomstring = &#34;We recommend to use Firefox or a Chromium based browser like Google Chrome.&#34;; btn_clip.title = &#39;This feature is not supported in this browser.\n&#39; + recomsting; var mystr = &#39;navigator.clipboard.writeText() not supported in this browser.</description>
     </item>
     
   </channel>
